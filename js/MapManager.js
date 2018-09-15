@@ -100,7 +100,7 @@ var Event = (function($) { return function(properties) {
                   $("<span class='rsvp-count'/>").text(that.properties.attendee_count + " SIGN UPS")
                 )
             )
-            .append($("<div class='rsvp-attending'/>").html('<a href="https://go.berniesanders.com/page/event/myevents" target="_blank">You are attending this event</a>'))
+            .append($("<div class='rsvp-attending'/>").html('<a href="" target="_blank">You are attending this event</a>'))
           );
 
         return rendered.html();
@@ -172,7 +172,7 @@ var MapManager = (function($, d3, leaflet) {
 
       // var officeList = campaignOffices.map(function(d) { return new CampaignOffices(d); });
 
-      leaflet.mapbox.accessToken = "pk.eyJ1IjoiemFja2V4bGV5IiwiYSI6Ijc2OWFhOTE0ZDllODZiMTUyNDYyOGM5MTk1Y2NmZmEyIn0.mfl6MGaSrMmNv5o5D5WBKw";
+      leaflet.mapbox.accessToken = "pk.eyJ1IjoicGF0cjFjZSIsImEiOiJjam0zN2MxZHAyamU5M2twZzFqaG54dWFtIn0.nqu8UdRPv0Psq8hfcRX_2g";
       var mapboxTiles = leaflet.tileLayer('http://{s}.tiles.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=' + leaflet.mapbox.accessToken, { attribution: '<a href="http://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'});
 
       var CAMPAIGN_OFFICE_ICON = L.icon({
@@ -184,10 +184,10 @@ var MapManager = (function($, d3, leaflet) {
           // popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
       });
       var GOTV_CENTER_ICON = L.icon({
-          iconUrl: '//dcxc7a0ls04u1.cloudfront.net/img/icon/gotv-star.png',
+          iconUrl: '',
           iconSize:     [13, 10], // size of the icon
       });
-      var defaultCoord = options&&options.defaultCoord ? options.defaultCoord : {center: [37.8, -96.9], zoom: 4};
+      var defaultCoord = options&&options.defaultCoord ? options.defaultCoord : {center: [46, 2.35], zoom: 6};
 
       var centralMap =  new leaflet
                             .Map("map-container", window.customMapCoord ? window.customMapCoord : defaultCoord)
@@ -226,8 +226,8 @@ var MapManager = (function($, d3, leaflet) {
                 filtered.map(function(d) {
                   return $("<li class='lato'/>")
                             .attr('data-attending', (function(prop) {
-                                var email = Cookies.get('map.bernie.email');
-                                var events_attended_raw = Cookies.get('map.bernie.eventsJoined.' + email);
+                                var email = Cookies.get('map.uplc.email');
+                                var events_attended_raw = Cookies.get('map.uplc.eventsJoined.' + email);
                                 var events_attended = events_attended_raw ? JSON.parse(events_attended_raw) : [];
                                 return $.inArray(prop.id_obfuscated, events_attended) > -1;
 
@@ -438,8 +438,8 @@ var MapManager = (function($, d3, leaflet) {
       filtered = sortEvents(filtered, sort, filterTypes);
 
       //Check cookies
-      var email = Cookies.get('map.bernie.email');
-      var events_attended_raw = Cookies.get('map.bernie.eventsJoined.' + email);
+      var email = Cookies.get('map.uplc.email');
+      var events_attended_raw = Cookies.get('map.uplc.eventsJoined.' + email);
       var events_attended = events_attended_raw ? JSON.parse(events_attended_raw) : [];
 
       //Render event
@@ -503,7 +503,7 @@ var MapManager = (function($, d3, leaflet) {
         .selectAll("li").remove();
 
       if (targetZipcode == undefined || !targetZipcode) {
-        $("#event-list").append("<li class='error lato'>Zipcode does not exist. <a href=\"https://go.berniesanders.com/page/event/search_results?orderby=zip_radius&zip_radius%5b0%5d=" + zipcode + "&zip_radius%5b1%5d=100&country=US&radius_unit=mi\">Try our events page</a></li>");
+        $("#event-list").append("<li class='error lato'>Zipcode does not exist." + zipcode + "&zip_radius%5b1%5d=100&country=US&radius_unit=mi\">Try our events page</a></li>");
         return;
       }
 
@@ -540,8 +540,8 @@ var MapManager = (function($, d3, leaflet) {
       filtered = sortEvents(filtered, sort, filterTypes);
 
       //Check cookies
-      var email = Cookies.get('map.bernie.email');
-      var events_attended_raw = Cookies.get('map.bernie.eventsJoined.' + email);
+      var email = Cookies.get('map.uplc.email');
+      var events_attended_raw = Cookies.get('map.uplc.eventsJoined.' + email);
       var events_attended = events_attended_raw ? JSON.parse(events_attended_raw) : [];
 
       //Render event
@@ -675,16 +675,16 @@ var VotingInfoManager = (function($) {
   //Show email
   $(document).on("show-event-form", function(events, target) {
     var form = $(target).closest(".event-item").find(".event-rsvp-activity");
-      if (Cookies.get('map.bernie.email')) {
-        form.find("input[name=email]").val(Cookies.get('map.bernie.email'));
+      if (Cookies.get('map.uplc.email')) {
+        form.find("input[name=email]").val(Cookies.get('map.uplc.email'));
       }
 
-      if (Cookies.get('map.bernie.phone')) {
-        form.find("input[name=phone]").val(Cookies.get('map.bernie.phone'));
+      if (Cookies.get('map.uplc.phone')) {
+        form.find("input[name=phone]").val(Cookies.get('map.uplc.phone'));
       }
 
       // var params =  $.deparam(window.location.hash.substring(1) || "");
-      // form.find("input[name=zipcode]").val(params.zipcode ? params.zipcode : Cookies.get('map.bernie.zipcode'));
+      // form.find("input[name=zipcode]").val(params.zipcode ? params.zipcode : Cookies.get('map.uplc.zipcode'));
 
       form.fadeIn(100);
   });
@@ -747,19 +747,19 @@ var VotingInfoManager = (function($) {
         event_id_obfuscated: query['id_obfuscated']
       },
       success: function(data) {
-        Cookies.set('map.bernie.zipcode', query['zipcode'], {expires: 7});
-        Cookies.set('map.bernie.email', query['email'], {expires: 7});
-        Cookies.set('map.bernie.name', query['name'], {expires: 7});
+        Cookies.set('map.uplc.zipcode', query['zipcode'], {expires: 7});
+        Cookies.set('map.uplc.email', query['email'], {expires: 7});
+        Cookies.set('map.uplc.name', query['name'], {expires: 7});
 
         if (query['phone'] != '') {
-          Cookies.set('map.bernie.phone', query['phone'], {expires: 7});
+          Cookies.set('map.uplc.phone', query['phone'], {expires: 7});
         }
 
         //Storing the events joined
-        var events_joined = JSON.parse(Cookies.get('map.bernie.eventsJoined.' + query['email']) || "[]") || [];
+        var events_joined = JSON.parse(Cookies.get('map.uplc.eventsJoined.' + query['email']) || "[]") || [];
 
         events_joined.push(query['id_obfuscated']);
-        Cookies.set('map.bernie.eventsJoined.' + query['email'], events_joined, {expires: 7});
+        Cookies.set('map.uplc.eventsJoined.' + query['email'], events_joined, {expires: 7});
 
 
         $this.closest("li").attr("data-attending", true);

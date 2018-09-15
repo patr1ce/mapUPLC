@@ -162,54 +162,6 @@
 <script src='./js/MapManager.js'></script>
 <script type='text/javascript'>
 window.eventTypeFilters = [
-  // {
-  //   name: 'Campaign Office',
-  //   id: 'campaign-office',
-  //   onItem: "<img style='width: 14px; height: 14px;' src='//dcxc7a0ls04u1.cloudfront.net/img/icon/star.png' />",
-  //   offItem: "<img style='width: 14px; height: 14px;' src='//dcxc7a0ls04u1.cloudfront.net/img/icon/star-gray.png' />"
-  // },
-  // { name: 'GOTV Center',
-  //   id: 'gotv-center',
-  //   onItem: "<img style='width: 14px; height: 14px;' src='//dcxc7a0ls04u1.cloudfront.net/img/icon/gotv-star.png' />",
-  //   offItem: "<img style='width: 14px; height: 14px;' src='//dcxc7a0ls04u1.cloudfront.net/img/icon/star-gray.png' />"
-  // },
-  // {
-  //   name: 'Bernie Event',
-  //   id: 'bernie-event',
-  //   onItem: "<span class='map-red-circle'></span>",
-  // },
-  // {
-  //   name: 'Official Event',
-  //   id: 'official-event',
-  // },
-  // {
-  //   name: 'Phonebank',
-  //   id: 'phonebank'
-  // },
-  // {
-  //   name: 'Get Out The Vote',
-  //   id: 'gotv'
-  // },
-  // {
-  //   name: 'Canvassing',
-  //   id: 'canvassing'
-  // },
-  // {
-  //   name: 'Ballot Access',
-  //   id: 'ballot-access'
-  // },
-  // {
-  //   name: 'Carpool',
-  //   id: 'carpool'
-  // },
-  // {
-  //   name: 'Register Voters',
-  //   id: 'register-voters'
-  // },
-  // {
-  //   name: 'Barnstorm',
-  //   id: 'barnstorm'
-  // },
   {
     name: 'Rally',
     id: 'rally'
@@ -229,7 +181,7 @@ $.ajax({
   dataType: 'script',
   cache: true, // otherwise will get fresh copy every page load
   success: function(data) {
-    d3.csv('//dcxc7a0ls04u1.cloudfront.net/d/campaign-offices.csv',
+    d3.csv('d/campaign-offices.csv',
       function(campaignOffices) {
         //Load zipcodes
         //dcxc7a0ls04u1.cloudfront.net
@@ -241,19 +193,6 @@ $.ajax({
             d.filters = [];
             //Set filter info
             switch(d.event_type_name) {
-              case "Iowa Event":
-              case "New Hampshire Event":
-              case "South Carolina Event":
-              case "Nevada Event":
-              // case "Organizing Meeting": d.filters.push("official-event"); break;
-              case "Town Meeting": d.filters.push("bernie-event"); break;
-              case "Barnstorm": d.filters.push("barnstorm"); break;
-              case "Get Out the Vote" : d.filters.push("gotv"); break;
-              // case "Gather ballot access signatures": d.filters.push("ballot-access"); break;
-              case "Carpool to a primary state": d.filters.push("carpool"); break;
-              case "Canvass": d.filters.push("canvassing"); break;
-              case "Phonebank event" : d.filters.push("phonebank"); break;
-              case "Registering Voters": d.filters.push('register-voters'); break;
               case "Rally": d.filters.push("rally"); break;
               default: d.filters.push('other'); break;
             }
@@ -300,8 +239,8 @@ $.ajax({
             window.mapManager = MapManager(window.EVENT_DATA.results, campaignOffices, zipcodes);
           }
 
-          if($("input[name='zipcode']").val() == '' && Cookies.get('map.bernie.zipcode') && window.location.hash == '') {
-            $("input[name='zipcode']").val(Cookies.get('map.bernie.zipcode'));
+          if($("input[name='zipcode']").val() == '' && Cookies.get('map.uplc.zipcode') && window.location.hash == '') {
+            $("input[name='zipcode']").val(Cookies.get('map.uplc.zipcode'));
             window.location.hash = $("#filter-form").serialize();
           } else {
             $(window).trigger("hashchange");
