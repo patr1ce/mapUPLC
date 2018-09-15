@@ -152,10 +152,10 @@
 </section>
 
 <script src="//dcxc7a0ls04u1.cloudfront.net/js/jquery.gz"></script>
-<script src='//dcxc7a0ls04u1.cloudfront.net/js/d3.gz' type='text/javascript'></script>
+<script src='js/d3' type='text/javascript'></script>
 <script id='zipcodes-datadump' type='text/plain'></script>
 <script src='//dcxc7a0ls04u1.cloudfront.net/js/deparam.min.gz'></script>
-<script src='//dcxc7a0ls04u1.cloudfront.net/js/mapbox.gz'></script>
+<script src='js/mapbox'></script>
 <!-- <script src='/js/leaflet-bouncer.js'></script> -->
 <script src='//dcxc7a0ls04u1.cloudfront.net/js/moment.min.js'></script>
 <script src='./js/js-cookie.js'></script>
@@ -163,11 +163,11 @@
 <script type='text/javascript'>
 window.eventTypeFilters = [
   {
-    name: 'Rally',
+    name: 'Marches',
     id: 'rally'
   },
   {
-    name: 'Other',
+    name: 'Autre',
     id: 'other'
   }
 ];
@@ -197,11 +197,10 @@ $.ajax({
               default: d.filters.push('other'); break;
             }
 
-            d.is_official = d.is_official == "1";
-            if (d.is_official) { d.filters.push("official-event"); }
           });
 
           var oldDate = new Date()
+
 
           window.EVENT_DATA.results = window.EVENT_DATA.results.concat(
             campaignOffices.map(function(d){
@@ -254,7 +253,7 @@ $.ajax({
 });
 
 // Registration Data items
-d3.csv('./d/registration-data.csv', function(votinginfo) {
+d3.csv('d/registration-data.csv', function(votinginfo) {
   window.votingInfoManager = VotingInfoManager(votinginfo);
 })
 

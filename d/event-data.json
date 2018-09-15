@@ -1,0 +1,29 @@
+window.EVENT_DATA ={
+   "results":[
+      {
+         "longitude":"-72.399399",
+         "url":"https://go.berniesanders.com/page/event/detail/other/gpg5bt",
+         "event_type_name":"Other",
+         "start_time":"13:00:00",
+         "start_dt":"2018-09-03 13:00:00",
+         "name":"Bernie's Labor Day Rally in White River Junction!",
+         "location":"Lyman Point Park 167 Maple Street White River Junction VT 05001",
+         "capacity":"0",
+         "id":"130900",
+         "start_day":"2018-09-03",
+         "venue_zip":"05001",
+         "latitude":"43.654202",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+   ],
+   "settings":{
+      "rsvp":6,
+      "count":3520,
+      "orderby":null,
+      "zip":null,
+      "search_radius":null,
+      "location":", ",
+      "radius_unit":"miles"
+   }
+}
