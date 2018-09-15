@@ -15,9 +15,9 @@ window.EVENT_DATA ={
          "latitude":"43.654202",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
-      },{
-         
-         "longitude":"48.8601",
+      },
+      {
+         "longitude":"2.3583",
          "url":"https://www.facebook.com/events/2217054808575846/",
          "event_type_name":"Marches",
          "start_time":"11:00:00",
@@ -28,7 +28,7 @@ window.EVENT_DATA ={
          "id":"130901",
          "start_day":"2018-10-13",
          "venue_zip":"75004",
-         "latitude":"2.3507",
+         "latitude":"48.8534",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
