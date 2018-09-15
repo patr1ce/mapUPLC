@@ -32,6 +32,22 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+      {
+         "longitude":"0.5792",
+         "url":"https://www.facebook.com/events/2217054808575846/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-13 11:00:00",
+         "name":"Marche pour le climat - Paris",
+         "location":"Hotel de Ville",
+         "capacity":"0",
+         "id":"130901",
+         "start_day":"2018-10-13",
+         "venue_zip":"75004",
+         "latitude":"44.8378",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
    ],
    "settings":{
       "rsvp":6,
