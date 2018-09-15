@@ -1,22 +1,6 @@
 window.EVENT_DATA ={
    "results":[
       {
-         "longitude":"-72.399399",
-         "url":"https://go.berniesanders.com/page/event/detail/other/gpg5bt",
-         "event_type_name":"Marches",
-         "start_time":"13:00:00",
-         "start_dt":"2018-09-03 13:00:00",
-         "name":"Bernie's Labor Day Rally in White River Junction!",
-         "location":"Lyman Point Park 167 Maple Street White River Junction VT 05001",
-         "capacity":"0",
-         "id":"130900",
-         "start_day":"2018-09-03",
-         "venue_zip":"05001",
-         "latitude":"43.654202",
-         "is_official":"1",
-         "id_obfuscated":"gpg5bt"
-      },
-      {
          "longitude":"2.3583",
          "url":"https://www.facebook.com/events/2217054808575846/",
          "event_type_name":"Marches",
@@ -58,7 +42,7 @@ window.EVENT_DATA ={
          "name":"Arrivée de la marche Alternatiba",
          "location":"Hotel de Ville",
          "capacity":"0",
-         "id":"130902",
+         "id":"130903",
          "start_day":"2018-10-6",
          "venue_zip":"75004",
          "latitude":"43.4953",
@@ -90,15 +74,104 @@ window.EVENT_DATA ={
          "start_time":"11:00:00",
          "start_dt":"2018-10-13 11:00:00",
          "name":"Marches pour le climat - Noumea",
-         "location":"Parlement Européen",
+         "location":"Promenade Pierre Vernier",
          "capacity":"0",
-         "id":"130903",
+         "id":"130904",
          "start_day":"2018-10-13",
          "venue_zip":"",
          "latitude":"-22.304971",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+
+      {
+         "longitude":"-2.215580",
+         "url":"https://www.facebook.com/events/305440000003816/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-13 11:00:00",
+         "name":"Rising Women Rising World: Monthly Gathering",
+         "location":"Hawkwood University",
+         "capacity":"0",
+         "id":"130905",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"51.747580",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+
+      {
+         "longitude":"-1.553621",
+         "url":"https://www.facebook.com/events/1827527333968585/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-13 11:00:00",
+         "name":"Marches pour le climat - Nantes",
+         "location":"Nantes, France",
+         "capacity":"0",
+         "id":"130906",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"47.218372",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"5.731670",
+         "url":"https://www.facebook.com/events/688334914864868/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-13 11:00:00",
+         "name":"Marches pour le climat - Grenobles",
+         "location":"Grenobles, France",
+         "capacity":"0",
+         "id":"130907",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"45.194260",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      {
+         "longitude":"6.139970",
+         "url":"https://www.facebook.com/events/272596263498968/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-13 13:30:00",
+         "name":"Marches pour le climat - Genève",
+         "location":"Genève, Suisse",
+         "capacity":"0",
+         "id":"130908",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"46.203812",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      {
+         "longitude":"-73.553360",
+         "url":"https://www.facebook.com/events/263606467605178/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-13 13:30:00",
+         "name":"Marches pour le climat - Montréal",
+         "location":"Montréal, Canada",
+         "capacity":"0",
+         "id":"130909",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"45.509060",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+
+
+      
+
 
    ],
    "settings":{
