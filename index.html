@@ -177,7 +177,7 @@ window.eventTypeFilters = [
 var date = new Date();
 $("#loading-icon").show();
 $.ajax({
-  url: '//dcxc7a0ls04u1.cloudfront.net/js/event-data.gz',
+  url: 'js/event-data.gz',
   dataType: 'script',
   cache: true, // otherwise will get fresh copy every page load
   success: function(data) {
