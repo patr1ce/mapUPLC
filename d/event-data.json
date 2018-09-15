@@ -3,7 +3,7 @@ window.EVENT_DATA ={
       {
          "longitude":"-72.399399",
          "url":"https://go.berniesanders.com/page/event/detail/other/gpg5bt",
-         "event_type_name":"Other",
+         "event_type_name":"Marches",
          "start_time":"13:00:00",
          "start_dt":"2018-09-03 13:00:00",
          "name":"Bernie's Labor Day Rally in White River Junction!",
@@ -13,6 +13,22 @@ window.EVENT_DATA ={
          "start_day":"2018-09-03",
          "venue_zip":"05001",
          "latitude":"43.654202",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },{
+         
+         "longitude":"48.8601",
+         "url":"https://www.facebook.com/events/2217054808575846/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-13 11:00:00",
+         "name":"Marche pour le climat - Paris",
+         "location":"Hotel de Ville",
+         "capacity":"0",
+         "id":"130901",
+         "start_day":"2018-10-13",
+         "venue_zip":"75004",
+         "latitude":"2.3507",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
