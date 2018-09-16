@@ -69,7 +69,7 @@ var Event = (function($) { return function(properties) {
             .append(that.properties.phone && that.properties.phone != "-" ? $("<p/>").text("Phone: " + that.properties.phone) : "")
             .append(that.properties.notes ? that.properties.notes : "")
             //Append RSVP Form
-            .append($("<div class='event-rsvp-activity' />")
+            /*.append($("<div class='event-rsvp-activity' />")
                       .append($("<form class='event-form lato'>")
                              .append($("<h4/>").html("RSVP to <strong>" + that.properties.name + "</strong>"))
                              .append($("<div class='event-error' />"))
@@ -83,18 +83,18 @@ var Event = (function($) { return function(properties) {
                              .append($("<input type='submit' class='lato' value='Confirm RSVP' />"))
                       )
                    )
-            .append(
+            */.append(
               $("<div class='social-area' />")
                 .addClass(moreThan5RSVP ? "more-than-5" : "")
                 .append(
                   $("<a class='rsvp-link'/>")
                     .attr("href", that.properties.is_campaign_office ? (that.properties.opening_event ? that.properties.opening_event : that.properties.url) : "javascript: void(null) ")
-                    .attr("onclick", that.properties.is_campaign_office ? null: "$('.event-rsvp-activity').hide(); $(document).trigger('show-event-form', [this])")
-                    // .attr('target', 'blank')
+                    .attr("onclick", that.properties.is_campaign_office ? null: "window.location='"+(that.properties.opening_event ? that.properties.opening_event : that.properties.url)+"'")
+                    //.attr('target', 'blank')
                     // .attr("href", that.properties.is_campaign_office ? (that.properties.opening_event ? that.properties.opening_event : that.properties.url) : that.properties.url)
                     .attr("data-id", that.properties.id_obfuscated)
                     .attr("data-url", (that.properties.opening_event ? that.properties.opening_event : that.properties.url))
-                    .text(that.isFull ? "FULL" : that.properties.is_campaign_office ? (that.properties.opening_event ? "RSVP" : "Get Directions") : "RSVP")
+                    .text(that.isFull ? "FULL" : that.properties.is_campaign_office ? (that.properties.opening_event ? "Participer" : "Get Directions") : "Participer")
                 )
                 .append(
                   $("<span class='rsvp-count'/>").text(that.properties.attendee_count + " SIGN UPS")
