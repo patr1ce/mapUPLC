@@ -167,7 +167,22 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
-
+      {
+         "longitude":"1.4437",
+         "url":"https://www.facebook.com/events/277592156413300/",
+         "event_type_name":"Marches",
+         "start_time":"10:00:00",
+         "start_dt":"2018-10-13 10:00:00",
+         "name":"Marches pour le climat - Toulouse",
+         "location":"Toulouse, France",
+         "capacity":"0",
+         "id":"130910",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"43.6043",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
 
 
       

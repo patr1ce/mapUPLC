@@ -60,15 +60,15 @@
         <a href='javascript: void(null)' onclick='window.mapManager.toListView()' id='to-list-view'>Show List</a>
       </h3>
       <h4 class='lato title'>
-        <span id='screen-title'>Filters</span>
+        <span id='screen-title'>Filtres</span>
         <span id='mobile-title'>Take a Stand</span>
       </h4>
       <form id='filter-form'>
         <table>
           <tr>
             <td>
-              <h5 class='lato'>By Zipcode</h5>
-              <input type='number' name='zipcode' maxlength='5' placeholder='ZIPCODE' onclick="this.select();" >
+              <h5 class='lato'>Par code postal</h5>
+              <input type='number' name='zipcode' maxlength='5' placeholder='CODE POSTAL' onclick="this.select();" >
             </td>
             <td>
               <h5 class='lato'>Distance</h5>
@@ -80,10 +80,10 @@
               </select>
             </td>
             <td>
-              <h5 class='lato'>Sort By</h5>
+              <h5 class='lato'>Filtrer par</h5>
               <select name='sort'>
-                <option value='time' selected='selected'>Time</option>
-                <option value='distance'>Distance</option>
+                <option value='time'>Temps</option>
+                <option value='distance' selected='selected'>Distance</option>
               </select>
               <input type='button' style='position: absolute; z-index: -1; opacity: 0;' id='hidden-button'/>
             </td>
@@ -91,25 +91,25 @@
         </table>
         <div id='filter-popup-area' class='lato'>
           <a href='javascript: void(null)' class='filter-button show-filter' onclick='$("#events").addClass("show-type-filter");'>
-            Search by Event
+            Rechercher les événements
           </a>
           <div id='filter-list-area'>
-            <h5>Search by Event</h5>
+            <h5>Rechercher les événements</h5>
             <div id='f-container'>
               <div id='filter-list-container'>
                 <ul id='filter-list'></ul>
               </div>
               <div style='text-align: center; font-size: 11px; margin-top: 10px; color: lightgray;'>
               <a href='javascript: void(null)' id='show-all'
-                 onclick='$("#filter-list").find("input[type=checkbox]").prop("checked", true).trigger("change");'>Show All</a> &bull;
+                 onclick='$("#filter-list").find("input[type=checkbox]").prop("checked", true).trigger("change");'>Voir tout</a> &bull;
               <a href='javascript: void(null)'
-                 onclick='$("#filter-list").find("input[type=checkbox]").prop("checked", false).trigger("change")'>Hide All</a>
+                 onclick='$("#filter-list").find("input[type=checkbox]").prop("checked", false).trigger("change")'>Cacher tout</a>
               </div>
             </div>
             <p align='right'>
               <a href='javascript: void(null)' class='filter-button'
                  onclick='$("#events").removeClass("show-type-filter");'>
-                Hide Legend
+                Cacher la légende
               </a>
             </p>
           </div>
