@@ -60,7 +60,7 @@ var Event = (function($) { return function(properties) {
           .addClass('event-item ' + that.className)
           .append($("<div />").addClass('event-item lato ' + that.className+'').attr("lat",lat).attr("lon",lon) //appended lat-lon attributes to this class for marker highlighting
             .append(that.properties.is_campaign_office ? $("<a class='office-image' href='" + (that.properties.opening_event ? that.properties.opening_event : that.properties.url) + "' />").append($("<img src='" + that.properties.image + "'>")) : "")
-            .append($("<h5 class='time-info'/>").html((distance ? ("<span class='time-info-dist'>" + distance + "mi &nbsp;&nbsp;</span>") : "") + datetime + (endtime ? " - " + endtime : "" )))
+            //.append($("<h5 class='time-info'/>").html((distance ? ("<span class='time-info-dist'>" + distance + "mi &nbsp;&nbsp;</span>") : "") + datetime + (endtime ? " - " + endtime : "" )))
             .append($("<h3/>").html("<a target='_blank' href='" +  (that.properties.opening_event ? that.properties.opening_event : that.properties.url) + "'>" + that.properties.name + "</a>"))
             .append(that.properties.is_official ? $("<h5 class='official-tag'/>").text("Official Event") : "")
             .append($("<span/>").addClass("label-icon"))
@@ -90,11 +90,11 @@ var Event = (function($) { return function(properties) {
                   $("<a class='rsvp-link'/>")
                     .attr("href", that.properties.is_campaign_office ? (that.properties.opening_event ? that.properties.opening_event : that.properties.url) : "javascript: void(null) ")
                     .attr("onclick", that.properties.is_campaign_office ? null: "window.location='"+(that.properties.opening_event ? that.properties.opening_event : that.properties.url)+"'")
-                    //.attr('target', 'blank')
+                    .attr('target', 'blank')
                     // .attr("href", that.properties.is_campaign_office ? (that.properties.opening_event ? that.properties.opening_event : that.properties.url) : that.properties.url)
                     .attr("data-id", that.properties.id_obfuscated)
                     .attr("data-url", (that.properties.opening_event ? that.properties.opening_event : that.properties.url))
-                    .text(that.isFull ? "FULL" : that.properties.is_campaign_office ? (that.properties.opening_event ? "Participer" : "Get Directions") : "Participer")
+                    .text(that.isFull ? "FULL" : that.properties.is_campaign_office ? (that.properties.opening_event ? "Lien vers la page" : "Page Link") : "Participer")
                 )
                 .append(
                   $("<span class='rsvp-count'/>").text(that.properties.attendee_count + " SIGN UPS")
@@ -109,46 +109,46 @@ var Event = (function($) { return function(properties) {
   })(jQuery); //End of events
 
 
-// /****
-//  *  Campaign Offices
-//  */
-// var CampaignOffices = (function($) {
-//   return function(properties) {
-//     this.properties = properties;
+ /****
+  *  Campaign Offices
+  */
+ var CampaignOffices = (function($) {
+   return function(properties) {
+     this.properties = properties;
 
-//     this.render = function (distance) {
-//         var that = this;
-//         var moreThan5RSVP = that.properties.attendee_count && parseInt(that.properties.attendee_count) > 5 ? true : false;
+     this.render = function (distance) {
+         var that = this;
+         var moreThan5RSVP = that.properties.attendee_count && parseInt(that.properties.attendee_count) > 5 ? true : false;
 
-//         if (!that.properties.attendee_count) { moreThan5RSVP = false; }
+         if (!that.properties.attendee_count) { moreThan5RSVP = false; }
 
-//         var datetime = moment(that.properties.start_dt).format("MMM DD (ddd) h:mma")
+         var datetime = moment(that.properties.start_dt).format("MMM DD (ddd) h:mma")
 
-//         var rendered = $("<div class='lato'/>")
-//           .addClass('event-item ' + that.className)
-//           .append($("<h5 class='time-info'/>").html((distance ? (distance + "mi &nbsp;&nbsp;") : "") + datetime))
-//           .append($("<h3/>").html("<a target='_blank' href='" + that.properties.url + "'>" + that.properties.name + "</a>"))
-//           .append(that.properties.is_official ? $("<h5 class='official-tag'/>").text("Official Event") : "")
-//           .append($("<span/>").addClass("label-icon"))
-//           .append($("<h5 class='event-type'/>").text(that.properties.event_type_name))
-//           .append($("<p/>").text(that.properties.location))
-//           .append(
-//             $("<div class='social-area'/>")
-//               .addClass(moreThan5RSVP ? "more-than-5" : "")
-//               .append(
-//                 $("<a class='rsvp-link' target='_blank'/>")
-//                   .attr("href", that.properties.url)
-//                   .text(that.isFull ? "FULL" : "RSVP")
-//               )
-//               .append(
-//                 $("<span class='rsvp-count'/>").text(that.properties.attendee_count + " SIGN UPS")
-//               )
-//           );
+         var rendered = $("<div class='lato'/>")
+           .addClass('event-item ' + that.className)
+           //.append($("<h5 class='time-info'/>").html((distance ? (distance + "mi &nbsp;&nbsp;") : "") + datetime))
+           .append($("<h3/>").html("<a target='_blank' href='" + that.properties.url + "'>" + that.properties.name + "</a>"))
+           .append(that.properties.is_official ? $("<h5 class='official-tag'/>").text("Official Event") : "")
+           .append($("<span/>").addClass("label-icon"))
+           .append($("<h5 class='event-type'/>").text(that.properties.event_type_name))
+           //.append($("<p/>").text(that.properties.location))
+           .append(
+             $("<div class='social-area'/>")
+               .addClass(moreThan5RSVP ? "more-than-5" : "")
+               .append(
+                 $("<a class='rsvp-link' target='_blank'/>")
+                   .attr("href", that.properties.location)
+                   .text("PAGE LINK")
+               )
+               .append(
+                 $("<span class='rsvp-count'/>").text(that.properties.attendee_count + " SIGN UPS")
+               )
+           );
 
-//         return rendered.html();
-//       };
-//   };
-// })(jQuery);
+         return rendered.html();
+       };
+   };
+ })(jQuery);
 
 
 
@@ -176,7 +176,7 @@ var MapManager = (function($, d3, leaflet) {
       var mapboxTiles = leaflet.tileLayer('http://{s}.tiles.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=' + leaflet.mapbox.accessToken, { attribution: '<a href="http://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'});
 
       var CAMPAIGN_OFFICE_ICON = L.icon({
-          iconUrl: '//dcxc7a0ls04u1.cloudfront.net/img/icon/star.png',
+          iconUrl: 'img/icon/star.png',
           iconSize:     [17, 14], // size of the icon
           // shadowSize:   [50, 64], // size of the shadow
           // iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
