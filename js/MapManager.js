@@ -88,8 +88,8 @@ var Event = (function($) { return function(properties) {
                 .addClass(moreThan5RSVP ? "more-than-5" : "")
                 .append(
                   $("<a class='rsvp-link'/>")
-                    .attr("href", that.properties.is_campaign_office ? (that.properties.opening_event ? that.properties.opening_event : that.properties.url) : "javascript: void(null) ")
-                    .attr("onclick", that.properties.is_campaign_office ? null: "window.location='"+(that.properties.opening_event ? that.properties.opening_event : that.properties.url)+"'")
+                    .attr("href", that.properties.is_campaign_office ? (that.properties.opening_event ? that.properties.opening_event : that.properties.url) : that.properties.url)
+                    //.attr("onclick", that.properties.is_campaign_office ? null: "window.location='"+(that.properties.opening_event ? that.properties.opening_event : that.properties.url)+"'")
                     .attr('target', 'blank')
                     // .attr("href", that.properties.is_campaign_office ? (that.properties.opening_event ? that.properties.opening_event : that.properties.url) : that.properties.url)
                     .attr("data-id", that.properties.id_obfuscated)
@@ -503,7 +503,7 @@ var MapManager = (function($, d3, leaflet) {
         .selectAll("li").remove();
 
       if (targetZipcode == undefined || !targetZipcode) {
-        $("#event-list").append("<li class='error lato'>Zipcode does not exist." + zipcode + "&zip_radius%5b1%5d=100&country=US&radius_unit=mi\">Try our events page</a></li>");
+        $("#event-list").append("<li class='error lato'>Code postal inconnu : " + zipcode ); //+ "&zip_radius%5b1%5d=100&country=US&radius_unit=mi\">Try our events page</a></li>");
         return;
       }
 

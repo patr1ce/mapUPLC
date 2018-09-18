@@ -68,7 +68,7 @@
           <tr>
             <td>
               <h5 class='lato'>Par code postal</h5>
-              <input type='number' name='zipcode' maxlength='5' placeholder='CODE POSTAL' onclick="this.select();" >
+              <input type='text' name='zipcode' maxlength='5' placeholder='CODE POSTAL' onclick="this.select();" >
             </td>
             <td>
               <h5 class='lato'>Distance</h5>
@@ -189,7 +189,7 @@ $.ajax({
       function(campaignOffices) {
         //Load zipcodes
         //dcxc7a0ls04u1.cloudfront.net
-        d3.csv('d/fr_postal_codes.csv',
+        d3.csv('d/postal_codes.csv',
          function(zipcodes) {
            $("#loading-icon").hide();
           //Clean data
@@ -294,15 +294,15 @@ $("#filter-list").append(
 /***
  *  define events
  */
- //only numbers
+ //only numbers and letters
  $("input[name='zipcode']").on('keyup keydown', function(e) {
-  if (e.type == 'keydown' && (e.keyCode < 48 || e.keyCode > 57)
+  if (e.type == 'keydown' && ((e.keyCode < 48 || e.keyCode > 57) && (e.keyCode < 65 || e.keyCode > 90) && (e.keyCode < 97 || e.keyCode > 122))
       && e.keyCode != 8 && !(e.keyCode >= 37 || e.keyCode <= 40)) {
     return false;
   }
 
   if (e.type == 'keyup' && $(this).val().length == 5) {
-    if (! (e.keyCode >= 37 && e.keyCode <= 40) ) {
+    if (! ((e.keyCode >= 37 && e.keyCode <= 40)  || (e.keyCode >= 65 && e.keyCode <= 90) || (e.keyCode >= 97 && e.keyCode <= 122)) ) {
       $(this).closest("form#filter-form").submit();
       $("#hidden-button").focus();
     }
