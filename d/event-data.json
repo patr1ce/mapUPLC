@@ -1,7 +1,7 @@
 window.EVENT_DATA ={
    "results":[
       {
-         "longitude":"2.3583",
+         "longitude":"2.3488",
          "url":"https://www.facebook.com/events/2217054808575846/",
          "event_type_name":"Marches",
          "start_time":"11:00:00",
@@ -18,7 +18,7 @@ window.EVENT_DATA ={
       },
 
       {
-         "longitude":"-0.579180",
+         "longitude":"-0.5805",
          "url":"https://www.facebook.com/events/289965448501368/",
          "event_type_name":"Marches",
          "start_time":"11:00:00",
@@ -29,7 +29,7 @@ window.EVENT_DATA ={
          "id":"130902",
          "start_day":"2018-10-13",
          "venue_zip":"",
-         "latitude":"44.837788",
+         "latitude":"44.8404",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
@@ -103,7 +103,7 @@ window.EVENT_DATA ={
 
 
       {
-         "longitude":"-1.553621",
+         "longitude":"-1.5534",
          "url":"https://www.facebook.com/events/1827527333968585/",
          "event_type_name":"Marches",
          "start_time":"11:00:00",
@@ -114,13 +114,13 @@ window.EVENT_DATA ={
          "id":"130906",
          "start_day":"2018-10-13",
          "venue_zip":"",
-         "latitude":"47.218372",
+         "latitude":"47.2173",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
 
       {
-         "longitude":"5.731670",
+         "longitude":"5.7167",
          "url":"https://www.facebook.com/events/688334914864868/",
          "event_type_name":"Marches",
          "start_time":"11:00:00",
@@ -131,7 +131,7 @@ window.EVENT_DATA ={
          "id":"130907",
          "start_day":"2018-10-13",
          "venue_zip":"",
-         "latitude":"45.194260",
+         "latitude":"45.1667",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
