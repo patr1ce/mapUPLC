@@ -227,7 +227,7 @@ window.EVENT_DATA ={
          "id":"130913",
          "start_day":"2018-10-13",
          "venue_zip":"",
-         "latitude":"49.9483",
+         "latitude":"43.9483",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },      
