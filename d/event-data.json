@@ -295,6 +295,22 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+      {
+         "longitude":"-0.3591",
+         "url":"https://www.facebook.com/events/1827527333968585/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Marches pour le climat - Caen",
+         "location":"Caen, France",
+         "capacity":"0",
+         "id":"130918",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"49.1859",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
    ],
    "settings":{
       "rsvp":6,
