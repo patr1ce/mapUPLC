@@ -131,7 +131,7 @@
       </li></ul>
       <footer>
         <div id='footer-area' >
-          <h5></h5>
+          <h5>Unis pour le climat #ilestencoretemps</h5>
           
         </div>
 
@@ -164,8 +164,8 @@
 <script type='text/javascript'>
 window.eventTypeFilters = [
   {
-    name: 'Marches',
-    id: 'rally'
+    name: 'Marche',
+    id: 'Marches'
   },
   {
     name: 'Groupe Facebook',
@@ -198,7 +198,7 @@ $.ajax({
             d.filters = [];
             //Set filter info
             switch(d.event_type_name) {
-              case "Rally": d.filters.push("rally"); break;
+              case "Marches": d.filters.push("Marches"); break;
               case "office": d.filters.push("campaign-office"); break;
               default: d.filters.push('other'); break;
             }
