@@ -311,6 +311,22 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+            {
+         "longitude":"-2.0167",
+         "url":"https://www.facebook.com/events/1954485304850612/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Marches pour le climat - Saint Malo",
+         "location":"Saint Malo, France",
+         "capacity":"0",
+         "id":"130919",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"48.65",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
    ],
    "settings":{
       "rsvp":6,
