@@ -51,23 +51,6 @@ window.EVENT_DATA ={
       },
 
       {
-         "longitude":"4.3727",
-         "url":"https://www.facebook.com/events/2240711882831342/",
-         "event_type_name":"Marches",
-         "start_time":"11:00:00",
-         "start_dt":"2018-10-13 11:00:00",
-         "name":"Marches pour le climat - Bruxelles",
-         "location":"Parlement Européen",
-         "capacity":"0",
-         "id":"130903",
-         "start_day":"2018-10-13",
-         "venue_zip":"",
-         "latitude":"50.8417",
-         "is_official":"1",
-         "id_obfuscated":"gpg5bt"
-      },
-
-      {
          "longitude":"166.458757",
          "url":"https://www.facebook.com/events/1908909255821468/",
          "event_type_name":"Marches",
@@ -80,23 +63,6 @@ window.EVENT_DATA ={
          "start_day":"2018-10-13",
          "venue_zip":"",
          "latitude":"-22.304971",
-         "is_official":"1",
-         "id_obfuscated":"gpg5bt"
-      },
-
-      {
-         "longitude":"-2.215580",
-         "url":"https://www.facebook.com/events/305440000003816/",
-         "event_type_name":"Marches",
-         "start_time":"11:00:00",
-         "start_dt":"2018-10-13 11:00:00",
-         "name":"Rising Women Rising World: Monthly Gathering",
-         "location":"Hawkwood University",
-         "capacity":"0",
-         "id":"130905",
-         "start_day":"2018-10-13",
-         "venue_zip":"",
-         "latitude":"51.747580",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
@@ -151,22 +117,7 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
-      {
-         "longitude":"-73.553360",
-         "url":"https://www.facebook.com/events/263606467605178/",
-         "event_type_name":"Marches",
-         "start_time":"11:00:00",
-         "start_dt":"2018-10-13 13:30:00",
-         "name":"Marches pour le climat - Montréal",
-         "location":"Montréal, Canada",
-         "capacity":"0",
-         "id":"130909",
-         "start_day":"2018-10-13",
-         "venue_zip":"",
-         "latitude":"45.509060",
-         "is_official":"1",
-         "id_obfuscated":"gpg5bt"
-      },
+
       {
          "longitude":"1.4437",
          "url":"https://www.facebook.com/events/277592156413300/",
