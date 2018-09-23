@@ -278,6 +278,22 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+      {
+         "longitude":"7.2661",
+         "url":"https://www.facebook.com/events/605325659864614/",
+         "event_type_name":"Marches",
+         "start_time":"15:00:00",
+         "start_dt":"2018-10-13 15:00:00",
+         "name":"Marches pour le climat - Nice",
+         "location":"Nice, France",
+         "capacity":"0",
+         "id":"130920",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"43.7031",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
    ],
    "settings":{
       "rsvp":6,
