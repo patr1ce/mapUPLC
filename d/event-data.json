@@ -326,6 +326,26 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+      {
+         "longitude":"2.3488",
+         "url":"https://www.facebook.com/events/726419034373203/",
+         "event_type_name":"Boycott",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-01 00:01:00",
+         "name":"Boycott à la consommation : journée sans achat !",
+         "location":"Toute la France",
+         "capacity":"0",
+         "id":"130901",
+         "start_day":"2018-10-01",
+         "venue_zip":"",
+         "latitude":"48.8534",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      }
+
+
+
+      
    ],
    "settings":{
       "rsvp":6,
