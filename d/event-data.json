@@ -161,6 +161,22 @@ window.EVENT_DATA ={
          "id_obfuscated":"gpg5bt"
       },
       {
+         "longitude":"5.55389",
+         "url":"https://www.facebook.com/events/2176943855896806/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-13 11:00:00",
+         "name":"Marches pour le climat - Lons-le-Saunier",
+         "location":"Lons-le-Saunier, France",
+         "capacity":"0",
+         "id":"130927",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"46.67444",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      {
          "longitude":"6.1319",
          "url":"https://www.facebook.com/events/1710871645708474/",
          "event_type_name":"Marches",
