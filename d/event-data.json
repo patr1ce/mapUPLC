@@ -97,22 +97,6 @@ window.EVENT_DATA ={
          "id_obfuscated":"gpg5bt"
       },
       {
-         "longitude":"-0.3591",
-         "url":"https://www.facebook.com/events/1827527333968585/",
-         "event_type_name":"Marches",
-         "start_time":"14:00:00",
-         "start_dt":"2018-10-13 14:00:00",
-         "name":"Marches pour le climat - Caen",
-         "location":"Caen, France",
-         "capacity":"0",
-         "id":"130918",
-         "start_day":"2018-10-13",
-         "venue_zip":"",
-         "latitude":"49.1859",
-         "is_official":"1",
-         "id_obfuscated":"gpg5bt"
-      },
-      {
          "longitude":"-1.6221",
          "url":"https://www.facebook.com/events/536293236813999/",
          "event_type_name":"Marches",
@@ -273,7 +257,7 @@ window.EVENT_DATA ={
          "id_obfuscated":"gpg5bt"
       },
       {
-         "longitude":"166.458757",
+         "longitude":"166.44164",
          "url":"https://www.facebook.com/events/1908909255821468/",
          "event_type_name":"Marches",
          "start_time":"11:00:00",
@@ -284,7 +268,7 @@ window.EVENT_DATA ={
          "id":"130904",
          "start_day":"2018-10-13",
          "venue_zip":"",
-         "latitude":"-22.304971",
+         "latitude":"-22.2710",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
@@ -483,7 +467,125 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+      {
+         "longitude":"1.26110",
+         "url":"https://www.facebook.com/events/307947543322417/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-01 00:01:00",
+         "name":"Marches pour le climat - Limoges",
+         "location":"Limoges, France",
+         "capacity":"0",
+         "id":"130901",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"45.8336",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
 
+      {
+         "longitude":"5.3811",
+         "url":"https://www.facebook.com/events/307947543322417/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-01 00:01:00",
+         "name":"Marches pour le climat - Marseille",
+         "location":"Marseille, France",
+         "capacity":"0",
+         "id":"130901",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"43.2969",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+
+      },
+      {
+         "longitude":"2.21903",
+         "url":"https://www.facebook.com/events/345315232873597/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-01 00:01:00",
+         "name":"Marches pour le climat - Suresnes",
+         "location":"Suresnes, France",
+         "capacity":"0",
+         "id":"130901",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"48.8697",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      {
+         "longitude":"2.21903",
+         "url":"https://www.facebook.com/events/345315232873597/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-01 00:01:00",
+         "name":"Marches pour le climat - Suresnes",
+         "location":"Suresnes, France",
+         "capacity":"0",
+         "id":"130901",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"48.8697",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      {
+         "longitude":"1.4442",
+         "url":"https://www.facebook.com/events/470485096767757/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-01 00:01:00",
+         "name":"Marches pour le climat - Toulouse",
+         "location":"Suresnes, France",
+         "capacity":"0",
+         "id":"130901",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"43.6046",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"-2.7608",
+         "url":"https://www.facebook.com/events/272083736758148/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-01 00:01:00",
+         "name":"Marches pour le climat - Vannes",
+         "location":"Vannes, France",
+         "capacity":"0",
+         "id":"130901",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"47.6582",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"-61.0587",
+         "url":"https://www.facebook.com/events/272083736758148/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-01 00:01:00",
+         "name":"Marches pour le climat - Fort De France",
+         "location":"Fort De France, France",
+         "capacity":"0",
+         "id":"130901",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"14.6160",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+
+      
 
       
    ],
