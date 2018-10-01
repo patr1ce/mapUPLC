@@ -518,22 +518,6 @@ window.EVENT_DATA ={
          "id_obfuscated":"gpg5bt"
       },
 
-      {
-         "longitude":"-2.7608",
-         "url":"https://www.facebook.com/events/272083736758148/",
-         "event_type_name":"Marches",
-         "start_time":"11:00:00",
-         "start_dt":"2018-10-01 00:01:00",
-         "name":"Marches pour le climat - Vannes",
-         "location":"Vannes, France",
-         "capacity":"0",
-         "id":"130901",
-         "start_day":"2018-10-13",
-         "venue_zip":"",
-         "latitude":"47.6582",
-         "is_official":"1",
-         "id_obfuscated":"gpg5bt"
-      },
 
       {
          "longitude":"-61.0587",
