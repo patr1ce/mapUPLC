@@ -78,6 +78,15 @@ table {
       .mobile-only strong {
         font-weight: 600; } }
 
+.no-mobile {
+  display: none;  }
+  @media (min-width: 600px) {
+    .no-mobile {
+      display: inline-block;
+       }
+      .no-mobile strong {
+        font-weight: 600; } }
+
 html, body {
   height: 100%;
   overflow: hidden;
