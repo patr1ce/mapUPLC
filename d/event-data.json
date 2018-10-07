@@ -81,7 +81,7 @@ window.EVENT_DATA ={
          "id_obfuscated":"gpg5bt"
       },
       {
-         "longitude":"47.5859",
+         "longitude":"1.33",
          "url":"https://www.facebook.com/events/680062279045685/",
          "event_type_name":"Marches",
          "start_time":"15:00:00",
@@ -92,7 +92,7 @@ window.EVENT_DATA ={
          "id":"130945",
          "start_day":"2018-10-13",
          "venue_zip":"",
-         "latitude":"1.33",
+         "latitude":"47.5859",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
@@ -225,7 +225,7 @@ window.EVENT_DATA ={
          "id_obfuscated":"gpg5bt"
       },
       {
-         "longitude":"43.2969",
+         "longitude":"5.3811",
          "url":"https://www.facebook.com/events/335119010579863/",
          "event_type_name":"Marches",
          "start_time":"11:30:00",
@@ -236,7 +236,7 @@ window.EVENT_DATA ={
          "id":"130944",
          "start_day":"2018-10-13",
          "venue_zip":"",
-         "latitude":"5.3811",
+         "latitude":"43.2969",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
