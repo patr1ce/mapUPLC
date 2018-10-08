@@ -51,7 +51,7 @@ window.EVENT_DATA ={
       {
          "longitude":"1.4437",
          "url":"https://fr.ulule.com/citizen-lobbying/",
-         "event_type_name":"Marches",
+         "event_type_name":"Lobby Citoyen",
          "start_time":"10:00:00",
          "start_dt":"2018-10-13 10:00:00",
          "name":"Outil de Lobbying Citoyen - Création",
@@ -64,11 +64,42 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
-
+      {
+         "longitude":"7.7455",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Marches",
+         "start_time":"10:00:00",
+         "start_dt":"2018-10-13 10:00:00",
+         "name":"Outil de Lobbying Citoyen - Création",
+         "location":"Strasbourg, France",
+         "capacity":"0",
+         "id":"130910",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"48.5839",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      {
+         "longitude":"5.7167",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"10:00:00",
+         "start_dt":"2018-10-13 10:00:00",
+         "name":"Outil de Lobbying Citoyen - Création",
+         "location":"Grenobles, France",
+         "capacity":"0",
+         "id":"130910",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"45.1667",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
       {
          "longitude":"-0.5805",
          "url":"https://fr.ulule.com/citizen-lobbying/",
-         "event_type_name":"Marches",
+         "event_type_name":"Lobby Citoyen",
          "start_time":"11:00:00",
          "start_dt":"2018-10-13 11:00:00",
          "name":"Outil de Lobbying Citoyen - Création",
@@ -84,7 +115,7 @@ window.EVENT_DATA ={
       {
          "longitude":"3.0863",
          "url":"https://fr.ulule.com/citizen-lobbying/",
-         "event_type_name":"Marches",
+         "event_type_name":"Lobby Citoyen",
          "start_time":"11:00:00",
          "start_dt":"2018-10-13 11:00:00",
          "name":"Outil de Lobbying Citoyen - Création",
@@ -94,6 +125,23 @@ window.EVENT_DATA ={
          "start_day":"2018-10-13",
          "venue_zip":"",
          "latitude":"45.7797",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"166.44164",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-13 11:00:00",
+         "name":"Outil de Lobbying Citoyen - Création",
+         "location":"Nouméa, Nouvelle-Calédonie",
+         "capacity":"0",
+         "id":"130904",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"-22.2710",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
