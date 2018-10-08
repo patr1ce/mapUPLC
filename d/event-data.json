@@ -350,6 +350,93 @@ window.EVENT_DATA ={
          "id_obfuscated":"gpg5bt"
       },
 
+      {
+         "longitude":"1.26110",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-01 00:01:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Limoges, France",
+         "capacity":"0",
+         "id":"130940",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"45.8336",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+
+      {
+         "longitude":"-1.15113",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"15:00:00",
+         "start_dt":"2018-10-13 15:00:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"La Rochelle, France",
+         "capacity":"0",
+         "id":"130924",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"46.1603",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+
+      {
+         "longitude":"0.15",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-01 00:01:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Angloumlême, France",
+         "capacity":"0",
+         "id":"130940",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"45.65",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"-0.55",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"15:00:00",
+         "start_dt":"2018-10-13 15:00:00",  
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Angers, France",
+         "capacity":"0",
+         "id":"130912",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"47.4667",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      
+      {
+         "longitude":"-2.7608",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Vannes, France",
+         "capacity":"0",
+         "id":"130922",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"47.6582",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
 
       {
          "longitude":"2.3",
