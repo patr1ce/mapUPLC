@@ -195,7 +195,7 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
-      
+
       {
          "longitude":"5.3811",
          "url":"https://fr.ulule.com/citizen-lobbying/",
@@ -230,6 +230,23 @@ window.EVENT_DATA ={
       },
 
       {
+         "longitude":"7.1251",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Antibes, France",
+         "capacity":"0",
+         "id":"130923",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"43.5804",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
          "longitude":"4.8345",
          "url":"https://fr.ulule.com/citizen-lobbying/",
          "event_type_name":"Lobby Citoyen",
@@ -242,6 +259,93 @@ window.EVENT_DATA ={
          "start_day":"2018-10-13",
          "venue_zip":"",
          "latitude":"45.7676",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"7.2661",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"15:00:00",
+         "start_dt":"2018-10-13 15:00:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Nice, France",
+         "capacity":"0",
+         "id":"130920",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"43.7031",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"4.8089",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"14:30:00",
+         "start_dt":"2018-10-13 14:30:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Avignon, France",
+         "capacity":"0",
+         "id":"130913",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"43.9483",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"-0.3667",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"14:30:00",
+         "start_dt":"2018-10-13 14:30:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Pau, France",
+         "capacity":"0",
+         "id":"130913",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"43.3",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"4.3899",  
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-13 11:00:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Aubenas, France",
+         "capacity":"0",
+         "id":"130902",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"44.6201",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+
+
+      {
+         "longitude":"4.38717",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"9:00:00",
+         "start_dt":"2018-10-13 9:00:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Saint Etienne, France",
+         "capacity":"0",
+         "id":"130927",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"45.43969",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
@@ -343,6 +447,7 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+
       {
          "longitude":"-1.6221",
          "url":"https://www.facebook.com/events/536293236813999/",
