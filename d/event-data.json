@@ -145,6 +145,23 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+      
+      {
+         "longitude":"3.8772",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"13:30:00",
+         "start_dt":"2018-10-13 13:30:00",
+         "name":"Outil de Lobbying Citoyen - Création",
+         "location":"Montpellier, France",
+         "capacity":"0",
+         "id":"130931",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"43.6109",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
 
       {
          "longitude":"2.3",
