@@ -15,7 +15,23 @@ window.EVENT_DATA ={
          "latitude":"43.5283",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
-      },     
+      },
+      {
+         "longitude":"5.4497",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"15:00:00",
+         "start_dt":"2018-10-13 15:00:00",
+         "name":"Outil de Lobbying Citoyen - Création",
+         "location":"Aix en Provence, France",
+         "capacity":"0",
+         "id":"130030",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"43.5283",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },        
       {
          "longitude":"3.0586",
          "url":"https://fr.ulule.com/citizen-lobbying/",
@@ -162,7 +178,7 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
-      
+
       {
          "longitude":"-2.0167",
          "url":"https://fr.ulule.com/citizen-lobbying/",
