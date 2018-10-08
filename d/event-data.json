@@ -419,7 +419,7 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
-      
+
       {
          "longitude":"-2.7608",
          "url":"https://fr.ulule.com/citizen-lobbying/",
@@ -436,6 +436,41 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+
+      {
+         "longitude":"-4.4863",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Brest, France",
+         "capacity":"0",
+         "id":"130922",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"48.3903",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"-1.6743",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Rennes, France",
+         "capacity":"0",
+         "id":"130916",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"48.112",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      
 
 
       {
