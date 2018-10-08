@@ -194,6 +194,22 @@ window.EVENT_DATA ={
          "latitude":"48.65",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
+      },      
+      {
+         "longitude":"-1.5534",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-13 11:00:00",
+         "name":"Outil de Lobbying Citoyen - Création",
+         "location":"Nantes, France",
+         "capacity":"0",
+         "id":"130906",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"47.2173",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
       },
 
       {
