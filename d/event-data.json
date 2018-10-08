@@ -556,6 +556,57 @@ window.EVENT_DATA ={
          "id_obfuscated":"gpg5bt"
       },
 
+{
+         "longitude":"4.0333",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Reims, France",
+         "capacity":"0",
+         "id":"130925",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"49.25",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+{
+         "longitude":"6.1727",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Metz, France",
+         "capacity":"0",
+         "id":"130925",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"49.1191",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      
+      {
+         "longitude":"6.1319",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Luxembourg, Luxembourg",
+         "capacity":"0",
+         "id":"130914",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"49.6116",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
       {
          "longitude":"2.3",
          "url":"https://www.facebook.com/events/539311259825341/",
