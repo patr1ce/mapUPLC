@@ -1,0 +1,21 @@
+Updating 2098df4..075f26e
+Fast-forward
+ css/events-map.css                 |   1 +
+ deploy.php.10                      |   1 +
+ deploy.php.6                       |  12 ++++++++++++
+ deploy.php.7                       |   1 +
+ deploy.php.8                       |   1 +
+ deploy.php.9                       |   1 +
+ img/french-video-gif-1-repeat.gif  | Bin 0 -> 1419709 bytes
+ img/french-video-gif-no-repeat.gif | Bin 0 -> 1408910 bytes
+ img/french-video-gif.gif           | Bin 0 -> 350981 bytes
+ index.html                         |   2 +-
+ 10 files changed, 18 insertions(+), 1 deletion(-)
+ create mode 100644 deploy.php.10
+ create mode 100644 deploy.php.6
+ create mode 100644 deploy.php.7
+ create mode 100644 deploy.php.8
+ create mode 100644 deploy.php.9
+ create mode 100644 img/french-video-gif-1-repeat.gif
+ create mode 100644 img/french-video-gif-no-repeat.gif
+ create mode 100644 img/french-video-gif.gif
