@@ -1178,6 +1178,7 @@ html, body {
     color: white;
     border-bottom: 1px dotted rgba(255, 255, 255, 0.3);
     display: inline-block; } }
+    
 /*@media screen and (min-width: 1650px) {
   body {
     section#header {
