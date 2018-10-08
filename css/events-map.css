@@ -1052,7 +1052,7 @@ html, body {
     padding-top: 30px; }
     html footer div#footer-area, body footer div#footer-area {
       text-align: center;
-      margin-top: 40px; }
+      margin-top: 2%; }
       html footer div#footer-area #footer-billionaire svg image, body footer div#footer-area #footer-billionaire svg image {
         transform: translate(0, 0);
         -ms-transform: translate(0, 0);
@@ -1178,7 +1178,7 @@ html, body {
     color: white;
     border-bottom: 1px dotted rgba(255, 255, 255, 0.3);
     display: inline-block; } }
-    
+
 /*@media screen and (min-width: 1650px) {
   body {
     section#header {
