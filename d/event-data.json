@@ -470,8 +470,91 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
-      
 
+      {
+         "longitude":"-2.7658",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Saint brieuc, France",
+         "capacity":"0",
+         "id":"130932",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"48.51418",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      
+      {
+         "longitude":"-0.3591",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Saint brieuc, France",
+         "capacity":"0",
+         "id":"130932",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"49.1859",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"-1.6221",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Cherbourg, France",
+         "capacity":"0",
+         "id":"130921",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"49.6337",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"1.0993",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Rouen, France",
+         "capacity":"0",
+         "id":"130921",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"49.4431",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"2.3",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"15:00:00",
+         "start_dt":"2018-10-13 15:00:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Amiens, France",
+         "capacity":"0",
+         "id":"130911",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"49.9",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
 
       {
          "longitude":"2.3",
