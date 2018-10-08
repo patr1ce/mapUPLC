@@ -589,7 +589,7 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
-      
+
       {
          "longitude":"6.1319",
          "url":"https://fr.ulule.com/citizen-lobbying/",
@@ -603,6 +603,41 @@ window.EVENT_DATA ={
          "start_day":"2018-10-13",
          "venue_zip":"",
          "latitude":"49.6116",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+
+      {
+         "longitude":"-61.0587",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-01 00:01:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Fort De France, France",
+         "capacity":"0",
+         "id":"130943",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"14.6160",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      
+      {
+         "longitude":"6.139970",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-13 13:30:00",
+         "name":"Création de l'outil de lobbying citoyen",
+         "location":"Genève, Suisse",
+         "capacity":"0",
+         "id":"130908",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"46.203812",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
