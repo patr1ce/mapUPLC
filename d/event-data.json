@@ -1320,7 +1320,55 @@ window.EVENT_DATA ={
          "latitude":"49.1859",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
-      },  
+      },
+      {
+         "longitude":"3.5737",
+         "url":"https://www.facebook.com/events/2176088335965579/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Marches pour le climat - Auxerre",
+         "location":"Auxerre, France",
+         "capacity":"0",
+         "id":"130921",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"47.7982",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },   
+      {
+         "longitude":"6.0240",
+         "url":"https://www.facebook.com/events/238869813454452/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Marches pour le climat - Besançon",
+         "location":"Besançon, France",
+         "capacity":"0",
+         "id":"130921",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"47.2378",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },   
+      {
+         "longitude":"5.03861",
+         "url":"https://www.facebook.com/events/148116029466494/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Marches pour le climat - Dijon",
+         "location":"Dijon, France",
+         "capacity":"0",
+         "id":"130921",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"47.3237",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },   
 
 
 
