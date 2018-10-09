@@ -333,6 +333,7 @@ window.EVENT_DATA ={
 
 
 
+
       {
          "longitude":"4.38717",
          "url":"https://fr.ulule.com/citizen-lobbying/",
@@ -658,6 +659,7 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+
       {
          "longitude":"2.0761",
          "url":"https://fr.ulule.com/citizen-lobbying/",
@@ -674,9 +676,26 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+
+      {
+         "longitude":"4.3899",  
+         "url":"https://www.facebook.com/events/282849615772908/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-13 11:00:00",
+         "name":"Marches pour le climat - Aubenas",
+         "location":"Aubenas, France",
+         "capacity":"0",
+         "id":"130902",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"44.6201",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
       {
          "longitude":"2.3",
-         "url":"https://www.facebook.com/events/539311259825341/",
+         "url":"https://www.facebook.com/events/1841107212639212/",
          "event_type_name":"Marches",
          "start_time":"15:00:00",
          "start_dt":"2018-10-13 15:00:00",
@@ -1195,8 +1214,8 @@ window.EVENT_DATA ={
 
       {
          "longitude":"-61.0587",
-         "url":"https://www.facebook.com/events/272083736758148/",
          "event_type_name":"Marches",
+         "url":"https://www.facebook.com/events/1921544788147787/",
          "start_time":"11:00:00",
          "start_dt":"2018-10-01 00:01:00",
          "name":"Marches pour le climat - Fort De France",
