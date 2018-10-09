@@ -877,6 +877,8 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+
+
       {
          "longitude":"5.7167",
          "url":"https://www.facebook.com/events/688334914864868/",
@@ -1301,6 +1303,28 @@ window.EVENT_DATA ={
       },
 
 
+/* !!!!!!!!!!!!!!!!!!!! NEW*/
+
+      {
+         "longitude":"-0.3591",
+         "url":"https://www.facebook.com/events/328112074614116/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Marches pour le climat - Caen",
+         "location":"Cherbourg, France",
+         "capacity":"0",
+         "id":"130921",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"49.1859",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },  
+
+
+
+,,
       
 
       
