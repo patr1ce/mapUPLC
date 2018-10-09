@@ -1370,9 +1370,75 @@ window.EVENT_DATA ={
          "id_obfuscated":"gpg5bt"
       },   
 
+      {
+         "longitude":"3.0695",
+         "url":"https://www.facebook.com/events/723295864697493/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Marches pour le climat - Faches Thumesnil",
+         "location":"Faches Thumesnil, France",
+         "capacity":"0",
+         "id":"130921",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"50.6026",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },   
+
+      {
+         "longitude":"3.1114",
+         "url":"https://www.facebook.com/events/954431334740239/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Marches pour le climat - Hellemes",
+         "location":"Hellemes, France",
+         "capacity":"0",
+         "id":"130921",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"50.6312",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },   
+      {
+         "longitude":"-1.4264",
+         "url":"https://www.facebook.com/events/2151419985132798/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Marches pour le climat - La Roche Sur Yon",
+         "location":"La Roche Sur Yon, France",
+         "capacity":"0",
+         "id":"130921",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"46.6705",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },   
+      {
+         "longitude":"0.107929",
+         "url":"https://www.facebook.com/events/270859106907373/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Marches pour le climat - Le Havre",
+         "location":"Le Havre, France",
+         "capacity":"0",
+         "id":"130921",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"49.4943",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },   
 
 
-,,
+
+
       
 
       
