@@ -1547,6 +1547,56 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },   
+      {
+         "longitude":"3.1620",
+         "url":"https://www.facebook.com/events/350151682388032/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Marches pour le climat - Tourcoing",
+         "location":"Tourcoing, France",
+         "capacity":"0",
+         "id":"130921",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"50.7249",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },   
+      {
+         "longitude":"3.1442",
+         "url":"https://www.facebook.com/events/520973998375301/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Marches pour le climat - Villeneuve d'Ascq",
+         "location":"Villeneuve d'Ascq, France",
+         "capacity":"0",
+         "id":"130921",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"50.6232",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },   
+      {
+         "longitude":"3.1307",
+         "url":"https://www.facebook.com/events/1950769598344694",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Marches pour le climat - Wasquehal",
+         "location":"Wasquehal, France",
+         "capacity":"0",
+         "id":"130921",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"50.6692",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },   
+
+
 
 
 
