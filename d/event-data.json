@@ -83,7 +83,7 @@ window.EVENT_DATA ={
       {
          "longitude":"7.7455",
          "url":"https://fr.ulule.com/citizen-lobbying/",
-         "event_type_name":"Marches",
+         "event_type_name":"Lobby Citoyen",
          "start_time":"10:00:00",
          "start_dt":"2018-10-13 10:00:00",
          "name":"Création de l'outil de lobbying citoyen | J-9 !",
@@ -693,6 +693,41 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+
+      {
+         "longitude":"3.0586",
+         "url":"https://www.facebook.com/events/232190430986530/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-13 11:00:00",
+         "name":"Marches pour le climat - Lille",
+         "location":"Lille, France",
+         "capacity":"0",
+         "id":"130901",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"50.633",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"7.7455",
+         "url":"https://www.facebook.com/events/1854013131333596/",
+         "event_type_name":"Marches",
+         "start_time":"10:00:00",
+         "start_dt":"2018-10-13 10:00:00",
+         "name":"Marches pour le climat - Strasbourg",
+         "location":"Strasbourg, France",
+         "capacity":"0",
+         "id":"130910",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"48.5839",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
       {
          "longitude":"2.3",
          "url":"https://www.facebook.com/events/1841107212639212/",
@@ -706,6 +741,24 @@ window.EVENT_DATA ={
          "start_day":"2018-10-13",
          "venue_zip":"",
          "latitude":"49.9",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+
+      {
+         "longitude":"1.0993",
+         "url":"https://www.facebook.com/events/498686523940083/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Marches pour le climat - Rouen",
+         "location":"Rouen, France",
+         "capacity":"0",
+         "id":"130921",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"49.4431",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
@@ -757,6 +810,24 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+
+{
+         "longitude":"6.1727",
+         "url":"https://www.facebook.com/events/1837257633010752/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Marches pour le climat - Metz",
+         "location":"Metz, France",
+         "capacity":"0",
+         "id":"130925",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"49.1191",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
       {
          "longitude":"1.33",
          "url":"https://www.facebook.com/events/680062279045685/",
@@ -920,7 +991,7 @@ window.EVENT_DATA ={
       },
       {
          "longitude":"3.8772",
-         "url":"https://www.facebook.com/events/1897983090294051/",
+         "url":"https://www.facebook.com/events/247069265977282/",
          "event_type_name":"Marches",
          "start_time":"13:30:00",
          "start_dt":"2018-10-13 13:30:00",
