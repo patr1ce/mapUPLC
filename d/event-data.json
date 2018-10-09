@@ -817,7 +817,7 @@ window.EVENT_DATA ={
          "event_type_name":"Marches",
          "start_time":"14:00:00",
          "start_dt":"2018-10-13 14:00:00",
-         "name":"Marches pour le climat - Metz",
+         "name":"Marches pour le climat - Valence",
          "location":"Metz, France",
          "capacity":"0",
          "id":"130925",
@@ -1218,7 +1218,7 @@ window.EVENT_DATA ={
       },
       {
          "longitude":"-2.7608",
-         "url":"https://www.facebook.com/events/536293236813999/",
+         "url":"https://www.facebook.com/events/257786154874308/",
          "event_type_name":"Marches",
          "start_time":"14:00:00",
          "start_dt":"2018-10-13 14:00:00",
