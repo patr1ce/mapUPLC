@@ -678,6 +678,41 @@ window.EVENT_DATA ={
       },
 
       {
+         "longitude":"2.21903",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-01 00:01:00",
+         "name":"Création de l'outil de lobbying citoyen | J-8 !",
+         "location":"Suresnes, France",
+         "capacity":"0",
+         "id":"130942",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"48.8697",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"-2.7658",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Création de l'outil de lobbying citoyen | J-8 !",
+         "location":"Saint brieuc, France",
+         "capacity":"0",
+         "id":"130932",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"48.51418",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+
+      {
          "longitude":"4.3899",  
          "url":"https://www.facebook.com/events/282849615772908/",
          "event_type_name":"Marches",
@@ -1892,6 +1927,23 @@ window.EVENT_DATA ={
          "start_day":"2018-10-13",
          "venue_zip":"",
          "latitude":"50.6692",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      }, 
+
+      {
+         "longitude":"6.6965",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+          "name":"Création de l'outil de lobbying citoyen | J-8 !",
+         "location":"Wasquehal, France",
+         "capacity":"0",
+         "id":"130921",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"47.5082",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       }, 
