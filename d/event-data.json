@@ -760,7 +760,7 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
-      
+
 {
          "longitude":"4.07269",
          "url":"https://fr.ulule.com/citizen-lobbying/",
@@ -774,6 +774,41 @@ window.EVENT_DATA ={
          "start_day":"2018-10-13",
          "venue_zip":"",
          "latitude":"46.0344",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+
+      {
+         "longitude":"0.1995",  
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Création de l'outil de lobbying citoyen | J-7 !",
+         "location":"Le Mans, France",
+         "capacity":"0",
+         "id":"130902",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"48.0061",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"0.1995",  
+         "url":"https://www.facebook.com/events/484579315395540/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-13 11:00:00",
+         "name":"Marches pour le climat - Le Mans",
+         "location":"Le Mans, France",
+         "capacity":"0",
+         "id":"130902",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"48.0061",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
