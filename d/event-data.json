@@ -420,7 +420,7 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
-      
+
       {
          "longitude":"1.33",
          "url":"https://fr.ulule.com/citizen-lobbying/",
@@ -430,7 +430,7 @@ window.EVENT_DATA ={
          "name":"Création de l'outil de lobbying citoyen | J-7 !",
          "location":"Blois, France",
          "capacity":"0",
-         "id":"130945",
+         "id":"130925",
          "start_day":"2018-10-13",
          "venue_zip":"",
          "latitude":"47.5859",
