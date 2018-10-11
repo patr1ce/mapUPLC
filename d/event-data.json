@@ -796,6 +796,43 @@ window.EVENT_DATA ={
          "id_obfuscated":"gpg5bt"
       },
 
+
+
+      {
+         "longitude":"0.6414680000000317",  
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Création de l'outil de lobbying citoyen | J-7 !",
+         "location":"Beauregard et Bassac, France",
+         "capacity":"0",
+         "id":"130902",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"44.988541",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"0.6414680000000317",  
+         "url":"https://www.facebook.com/events/2166415130295676/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-13 11:00:00",
+         "name":"Marches pour le climat - Beauregard et Bassac",
+         "location":"Echo-hameau, lieu-dit La Servantie",
+         "capacity":"0",
+         "id":"130902",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"44.988541",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+
       {
          "longitude":"0.1995",  
          "url":"https://www.facebook.com/events/484579315395540/",
