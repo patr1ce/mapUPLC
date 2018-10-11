@@ -368,6 +368,22 @@ window.EVENT_DATA ={
          "id_obfuscated":"gpg5bt"
       },
 
+      {
+         "longitude":"5.55389",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"11:00:00",
+         "start_dt":"2018-10-01 00:01:00",
+         "name":"Création de l'outil de lobbying citoyen | J-7 !",
+         "location":"Lons-le-Saunier, France",
+         "capacity":"0",
+         "id":"130927",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"46.67444",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
 
       {
          "longitude":"-1.15113",
@@ -741,6 +757,23 @@ window.EVENT_DATA ={
          "start_day":"2018-10-13",
          "venue_zip":"",
          "latitude":"48.51418",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      
+{
+         "longitude":"4.07269",
+         "url":"https://fr.ulule.com/citizen-lobbying/",
+         "event_type_name":"Lobby Citoyen",
+         "start_time":"14:00:00",
+         "start_dt":"2018-10-13 14:00:00",
+         "name":"Création de l'outil de lobbying citoyen | J-7 !",
+         "location":"Roanne, France",
+         "capacity":"0",
+         "id":"130926",
+         "start_day":"2018-10-13",
+         "venue_zip":"",
+         "latitude":"46.0344",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
