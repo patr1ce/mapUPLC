@@ -1091,18 +1091,18 @@ window.EVENT_DATA ={
       },
 
 {
-         "longitude":"6.1727",
+         "longitude":"4.8923",
          "url":"https://www.facebook.com/events/1837257633010752/",
          "event_type_name":"Marches",
          "start_time":"14:00:00",
          "start_dt":"2018-10-13 14:00:00",
          "name":"Marches pour le climat - Valence",
-         "location":"Metz, France",
+         "location":"Valence, France",
          "capacity":"0",
          "id":"130925",
          "start_day":"2018-10-13",
          "venue_zip":"",
-         "latitude":"49.1191",
+         "latitude":"44.9333",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
