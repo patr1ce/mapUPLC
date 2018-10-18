@@ -150,7 +150,7 @@ window.EVENT_DATA ={
 	      },
         {
          "longitude":"-3.3647",
-         "url":"https://www.facebook.com/groups/287370728768947/",
+         "url":"https://www.facebook.com/events/182943845930549/",
          "event_type_name":"Marches",
          "start_time":"15:00:00",
          "start_dt":"2018-11-23 15:00:00",
@@ -161,6 +161,22 @@ window.EVENT_DATA ={
          "start_day":"2018-11-23",
          "venue_zip":"",
          "latitude":"47.747662",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+	   {
+         "longitude":"7.339",
+         "url":"https://www.facebook.com/events/179553722927237/",
+         "event_type_name":"Marches",
+         "start_time":"15:00:00",
+         "start_dt":"2018-11-23 15:00:00",
+         "name":"Climate Friday - Mulhouse",
+         "location":"Mulhouse, France",
+         "capacity":"0",
+         "id":"130944",
+         "start_day":"2018-11-23",
+         "venue_zip":"",
+         "latitude":"47.749",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
