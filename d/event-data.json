@@ -18,7 +18,7 @@ window.EVENT_DATA ={
          "id_obfuscated":"gpg5bt"
       },
 	   {
-         "longitude":"0.16",
+         "longitude":"0.15",
          "url":"https://www.facebook.com/events/175333476687421/",
          "event_type_name":"Marches",
          "start_time":"15:00:00",
@@ -29,7 +29,7 @@ window.EVENT_DATA ={
          "id":"130915",
          "start_day":"2018-11-23",
          "venue_zip":"",
-         "latitude":"45.648",
+         "latitude":"45.65",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
