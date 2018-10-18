@@ -17,6 +17,22 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+	   {
+         "longitude":"0.16",
+         "url":"https://www.facebook.com/events/175333476687421/",
+         "event_type_name":"Marches",
+         "start_time":"15:00:00",
+         "start_dt":"2018-11-23 15:00:00",
+         "name":"Climate Friday - Angoulême",
+         "location":"Angoulême, France",
+         "capacity":"0",
+         "id":"130915",
+         "start_day":"2018-11-23",
+         "venue_zip":"",
+         "latitude":"45.648",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
       {
          "longitude":"2.25",
          "url":"https://www.facebook.com/events/1845739575473789/",
