@@ -33,7 +33,22 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
-      
+      {
+         "longitude":"4.39",
+         "url":"https://www.facebook.com/events/1854990141282093/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-11-23 14:00:00",
+         "name":"Climate Friday - Aubenas",
+         "location":"Aubenas, France",
+         "capacity":"0",
+         "id":"130924",
+         "start_day":"2018-11-23",
+         "venue_zip":"",
+         "latitude":"44.62",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
       {
          "longitude":"-0.5805",
          "url":"https://www.facebook.com/events/1876024612504409/",
