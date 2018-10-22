@@ -1,7 +1,0 @@
-Updating e061d36..56a9917
-Fast-forward
- css/events-map.css | 14 ++++++++++++++
- deploy.php.24      |  7 +++++++
- index.html         |  5 ++++-
- 3 files changed, 25 insertions(+), 1 deletion(-)
- create mode 100644 deploy.php.24
