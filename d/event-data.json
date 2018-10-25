@@ -98,7 +98,22 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
-
+	{
+         "longitude":"4.477",
+         "url":"https://www.facebook.com/events/197332811162458/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-11-23 14:00:00",
+         "name":"Climate Friday - Collias",
+         "location":"Collias, France",
+         "capacity":"0",
+         "id":"130961",
+         "start_day":"2018-11-23",
+         "venue_zip":"",
+         "latitude":"43.953",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
 
       {
          "longitude":"4.72069",
@@ -180,6 +195,23 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+	   
+	   {
+         "longitude":"3,8772",
+         "url":"https://www.facebook.com/events/289421118563663/",
+         "event_type_name":"Marches",
+         "start_time":"15:00:00",
+         "start_dt":"2018-11-23 15:00:00",
+         "name":"Climate Friday - Montpellier",
+         "location":"Montpellier, France",
+         "capacity":"0",
+         "id":"130964",
+         "start_day":"2018-11-23",
+         "venue_zip":"",
+         "latitude":"43.6109",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
       {
          "longitude":"-1.5534",
          "url":"https://www.facebook.com/events/244940312839945/",
@@ -196,6 +228,38 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+	   {
+         "longitude":"4.3608",
+         "url":"https://www.facebook.com/events/2147831778568600/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-11-23 11:00:00",
+         "name":"Climate Friday - Nîmes",
+         "location":"Nîmes, France",
+         "capacity":"0",
+         "id":"130966",
+         "start_day":"2018-11-23",
+         "venue_zip":"",
+         "latitude":"43.8346",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+	   {
+         "longitude":"-1.6743",
+         "url":"https://www.facebook.com/events/255500161978722/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-11-23 14:00:00",
+         "name":"Climate Friday - Rennes",
+         "location":"Rennes, France",
+         "capacity":"0",
+         "id":"130972",
+         "start_day":"2018-11-23",
+         "venue_zip":"",
+         "latitude":"48.112",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
       {
          "longitude":"-2.7658",
          "url":"https://www.facebook.com/events/292304978161878/",
@@ -209,6 +273,40 @@ window.EVENT_DATA ={
          "start_day":"2018-11-23",
          "venue_zip":"",
          "latitude":"48.51418",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+	   
+      {
+         "longitude":"-2.0167",
+         "url":"https://www.facebook.com/events/520559755085222/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-11-23 14:00:00",
+         "name":"Climate Friday - Saint-Malo",
+         "location":"Saint-Malo, France",
+         "capacity":"0",
+         "id":"130982",
+         "start_day":"2018-11-23",
+         "venue_zip":"",
+         "latitude":"48.65",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+	   
+	   {
+         "longitude":"1.4437",
+         "url":"https://www.facebook.com/events/258596064859232/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-11-23 14:00:00",
+         "name":"Climate Friday - Toulouse",
+         "location":"Toulouse, France",
+         "capacity":"0",
+         "id":"130992",
+         "start_day":"2018-11-23",
+         "venue_zip":"",
+         "latitude":"43.6043",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
