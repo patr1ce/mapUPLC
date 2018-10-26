@@ -65,6 +65,7 @@ var Event = (function($) { return function(properties) {
             .append(that.properties.is_official ? $("<h5 class='official-tag'/>").text("Official Event") : "")
             .append($("<span/>").addClass("label-icon"))
             .append($("<h5 class='event-type'/>").text(that.properties.event_type_name))
+	    .append($(" ").text(that.properties.start_day))
             .append($("<p/>").html(that.properties.location))
             .append(that.properties.phone && that.properties.phone != "-" ? $("<p/>").text("Phone: " + that.properties.phone) : "")
             .append(that.properties.notes ? that.properties.notes : "")
