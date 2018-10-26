@@ -349,7 +349,7 @@ window.EVENT_DATA ={
       },
 	   {
          "longitude":"43.9250853",  
-         "url":"https://www.facebook.com/events/377405346158161/,
+         "url":"https://www.facebook.com/events/377405346158161/",
          "event_type_name":"Marches",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
