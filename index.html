@@ -193,6 +193,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 window.eventTypeFilters = [
   {
     name: 'Climate Friday',
+    id: 'Actions'
+  },
+  {
+    name: 'Climate Alarm',
     id: 'Marches'
   },
   {
@@ -226,6 +230,7 @@ $.ajax({
             d.filters = [];
             //Set filter info
             switch(d.event_type_name) {
+              case "Actions": d.filters.push("Actions"); break;
               case "Marches": d.filters.push("Marches"); break;
               case "office": d.filters.push("campaign-office"); break;
               default: d.filters.push('other'); break;
