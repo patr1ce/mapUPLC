@@ -122,7 +122,7 @@ var Event = (function($) { return function(properties) {
 
          if (!that.properties.attendee_count) { moreThan5RSVP = false; }
 
-         var datetime = moment(that.properties.start_dt).format("MMM DD (ddd) h:mma")
+         var datetime = moment(that.properties.start_dt).format("MMM DD (ddd)")
 
          var rendered = $("<div class='lato'/>")
            .addClass('event-item ' + that.className)
