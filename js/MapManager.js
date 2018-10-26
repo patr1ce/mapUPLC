@@ -28,7 +28,7 @@ var Event = (function($) { return function(properties) {
 
         if (!that.properties.attendee_count) { moreThan5RSVP = false; }
 
-        var datetime = that.properties.id_obfuscated && that.properties.id_obfuscated == '4gw5k' ? 'Mar 20 (Sun) 11:00am' : moment(that.properties.start_dt).format("MMM DD (ddd) h:mma")
+        var datetime = that.properties.id_obfuscated && that.properties.id_obfuscated == '4gw5k' ? 'Mar 20 (Sun)' : moment(that.properties.start_dt).format("MMM DD (ddd)")
         var lat = that.properties.latitude
         var lon = that.properties.longitude
 
