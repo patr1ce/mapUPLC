@@ -509,6 +509,23 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+	   
+	   {
+         "longitude":"4.7509",
+         "url":"https://www.facebook.com/events/1366722196798290/",
+         "event_type_name":"Marches",
+         "start_time":"11:30:00",
+         "start_dt":"2018-12-08 11:30:00",
+         "name":"Climate Alarm - Montélimar",
+         "location":"Montélimar, France",
+         "capacity":"0",
+         "id":"230947",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"44.5587",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
 	   {
          "longitude":"3.8772",
          "url":"https://www.facebook.com/events/940904046108417/",
@@ -637,6 +654,22 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+	    {
+         "longitude":"0.07395",
+         "url":"https://www.facebook.com/events/2165308190168696/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Tarbes",
+         "location":"Tarbes, France",
+         "capacity":"0",
+         "id":"230929",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"43.232658",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
 	   {
          "longitude":"5.928",
          "url":"https://www.facebook.com/events/2679769178915433/",
@@ -669,6 +702,22 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },   
+	   {
+         "longitude":"4.41898",
+         "url":"https://www.facebook.com/events/2425259121027537/",
+         "event_type_name":"Marches",
+         "start_time":"10:00:00",
+         "start_dt":"2018-12-08 10:00:00",
+         "name":"Climate Alarm - Uzès",
+         "location":"Uzès, France",
+         "capacity":"0",
+         "id":"230940",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"44.0107",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },  
 	   {
          "longitude":"-2.7608",
          "url":"https://www.facebook.com/events/108600473425370/",
