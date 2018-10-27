@@ -94,7 +94,7 @@ var Event = (function($) { return function(properties) {
                     // .attr("href", that.properties.is_campaign_office ? (that.properties.opening_event ? that.properties.opening_event : that.properties.url) : that.properties.url)
                     .attr("data-id", that.properties.id_obfuscated)
                     .attr("data-url", (that.properties.opening_event ? that.properties.opening_event : that.properties.url))
-                    .text(that.isFull ? "FULL" : that.properties.is_campaign_office ? (that.properties.opening_event ? "Lien vers le groupe" : "Group Link") : "Participer")
+                    .text(that.isFull ? "FULL" : that.properties.is_campaign_office ? (that.properties.opening_event ? locale["MAPMANAGER_GROUPLINK"] : locale["MAPMANAGER_GROUPLINK"]) : locale["MAPMANAGER_PARTICIPATE"])
                 )
                 .append(
                   $("<span class='rsvp-count'/>").text(that.properties.attendee_count + " SIGN UPS")
@@ -503,7 +503,7 @@ var MapManager = (function($, d3, leaflet) {
         .selectAll("li").remove();
 
       if (targetZipcode == undefined || !targetZipcode) {
-        $("#event-list").append("<li class='error lato'>Code postal inconnu : " + zipcode ); //+ "&zip_radius%5b1%5d=100&country=US&radius_unit=mi\">Try our events page</a></li>");
+        $("#event-list").append("<li class='error lato'>"+locale["MAPMANAGER_UNKOWNZIP"]+" : " + zipcode ); //+ "&zip_radius%5b1%5d=100&country=US&radius_unit=mi\">Try our events page</a></li>");
         return;
       }
 
