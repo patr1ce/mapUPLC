@@ -1,6 +1,6 @@
   <!doctype html>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script src="js/jquery.gz"></script>
 <script>
 
 function require(script) {
@@ -126,7 +126,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <tr>
             <td>
               <h5 class='lato'><script>document.write(locale["INDEX_ZIPCODE"]);</script></h5>
-              <input type='text' name='zipcode' maxlength='5' placeholder='CODE POSTAL' onclick="this.select();" >
+              <script>document.write("<input type='text' name='zipcode' maxlength='5' placeholder='"+locale["INDEX_ZIPCODE"]+"'onclick=\"this.select();\" >");</script> 
             </td>
             <td>
               <h5 class='lato'><script>document.write(locale["INDEX_DISTANCE"]);</script></h5>
@@ -218,7 +218,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 
-<script src="//dcxc7a0ls04u1.cloudfront.net/js/jquery.gz"></script>
+
 <script src='js/d3' type='text/javascript'></script>
 <script id='zipcodes-datadump' type='text/plain'></script>
 <script src='//dcxc7a0ls04u1.cloudfront.net/js/deparam.min.gz'></script>
