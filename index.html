@@ -25,10 +25,10 @@ function getUrlParameter(name) {
 }
 
 var getLang = getUrlParameter("locale");
-var lang = "en_US";
+var lang = "fr-FR";
 if(getLang !== null && getLang!='')
   lang= getLang;
-else
+else if (0)
   lang = navigator.language || navigator.userLanguage;
 require("./locales/"+lang+".js");
 </script>
