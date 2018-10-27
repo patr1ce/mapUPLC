@@ -25,7 +25,7 @@
 <link rel="alternate" hreflang="FR_fr" href="https://united4earth.org/fr/marche-climat/" />
 
 
-<link rel="stylesheet" type="text/css" href="../css/events-map.css">
+<link rel="stylesheet" type="text/css" href="css/events-map.css">
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Merriweather:400,900,700' />
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Lato:100,900,700,400,300' />
 <title>Citizens Rise for Climate - One map to find the event near your !</title>
@@ -65,7 +65,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li><a href="https://united4earth.org/create-event/" class="contribute contribute-big" target="_blank">Add you event to the map</a></li>
       <li>
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-text="" data-related="" data-count="none">Tweet it</a>&nbsp;&nbsp;<div class="fb-share-button" data-href="" data-layout="button">
-        <a href="javascript:fbShare('', 'Fb Share', 'Facebook share popup', 'h', 520, 350)"><img src='../img/icon/fb.png' /><span>Share it</span></a></div>
+        <a href="javascript:fbShare('', 'Fb Share', 'Facebook share popup', 'h', 520, 350)"><img src='img/icon/fb.png' /><span>Share it</span></a></div>
 
       </li>
     </ul>
@@ -183,14 +183,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 
 <script src="//dcxc7a0ls04u1.cloudfront.net/js/jquery.gz"></script>
-<script src='../js/d3' type='text/javascript'></script>
+<script src='js/d3' type='text/javascript'></script>
 <script id='zipcodes-datadump' type='text/plain'></script>
 <script src='//dcxc7a0ls04u1.cloudfront.net/js/deparam.min.gz'></script>
-<script src='../js/mapbox'></script>
+<script src='js/mapbox'></script>
 <!-- <script src='/js/leaflet-bouncer.js'></script> -->
 <script src='//dcxc7a0ls04u1.cloudfront.net/js/moment.min.js'></script>
-<script src='../js/js-cookie.js'></script>
-<script src='../js/MapManager.js'></script>
+<script src='js/js-cookie.js'></script>
+<script src='js/MapManager.js'></script>
 <script type='text/javascript'>
 window.eventTypeFilters = [
   {
@@ -216,15 +216,15 @@ window.eventTypeFilters = [
 var date = new Date();
 $("#loading-icon").show();
 $.ajax({
-  url: '../d/event-data.json',
+  url: 'd/event-data.json',
   dataType: 'script',
   cache: true, // otherwise will get fresh copy every page load
   success: function(data) {
-    d3.csv('../d/campaign-offices.csv',
+    d3.csv('d/campaign-offices.csv',
       function(campaignOffices) {
         //Load zipcodes
         //dcxc7a0ls04u1.cloudfront.net
-        d3.csv('../d/postal_codes.csv',
+        d3.csv('d/postal_codes.csv',
          function(zipcodes) {
            $("#loading-icon").hide();
           //Clean data
