@@ -29,7 +29,7 @@ var locale = {
 	"INDEX_HEADER2": "Collectif citoyen pour le climat #ilestencoretemps",
 	"INDEX_EVENT1": "Climate Friday",
 	"INDEX_EVENT2": "Climate Alarm",
-	"INDEX_GROUPS": "Groupe Facebook1",
+	"INDEX_GROUPS": "Groupe Facebook",
 	"INDEX_OTHER": "Autre",
 	"MAPMANAGER_PARTICIPATE": "Participer",
 	"MAPMANAGER_GROUPLINK": "Lien vers le groupe",
