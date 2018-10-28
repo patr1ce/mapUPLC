@@ -1,12 +1,47 @@
   <!doctype html>
 
+<script src="assets/js/jquery.min.js"></script>
+<script>
+
+function require(script) {
+    $.ajax({
+        url: script,
+        dataType: "script",
+        async: false,           // <-- This is the key
+        success: function () {
+            // all good...
+        },
+        error: function () {
+            throw new Error("Could not load script " + script);
+        }
+    });
+}
+
+function getUrlParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+}
+
+var getLang = getUrlParameter("locale");
+var lang = "fr-FR";
+if(getLang !== null && getLang!='')
+  lang= getLang;
+else if (0)
+  lang = navigator.language || navigator.userLanguage;
+require("./assets/locales/"+lang+".js");
+</script>
+
+
+
 <head>
   <link rel="icon" href="https://united4earth.org/wp-content/uploads/2018/09/cropped-logo-1-32x32.jpg" sizes="32x32" />
 <link rel="icon" href="https://united4earth.org/wp-content/uploads/2018/09/cropped-logo-1-192x192.jpg" sizes="192x192" />
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<meta name="title" content="Cartes des événements pour le climat - Retrouvez les événements passés">
-<meta name="description" content="En recherche des événements pour le climat qui se sont passés ? Retrouvez les en un clic sur notre carte interactive !">
+<meta name="title" content="Evénements pour le Climat en France - Une carte, toutes les actions">
+<meta name="description" content="Une carte pour trouver des intiatives pour agir sur les problèmes climatiques. Rejoignez des groupes et des évenements ctioyens prêt de chez vous en un clic !">
 <meta property="og:type" content="website" />
 <meta name="keywords" content="carte, climat, unis pour le climat, uplc, marches">
 <meta property="og:image" content="https://united4earth.org/wp-content/uploads/2018/09/logo-1.jpg" />
@@ -22,12 +57,13 @@
 <meta name="twitter:title" content="">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="">
-<meta name="canonical" href="https://united4earth.org/fr/marche-climat/evenements-passes.html">
+<meta name="canonical" href="https://united4earth.org/fr/marche-climat/">
+<link rel="alternate" hreflang="FR_fr" href="https://united4earth.org/climate-map.html" />
 
 <link rel="stylesheet" type="text/css" href="./assets/css/events-map.css">
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Merriweather:400,900,700' />
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Lato:100,900,700,400,300' />
-<title>Cartes des événements pour le climat - Retrouvez les marches climat et #ilestencoretemps</title>
+<script>document.write("<title>"+locale["INDEX_TITLE"]+"</title>");</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -35,6 +71,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-N4VHRC7');</script>
 <!-- End Google Tag Manager -->
+
 </head>
 <body class='list-view initial-view'>
   <!-- Google Tag Manager (noscript) -->
@@ -47,8 +84,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="main-title-area">
     <div style="margin-bottom: 4px;">
       <div id='spiel'>
-        <strong>Carte interactive des initiatives pour le climat</strong><br>
-        Trouve l'initiative la plus proche de chez toi
+        <strong><script>document.write(locale["INDEX_HEADER1"]);</script></strong><br>
+        <script>document.write(locale["INDEX_SUBTITLE1"]);</script>
 
       </div>
         <div id='spiel'>
@@ -58,13 +95,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <nav>
     <ul id="nav">
-      
-      <li class="nav-contribute"><a style="color: white;" href="https://united4earth.org/fr/marche-climat/">Evénements à venir</a></li>
-       <li><a href="https://united4earth.org/fr/" class="contribute contribute-big">Accueil</a></li>
-      <li><a href="https://united4earth.org/create-event/" class="contribute contribute-big" target="_blank">Demander a ajouter un groupe ou un événement</a></li>
+     <!-- <a style="color: white;" href="./climate-map.html"><li class="nav-contribute">EN</a></li>-->
+      <a style="color: white;" href="./evenements-passes.html"><li class="nav-contribute"><script>document.write(locale["INDEX_PASTEVENT"]);</script></a></li>
+       <li><a href="index.html" class="contribute contribute-big"><script>document.write(locale["INDEX_HOME"]);</script></a></li>
+      <li><a href="create-event/" class="contribute contribute-big" target="_blank"><script>document.write(locale["INDEX_NEWEVENT"]);</script></a></li>
       <li>
-        <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-text="" data-related="" data-count="none">Tweet</a>&nbsp;&nbsp;<div class="fb-share-button" data-href="" data-layout="button">
-        <a href="javascript:fbShare('', 'Fb Share', 'Facebook share popup', 'h', 520, 350)"><img src='./assets/img/icon/fb.png' /><span>Share</span></a></div>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-text="" data-related="" data-count="none"><script>document.write(locale["INDEX_TWEET"]);</script></a>&nbsp;&nbsp;<div class="fb-share-button" data-href="" data-layout="button">
+        <a href="javascript:fbShare('', 'Fb Share', 'Facebook share popup', 'h', 520, 350)"><img src='./assets/img/icon/fb.png' /><span><script>document.write(locale["INDEX_SHARE"]);</script></span></a></div>
 
       </li>
     </ul>
@@ -75,36 +112,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section id='activity-area' class='clearfix'>
   <article id='events'>
     <div id='filters'>
-      <div id='loading-icon' class='lato'>Chargement...</div>
+      <div id='loading-icon' class='lato'><script>document.write(locale["INDEX_LOADING"]);</script></div>
       <h3 id='switch-link'>
-          <a href='javascript: void(null)' onclick='window.mapManager.toMapView()' id='to-map-view'>Voir la carte</a>
-        <a href='javascript: void(null)' onclick='window.mapManager.toListView()' id='to-list-view'>Voir la liste</a>
+          <a href='javascript: void(null)' onclick='window.mapManager.toMapView()' id='to-map-view'><script>document.write(locale["INDEX_SEEMAP"]);</script></a>
+        <a href='javascript: void(null)' onclick='window.mapManager.toListView()' id='to-list-view'><script>document.write(locale["INDEX_SEEMAP"]);</script></a>
       </h3>
       <h4 class='lato title'>
-        <span id='screen-title'>Filtres</span>
-        <span id='mobile-title'>Debout pour le Climat!</span>
+        <span id='screen-title'><script>document.write(locale["INDEX_FILTERS"]);</script></span>
+        <span id='mobile-title'><script>document.write(locale["INDEX_MOBILE"]);</script></span>
       </h4>
       <form id='filter-form'>
         <table>
           <tr>
             <td>
-              <h5 class='lato'>Par code postal</h5>
-              <input type='text' name='zipcode' maxlength='5' placeholder='CODE POSTAL' onclick="this.select();" >
+              <h5 class='lato'><script>document.write(locale["INDEX_ZIPCODE"]);</script></h5>
+              <script>document.write("<input type='text' name='zipcode' maxlength='5' placeholder='"+locale["INDEX_ZIPCODE"]+"'onclick=\"this.select();\" >");</script> 
             </td>
             <td>
-              <h5 class='lato'>Distance</h5>
+              <h5 class='lato'><script>document.write(locale["INDEX_DISTANCE"]);</script></h5>
               <select name='distance'>
-                <option value='5'>5mi</option>
-                <option value='20'>20mi</option>
-                <option value='50' selected='selected'>50mi</option>
-                <option value='100'>100mi</option>
+                <option value='5'><script>document.write(locale["INDEX_DISTANCE5"]);</script></option>
+                <option value='20'><script>document.write(locale["INDEX_DISTANCE20"]);</script></option>
+                <option value='50' selected='selected'><script>document.write(locale["INDEX_DISTANCE50"]);</script></option>
+                <option value='100'><script>document.write(locale["INDEX_DISTANCE100"]);</script></option>
               </select>
             </td>
             <td>
-              <h5 class='lato'>Filtrer par</h5>
+              <h5 class='lato'><script>document.write(locale["INDEX_FILTERBY"]);</script></h5>
               <select name='sort'>
-                <option value='time'>Temps</option>
-                <option value='distance' selected='selected'>Distance</option>
+                <option value='time'><script>document.write(locale["INDEX_TIME"]);</script></option>
+                <option value='distance' selected='selected'><script>document.write(locale["INDEX_DISTANCE"]);</script></option>
               </select>
               <input type='button' style='position: absolute; z-index: -1; opacity: 0;' id='hidden-button'/>
             </td>
@@ -112,25 +149,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </table>
         <div id='filter-popup-area' class='lato'>
           <a href='javascript: void(null)' class='filter-button show-filter' onclick='$("#events").addClass("show-type-filter");'>
-            Rechercher les événements
+            <script>document.write(locale["INDEX_SEARCH"]);</script>
           </a>
           <div id='filter-list-area'>
-            <h5>Rechercher les événements</h5>
+            <h5><script>document.write(locale["INDEX_SEARCH"]);</script></h5>
             <div id='f-container'>
               <div id='filter-list-container'>
                 <ul id='filter-list'></ul>
               </div>
               <div style='text-align: center; font-size: 11px; margin-top: 10px; color: lightgray;'>
               <a href='javascript: void(null)' id='show-all'
-                 onclick='$("#filter-list").find("input[type=checkbox]").prop("checked", true).trigger("change");'>Voir tout</a> &bull;
+                 onclick='$("#filter-list").find("input[type=checkbox]").prop("checked", true).trigger("change");'><script>document.write(locale["INDEX_SEEALL"]);</script></a> &bull;
               <a href='javascript: void(null)'
-                 onclick='$("#filter-list").find("input[type=checkbox]").prop("checked", false).trigger("change")'>Cacher tout</a>
+                 onclick='$("#filter-list").find("input[type=checkbox]").prop("checked", false).trigger("change")'><script>document.write(locale["INDEX_HIDEALL"]);</script></a>
               </div>
             </div>
             <p align='right'>
               <a href='javascript: void(null)' class='filter-button'
                  onclick='$("#events").removeClass("show-type-filter");'>
-                Cacher la légende
+                <script>document.write(locale["INDEX_HIDELEGEND"]);</script>
               </a>
             </p>
           </div>
@@ -141,17 +178,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id='event-list-container'>
       <div id='hide-show-office' data-count="0">
         <a href='javascript: void(null)' class='contribute-big show-office' onclick='$("body").addClass("show-office")'>
-          <span class='show-offices'>&#8882; Show Nearby Offices (<span id='campaign-off-count'></span>)</span>
+          <span class='show-offices'>&#8882; <script>document.write(locale["INDEX_SEEOFFICE"]);</script> (<span id='campaign-off-count'></span>)</span>
         </a>
         <a href='javascript: void(null);' class='contribute-big hide-office' onclick='$("body").removeClass("show-office")'>
-          <span class='hide-offices'>&#8883; Hide Offices</span>
+          <span class='hide-offices'>&#8883; <script>document.write(locale["INDEX_HIDEOFFICE"]);</script></span>
         </a>
       </div>
       
 
       <footer>
         <div id='footer-area' >
-          <h5>Unis pour le climat #ilestencoretemps</h5>
+          <h5><script>document.write(locale["INDEX_HEADER2"]);</script></h5>
           
         </div>
 <div></div>
@@ -181,6 +218,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 
+
 <script src='assets/js/d3' type='text/javascript'></script>
 <script id='zipcodes-datadump' type='text/plain'></script>
 <script src='//dcxc7a0ls04u1.cloudfront.net/js/deparam.min.gz'></script>
@@ -192,15 +230,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script type='text/javascript'>
 window.eventTypeFilters = [
   {
-    name: 'Climate Friday',
+    name: locale["INDEX_EVENT1"],
+    id: 'Actions'
+  },
+  {
+    name: locale["INDEX_EVENT2"],
     id: 'Marches'
   },
   {
-    name: 'Groupe Facebook',
+    name: locale["INDEX_GROUPS"],
     id: 'campaign-office'
   },
   {
-    name: 'Autre',
+    name: locale["INDEX_OTHER"],
     id: 'other'
   }
 ];
@@ -210,15 +252,15 @@ window.eventTypeFilters = [
 var date = new Date();
 $("#loading-icon").show();
 $.ajax({
-  url: 'd/event-data-1310.json',
+  url: 'assets/d/event-data-1310.json',
   dataType: 'script',
   cache: true, // otherwise will get fresh copy every page load
   success: function(data) {
-    d3.csv('d/campaign-offices.csv',
+    d3.csv('assets/d/campaign-offices.csv',
       function(campaignOffices) {
         //Load zipcodes
         //dcxc7a0ls04u1.cloudfront.net
-        d3.csv('d/postal_codes.csv',
+        d3.csv('assets/d/postal_codes.csv',
          function(zipcodes) {
            $("#loading-icon").hide();
           //Clean data
@@ -226,6 +268,7 @@ $.ajax({
             d.filters = [];
             //Set filter info
             switch(d.event_type_name) {
+              case "Actions": d.filters.push("Actions"); break;
               case "Marches": d.filters.push("Marches"); break;
               case "office": d.filters.push("campaign-office"); break;
               default: d.filters.push('other'); break;
@@ -245,7 +288,7 @@ $.ajax({
                 latitude: d.lat,
                 name: d.name,
                 location: d.state,
-                event_type_name: d.type == 'office' ? "Groupe Facebook" : "GOTV Center",
+                event_type_name: d.type == 'office' ? locale["INDEX_GROUPS"] : "GOTV Center",
                 capacity: 0,
                 id_obfuscated: d.address,
                 phone: d.phone,
@@ -287,7 +330,7 @@ $.ajax({
 });
 
 // Registration Data items
-d3.csv('d/registration-data.csv', function(votinginfo) {
+d3.csv('assets/d/registration-data.csv', function(votinginfo) {
   window.votingInfoManager = VotingInfoManager(votinginfo);
 })
 
