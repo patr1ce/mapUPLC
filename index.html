@@ -96,8 +96,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <nav>
     <ul id="nav">
      <!-- <a style="color: white;" href="./climate-map.html"><li class="nav-contribute">EN</a></li>-->
-      <a style="color: white;" href="http://united4earth.org/fr/marche-climat/evenements-passes.html"><li class="nav-contribute"><script>document.write(locale["INDEX_PASTEVENT"]);</script></a></li>
-       <li><a href="../" class="contribute contribute-big"><script>document.write(locale["INDEX_HOME"]);</script></a></li>
+      <li class="nav-contribute"><a style="color: white;" href="./evenements-passes.html" id="linktopastevt"><script>document.write(locale["INDEX_PASTEVENT"]);</script></a></li>
+      <script>var lnk=document.getElementById('linktopastevt'); lnk.setAttribute('href',lnk.getAttribute('href')+'?locale='+lang);</script>
+      <li><a href="../" class="contribute contribute-big"><script>document.write(locale["INDEX_HOME"]);</script></a></li>
       <li><a href="https://united4earth.org/create-event/" class="contribute contribute-big" target="_blank"><script>document.write(locale["INDEX_NEWEVENT"]);</script></a></li>
       <li>
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-text="" data-related="" data-count="none"><script>document.write(locale["INDEX_TWEET"]);</script></a>&nbsp;&nbsp;<div class="fb-share-button" data-href="" data-layout="button">
