@@ -31,6 +31,7 @@ var locale = {
 	"INDEX_EVENT2": "Climate Alarm",
 	"INDEX_GROUPS": "Facebook Group",
 	"INDEX_OTHER": "Other",
+	"INDEX_CURRENTEVENT": "Current events",
 	"MAPMANAGER_PARTICIPATE": "Participate",
 	"MAPMANAGER_GROUPLINK": "Link to the group",
 	"MAPMANAGER_UNKOWNZIP": "Unkown Zipcode",
