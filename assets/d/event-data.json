@@ -751,6 +751,29 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       }, 
+
+
+      /* Walks in the USA*/
+
+
+         {
+         "longitude":"-74.005974",
+         "url":"https://www.facebook.com/events/992205514295709/",
+         "event_type_name":"Climate Walk",
+         "start_time":"10:00:00",
+         "start_dt":"2018-11-03 10:00:00",
+         "name":"Walk for the Climate",
+         "location":"New York, New York",
+         "capacity":"0",
+         "id":"230941",
+         "start_day":"2018-11-03",
+         "venue_zip":"",
+         "latitude":"40.712776",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      }, 
+
+
 	   
 
       /* Event != marche*/
