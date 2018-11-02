@@ -212,19 +212,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script type='text/javascript'>
 window.eventTypeFilters = [
   {
-    name: '<?php echo locale["INDEX_EVENT1"];?>',
+    name: '<?php echo $locale["INDEX_EVENT1"];?>',
     id: 'Actions'
   },
   {
-    name: '<?php echo locale["INDEX_EVENT2"];?>',
+    name: '<?php echo $locale["INDEX_EVENT2"];?>',
     id: 'Marches'
   },
   {
-    name: '<?php echo locale["INDEX_GROUPS"];?>',
+    name: '<?php echo $locale["INDEX_GROUPS"];?>',
     id: 'campaign-office'
   },
   {
-    name: '<?php echo locale["INDEX_OTHER"];?>',
+    name: '<?php echo $locale["INDEX_OTHER"];?>',
     id: 'other'
   }
 ];
