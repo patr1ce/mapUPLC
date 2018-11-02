@@ -78,7 +78,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <ul id="nav">
      <!-- <a style="color: white;" href="./climate-map.html"><li class="nav-contribute">EN</a></li>-->
       <li class="nav-contribute"><a style="color: white;" href="./evenements-passes.html" id="linktopastevt"><?php echo $locale["INDEX_PASTEVENT"]; ?></a></li>
-      <script>var lnk=document.getElementById('linktopastevt'); lnk.setAttribute('href',lnk.getAttribute('href')+'?locale='+lang);</script>
+      <script>var lnk=document.getElementById('linktopastevt'); lnk.setAttribute('href',lnk.getAttribute('href')+'?locale=<?php echo $lang;?>');</script>
       <li><a href="../" class="contribute contribute-big"><?php echo $locale["INDEX_HOME"]; ?></a></li>
       <li><a href="https://united4earth.org/create-event/" class="contribute contribute-big" target="_blank"><?php echo $locale["INDEX_NEWEVENT"]; ?></a></li>
       <li>
@@ -108,7 +108,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <tr>
             <td>
               <h5 class='lato'><?php echo $locale["INDEX_ZIPCODE"]; ?></h5>
-              <script>document.write("<input type='text' name='zipcode' maxlength='5' placeholder='"+locale["INDEX_ZIPCODE"]+"'onclick=\"this.select();\" >");</script> 
+              <?php echo "<input type='text' name='zipcode' maxlength='5' placeholder='".$locale["INDEX_ZIPCODE"]."'onclick=\"this.select();\" >";?>
             </td>
             <td>
               <h5 class='lato'><?php echo $locale["INDEX_DISTANCE"]; ?></h5>
@@ -212,19 +212,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script type='text/javascript'>
 window.eventTypeFilters = [
   {
-    name: locale["INDEX_EVENT1"],
+    name: '<?php echo locale["INDEX_EVENT1"];?>',
     id: 'Actions'
   },
   {
-    name: locale["INDEX_EVENT2"],
+    name: '<?php echo locale["INDEX_EVENT2"];?>',
     id: 'Marches'
   },
   {
-    name: locale["INDEX_GROUPS"],
+    name: '<?php echo locale["INDEX_GROUPS"];?>',
     id: 'campaign-office'
   },
   {
-    name: locale["INDEX_OTHER"],
+    name: '<?php echo locale["INDEX_OTHER"];?>',
     id: 'other'
   }
 ];
@@ -270,7 +270,7 @@ $.ajax({
                 latitude: d.lat,
                 name: d.name,
                 location: d.state,
-                event_type_name: d.type == 'office' ? locale["INDEX_GROUPS"] : "GOTV Center",
+                event_type_name: d.type == 'office' ? '<?php echo $locale["INDEX_GROUPS"];?>' : "GOTV Center",
                 capacity: 0,
                 id_obfuscated: d.address,
                 phone: d.phone,
