@@ -1,7 +1,8 @@
-Updating a05b576..8a17974
+Updating 500863e..04578af
 Fast-forward
- en/climate-map.html => climate-map.html |  18 +++++++++---------
- en/img/icon/star.png                    | Bin 14581 -> 0 bytes
- 2 files changed, 9 insertions(+), 9 deletions(-)
- rename en/climate-map.html => climate-map.html (97%)
- delete mode 100644 en/img/icon/star.png
+ assets/d/event-data.json | 23 +++++++++++++++++++++++
+ deploy.php               |  7 -------
+ deploy.php.1             |  7 -------
+ 3 files changed, 23 insertions(+), 14 deletions(-)
+ delete mode 100644 deploy.php
+ delete mode 100644 deploy.php.1
