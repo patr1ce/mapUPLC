@@ -13,7 +13,9 @@ if (!in_array($lang, $validValues, true))
 
 include('./assets/locales/'.$lang.'.php');
 ?>
-
+<script>
+require("./assets/locales/"<?php echo $lang; ?>".js");
+</script>
 
 
 <head>
@@ -21,7 +23,7 @@ include('./assets/locales/'.$lang.'.php');
 <link rel="icon" href="https://united4earth.org/wp-content/uploads/2018/09/cropped-logo-1-192x192.jpg" sizes="192x192" />
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<meta name="title" content="Evénements pour le Climat en France - Une carte, toutes les actions">
+<meta name="title" content="">
 <meta name="description" content="Une carte pour trouver des intiatives pour agir sur les problèmes climatiques. Rejoignez des groupes et des évenements ctioyens prêt de chez vous en un clic !">
 <meta property="og:type" content="website" />
 <meta name="keywords" content="carte, climat, unis pour le climat, uplc, marches">
@@ -77,7 +79,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <nav>
     <ul id="nav">
      <!-- <a style="color: white;" href="./climate-map.html"><li class="nav-contribute">EN</a></li>-->
-      <li class="nav-contribute"><a style="color: white;" href="<?php if($lang=='en-US') echo './climate-map'; else echo './'; ?>"><?php echo $locale["INDEX_CURRENTEVENT"]; ?></a></li>
+      <li class="nav-contribute"><a style="color: white;" href="./inde.php" id="linktopastevt"><?php echo $locale["INDEX_CURRENTEVENT"]; ?></a></li>
+      <script>if(lang=='en-US') document.getElementById('lnktofutur').setAttribute('href','./climate-map.html?locale=en-US');</script>
       <li><a href="../" class="contribute contribute-big"><?php echo $locale["INDEX_HOME"]; ?></a></li>
       <li>
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-text="" data-related="" data-count="none"><?php echo $locale["INDEX_TWEET"]; ?></a>&nbsp;&nbsp;<div class="fb-share-button" data-href="" data-layout="button">

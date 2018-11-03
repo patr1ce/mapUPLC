@@ -13,7 +13,9 @@ if (!in_array($lang, $validValues, true))
 
 include('./assets/locales/'.$lang.'.php');
 ?>
-
+<script>
+require("./assets/locales/"<?php echo $lang; ?>".js");
+</script>
 
 
 <head>
