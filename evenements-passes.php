@@ -77,7 +77,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <nav>
     <ul id="nav">
      <!-- <a style="color: white;" href="./climate-map.html"><li class="nav-contribute">EN</a></li>-->
-      <li class="nav-contribute"><a style="color: white;" href="./inde.php" id="linktopastevt"><?php echo $locale["INDEX_CURENTEVENT"]; ?></a></li>
+      <li class="nav-contribute"><a style="color: white;" href="./inde.php" id="linktopastevt"><?php echo $locale["INDEX_CURRENTEVENT"]; ?></a></li>
       <script>if(lang=='en-US') document.getElementById('lnktofutur').setAttribute('href','./climate-map.html?locale=en-US');</script>
       <li><a href="../" class="contribute contribute-big"><?php echo $locale["INDEX_HOME"]; ?></a></li>
       <li>
