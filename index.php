@@ -77,8 +77,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <nav>
     <ul id="nav">
      <!-- <a style="color: white;" href="./climate-map.html"><li class="nav-contribute">EN</a></li>-->
-      <li class="nav-contribute"><a style="color: white;" href="./evenements-passes.php" id="linktopastevt"><?php echo $locale["INDEX_PASTEVENT"]; ?></a></li>
-      <script>var lnk=document.getElementById('linktopastevt'); lnk.setAttribute('href',lnk.getAttribute('href')+'?locale=<?php echo $lang;?>');</script>
+      <li class="nav-contribute"><a style="color: white;" href="<?php if($lang=='en-US') echo './past-events'; else echo './evenements-passes'; ?>"><?php echo $locale["INDEX_PASTEVENT"]; ?></a></li>
       <li><a href="../" class="contribute contribute-big"><?php echo $locale["INDEX_HOME"]; ?></a></li>
       <li><a href="https://united4earth.org/create-event/" class="contribute contribute-big" target="_blank"><?php echo $locale["INDEX_NEWEVENT"]; ?></a></li>
       <li>
