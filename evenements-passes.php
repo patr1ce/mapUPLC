@@ -77,10 +77,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <nav>
     <ul id="nav">
      <!-- <a style="color: white;" href="./climate-map.html"><li class="nav-contribute">EN</a></li>-->
-      <li class="nav-contribute"><a style="color: white;" href="./evenements-passes.php" id="linktopastevt"><?php echo $locale["INDEX_PASTEVENT"]; ?></a></li>
-      <script>var lnk=document.getElementById('linktopastevt'); lnk.setAttribute('href',lnk.getAttribute('href')+'?locale=<?php echo $lang;?>');</script>
+      <li class="nav-contribute"><a style="color: white;" href="./inde.php" id="linktopastevt"><?php echo $locale["INDEX_CURENTEVENT"]; ?></a></li>
+      <script>if(lang=='en-US') document.getElementById('lnktofutur').setAttribute('href','./climate-map.html?locale=en-US');</script>
       <li><a href="../" class="contribute contribute-big"><?php echo $locale["INDEX_HOME"]; ?></a></li>
-      <li><a href="https://united4earth.org/create-event/" class="contribute contribute-big" target="_blank"><?php echo $locale["INDEX_NEWEVENT"]; ?></a></li>
       <li>
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-text="" data-related="" data-count="none"><?php echo $locale["INDEX_TWEET"]; ?></a>&nbsp;&nbsp;<div class="fb-share-button" data-href="" data-layout="button">
         <a href="javascript:fbShare('', 'Fb Share', 'Facebook share popup', 'h', 520, 350)"><img src='./assets/img/icon/fb.png' /><span><?php echo $locale["INDEX_SHARE"]; ?></span></a></div>
@@ -212,11 +211,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script type='text/javascript'>
 window.eventTypeFilters = [
   {
-    name: '<?php echo $locale["INDEX_EVENT1"];?>',
-    id: 'Actions'
-  },
-  {
-    name: '<?php echo $locale["INDEX_EVENT2"];?>',
+    name: '<?php echo $locale["INDEX_PASTEVENT"];?>',
     id: 'Marches'
   },
   {
@@ -234,7 +229,7 @@ window.eventTypeFilters = [
 var date = new Date();
 $("#loading-icon").show();
 $.ajax({
-  url: 'assets/d/event-data.json',
+  url: 'assets/d/event-data-1310.json',
   dataType: 'script',
   cache: true, // otherwise will get fresh copy every page load
   success: function(data) {
