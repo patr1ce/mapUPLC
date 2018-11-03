@@ -21,14 +21,14 @@ include('./assets/locales/'.$lang.'.php');
 <link rel="icon" href="https://united4earth.org/wp-content/uploads/2018/09/cropped-logo-1-192x192.jpg" sizes="192x192" />
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<meta name="title" content="Evénements pour le Climat en France - Une carte, toutes les actions">
-<meta name="description" content="Une carte pour trouver des intiatives pour agir sur les problèmes climatiques. Rejoignez des groupes et des évenements ctioyens prêt de chez vous en un clic !">
+<meta name="title" content="<?php echo $locale["META_TITLE"]; ?>">
+<meta name="description" content="<?php echo $locale["META_DESC"]; ?>">
 <meta property="og:type" content="website" />
-<meta name="keywords" content="carte, climat, unis pour le climat, uplc, marches">
+<meta name="keywords" content="<?php echo $locale["META_KEYWORD"]; ?>">
 <meta property="og:image" content="https://united4earth.org/wp-content/uploads/2018/09/logo-1.jpg" />
 <meta property="og:url" content="https://united4earth.org/fr/marche-climat/" />
-<meta property="og:title" content="Carte interactive des initiatives pour le climat"/>
-<meta property="og:description" content="Une carte pour trouver des intiatives pour agir sur les problèmes climatiques. Des groupes et des évenements prêt de chez vous en un clic."/>
+<meta property="og:title" content="<?php echo $locale["META_OGTITLE"]; ?>"/>
+<meta property="og:description" content="<?php echo $locale["META_OGDESC"]; ?>"/>
 <link href='//api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 

@@ -1,5 +1,10 @@
 <?php
 $locale = array( 
+	"META_TITLE" => "Evénements pour le Climat en France - Une carte, toutes les actions",
+	"META_DESC" => "Une carte pour trouver des intiatives pour agir sur les problèmes climatiques. Rejoignez des groupes et des évenements ctioyens prêt de chez vous en un clic !",
+	"META_KEYWORD" => "carte, climat, unis pour le climat, uplc, marches",
+	"META_OGTITLE" => "Carte interactive des initiatives pour le climat",
+	"META_OGDESC" => "Une carte pour trouver des intiatives pour agir sur les problèmes climatiques. Des groupes et des évenements prêt de chez vous en un clic.",
 	"INDEX_TITLE"=> "Evénements pour le Climat en France - Une carte, toutes les actions", 
 	"INDEX_HEADER1"=> "Carte interactive des initiatives pour le climat", 
 	"INDEX_SUBTITLE1"=> "Trouve l'initiative la plus proche de chez toi", 

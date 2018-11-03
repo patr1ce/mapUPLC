@@ -1,5 +1,10 @@
 <?php
 $locale = array( 
+	"META_TITLE" => "Citizens Rise for Climate - One map to find the event near your !",
+	"META_DESC" => "All over the world citizens are rising to get their elected officials to act for the climate. Join the citizen lobby and find the event near you !",
+	"META_KEYWORD" => "map, climate, citizens for climate, cfc, climate alarm, climate friday",
+	"META_OGTITLE" => "Citizens Rise for Climate - One map to find the event near your !",
+	"META_OGDESC" => "All over the world citizens are rising to get their elected officials to act for the climate. Join the citizen lobby and find the event near you !",
 	"INDEX_TITLE"=> "Citizens Rise for Climate - One map to find the event near your !", 
 	"INDEX_HEADER1"=> "Map of events for the Climate", 
 	"INDEX_SUBTITLE1"=> "Find the event near you #Riseforclimate", 
