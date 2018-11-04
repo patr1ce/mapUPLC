@@ -60,11 +60,11 @@ echo("<meta name=\"canonical\" href=\"".$locale["INDEX_CANONICAL"]."\">"); ?>
 <?php
 $url_path = $_SERVER['REQUEST_URI'];
 /*hreflang management*/
-if($url_path= "/fr/") {
+if($url_path == "/fr/") {
 echo('<link rel="alternate" hreflang="en-US" href="'.$locale["INDEX_HREFLANG_EN"].'">');
               /*Add new echo line here for new languages*/
         }
-    else if ($url_path= "climate-map") {
+    else if ($url_path == "climate-map") {
       echo('<link rel="alternate" hreflang="fr-FR" href=\"'.$locale["INDEX_HREFLANG_FR"].'">');
              /*Add new echo line here for new languages*/
              }
@@ -73,6 +73,8 @@ echo('<link rel="alternate" hreflang="en-US" href="'.$locale["INDEX_HREFLANG_EN"
    
 
  echo "<br /><!--".$url_path."-->" ;
+ echo "<br /><!--".$_SERVER['REQUEST_URI']."-->" ;
+
     ?>
 
 
