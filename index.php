@@ -60,7 +60,7 @@ echo("<meta name=\"canonical\" href=\"".$locale["INDEX_CANONICAL"]."\">"); ?>
 <?php
 $url_path = $_SERVER['REQUEST_URI'];
 /*hreflang management*/
-if( preg_match("/fr\/marche/", $url_path) == TRUE) {
+if( preg_match("/fr\/marche-climat/", $url_path) == TRUE) {
 echo('<link rel="alternate" hreflang="en-US" href="'.$locale["INDEX_HREFLANG_EN"].'">');
               /*Add new echo line here for new languages*/
         }
