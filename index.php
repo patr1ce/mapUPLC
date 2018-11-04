@@ -72,8 +72,8 @@ echo('<link rel="alternate" hreflang="en-US" href="'.$locale["INDEX_HREFLANG_EN"
     else  echo "<!-- none -->" ;
    
 
- echo "<br /><!--".$url_path."-->" ;
- echo "<br /><!--".$_SERVER['REQUEST_URI']."-->" ;
+ echo "<!--".$url_path."-->" ;
+ echo "<!--".$_SERVER['REQUEST_URI']."-->" ;
 
     ?>
 
