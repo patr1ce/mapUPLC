@@ -1,8 +1,0 @@
-Updating bcecf4c..8b36305
-Fast-forward
- deploy.php.10 | 1 +
- deploy.php.9  | 7 +++++++
- index.php     | 4 ++--
- 3 files changed, 10 insertions(+), 2 deletions(-)
- create mode 100644 deploy.php.10
- create mode 100644 deploy.php.9

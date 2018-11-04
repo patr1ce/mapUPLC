@@ -41,8 +41,8 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 <meta name="description" content="<?php echo $locale["META_DESC"]; ?>">
 <meta property="og:type" content="website" />
 <meta name="keywords" content="<?php echo $locale["META_KEYWORD"]; ?>">
-<meta property="og:image" content="https://united4earth.org/wp-content/uploads/2018/09/logo-1.jpg" />
-<meta property="og:url" content="https://united4earth.org/fr/marche-climat/" />
+<meta property="og:image" content="https://united4earth.org/wp-content/uploads/carte-pour-le-climat.png" />
+<meta property="og:url" content="<?php echo $locale["INDEX_CANONICAL"]; ?>" />
 <meta property="og:title" content="<?php echo $locale["META_OGTITLE"]; ?>"/>
 <meta property="og:description" content="<?php echo $locale["META_OGDESC"]; ?>"/>
 <link href='//api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
@@ -62,14 +62,14 @@ $url_path = $_SERVER['REQUEST_URI'];
 /*hreflang management*/
 if( preg_match("/fr\/marche-climat/", $url_path) == TRUE) {
 echo('<link rel="alternate" hreflang="en-US" href="'.$locale["INDEX_HREFLANG_EN"].'">');
-              /*Add new echo line here for new languages*/
+              /*Add echo line here for new languages*/
         }
     else if (preg_match('/\/climate-map/', $url_path) == TRUE) {
       echo('<link rel="alternate" hreflang="fr-FR" href=\"'.$locale["INDEX_HREFLANG_FR"].'">');
-             /*Add new echo line here for new languages*/
+             /*Add echo line here for new languages*/
              }
 
-    else  echo "<!-- none, somethings wrong -->" ;
+    else  echo "<!-- none, something's wrong -->" ;
   
  echo "<!--".$_SERVER['REQUEST_URI']."-->" ;
 
