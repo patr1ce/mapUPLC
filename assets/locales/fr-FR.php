@@ -40,6 +40,7 @@ $locale = array(
 	"INDEX_HREFLANG_CODE_EN" => "en_US",
 	"INDEX_CANONICAL"=> "https://united4earth.org/fr/marche-climat/",
 	"INDEX_HREFLANG_EN" => "https://united4earth.org/climate-map",
+	"INDEX_HREFLANG_FR" => "https://united4earth.org/fr/marche-climat/",
 	"INDEX_CURRENTEVENT"=> "Evenements en cours",
 	"MAPMANAGER_PARTICIPATE"=> "Participer",
 	"MAPMANAGER_GROUPLINK"=> "Lien vers le groupe",
