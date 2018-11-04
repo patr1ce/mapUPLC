@@ -69,10 +69,8 @@ echo('<link rel="alternate" hreflang="en-US" href="'.$locale["INDEX_HREFLANG_EN"
              /*Add new echo line here for new languages*/
              }
 
-    else  echo "<!-- none -->" ;
-   
-
- echo "<!--".$url_path."-->" ;
+    else  echo "<!-- none, somethings wrong -->" ;
+  
  echo "<!--".$_SERVER['REQUEST_URI']."-->" ;
 
     ?>
