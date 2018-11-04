@@ -54,7 +54,9 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 <meta name="twitter:title" content="">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="">
-<meta name="canonical" href="https://united4earth.org/fr/marche-climat/">
+<?php
+echo("<meta name=\"canonical\" href=\"".$locale["INDEX_CANONICAL"]."\">");?>
+
 <link rel="alternate" hreflang="FR_fr" href="https://united4earth.org/climate-map.html" />
 
 <link rel="stylesheet" type="text/css" href="./assets/css/events-map.css">

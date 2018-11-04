@@ -31,8 +31,6 @@ var locale = {
 	"INDEX_EVENT2": "Climate Alarm",
 	"INDEX_GROUPS": "Facebook Group",
 	"INDEX_OTHER": "Other",
-	"INDEX_CANONICAL": "https://united4earth.org/climate-map.html",
-	"INDEX_HREFLANG_FR" : "https://united4earth.org/fr/marche-climat/"
 	"MAPMANAGER_PARTICIPATE": "Participate",
 	"MAPMANAGER_GROUPLINK": "Link to the group",
 	"MAPMANAGER_UNKOWNZIP": "Unkown Zipcode",
