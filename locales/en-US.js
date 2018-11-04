@@ -34,5 +34,5 @@ var locale = {
 	"MAPMANAGER_PARTICIPATE": "Participate",
 	"MAPMANAGER_GROUPLINK": "Link to the group",
 	"MAPMANAGER_UNKOWNZIP": "Unkown Zipcode",
-
+	
 }; 

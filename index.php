@@ -41,8 +41,8 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 <meta name="description" content="<?php echo $locale["META_DESC"]; ?>">
 <meta property="og:type" content="website" />
 <meta name="keywords" content="<?php echo $locale["META_KEYWORD"]; ?>">
-<meta property="og:image" content="https://united4earth.org/wp-content/uploads/2018/09/logo-1.jpg" />
-<meta property="og:url" content="https://united4earth.org/fr/marche-climat/" />
+<meta property="og:image" content="https://united4earth.org/wp-content/uploads/carte-pour-le-climat.png" />
+<meta property="og:url" content="<?php echo $locale["INDEX_CANONICAL"]; ?>" />
 <meta property="og:title" content="<?php echo $locale["META_OGTITLE"]; ?>"/>
 <meta property="og:description" content="<?php echo $locale["META_OGDESC"]; ?>"/>
 <link href='//api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
@@ -54,8 +54,27 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 <meta name="twitter:title" content="">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="">
-<meta name="canonical" href="https://united4earth.org/fr/marche-climat/">
-<link rel="alternate" hreflang="FR_fr" href="https://united4earth.org/climate-map.html" />
+<?php
+echo("<meta name=\"canonical\" href=\"".$locale["INDEX_CANONICAL"]."\">"); ?>
+
+<?php
+$url_path = $_SERVER['REQUEST_URI'];
+/*hreflang management*/
+if( preg_match("/fr\/marche-climat/", $url_path) == TRUE) {
+echo('<link rel="alternate" hreflang="en-US" href="'.$locale["INDEX_HREFLANG_EN"].'">');
+              /*Add echo line here for new languages*/
+        }
+    else if (preg_match('/\/climate-map/', $url_path) == TRUE) {
+      echo('<link rel="alternate" hreflang="fr-FR" href=\"'.$locale["INDEX_HREFLANG_FR"].'">');
+             /*Add echo line here for new languages*/
+             }
+
+    else  echo "<!-- none, something's wrong -->" ;
+  
+ echo "<!--".$_SERVER['REQUEST_URI']."-->" ;
+
+    ?>
+
 
 <link rel="stylesheet" type="text/css" href="./assets/css/events-map.css">
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Merriweather:400,900,700' />
