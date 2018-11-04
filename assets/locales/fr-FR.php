@@ -37,6 +37,7 @@ $locale = array(
 	"INDEX_EVENT2"=> "Climate Alarm",
 	"INDEX_GROUPS"=> "Groupe Facebook",
 	"INDEX_OTHER"=> "Autre",
+	"INDEX_HREFLANG_CODE_EN" => "en_US",
 	"INDEX_CANONICAL"=> "https://united4earth.org/fr/marche-climat/",
 	"INDEX_HREFLANG_EN" => "https://united4earth.org/climate-map",
 	"INDEX_CURRENTEVENT"=> "Evenements en cours",

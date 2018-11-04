@@ -55,9 +55,24 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="">
 <?php
-echo("<meta name=\"canonical\" href=\"".$locale["INDEX_CANONICAL"]."\">");?>
+echo("<meta name=\"canonical\" href=\"".$locale["INDEX_CANONICAL"]."\">"); ?>
 
-<link rel="alternate" hreflang="FR_fr" href="https://united4earth.org/climate-map.html" />
+<?php
+$url_path = $_SERVER['REQUEST_URI'];
+/*hreflang management*/
+if($url_path= "/fr/") {
+echo('<link rel="alternate" hreflang="en-US" href="'.$locale["INDEX_HREFLANG_EN"].'">');
+              /*Add new echo line here for new languages*/
+        }
+    else if ($url_path= "climate-map") {
+      echo('<link rel="alternate" hreflang="fr-FR" href=\"'.$locale["INDEX_HREFLANG_FR"].'">');
+             /*Add new echo line here for new languages*/
+             }
+
+    else  echo "none";
+    
+    ?>
+
 
 <link rel="stylesheet" type="text/css" href="./assets/css/events-map.css">
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Merriweather:400,900,700' />
