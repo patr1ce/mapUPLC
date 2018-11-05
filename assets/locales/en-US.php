@@ -62,6 +62,7 @@ $united4earth = array(
 	"U4E_INDEX_SUBTITLE1"=> "test Find the event near you #Riseforclimate", 
 	"U4E_INDEX_PASTEVENT"=> "test Past events",
 	"U4E_INDEX_HOME"=> "test Home Page",
+	"U4E_INDEX_NEWEVENT"=> "Add your event to the map",
 	"U4E_INDEX_MOBILE"=> "test Rise for climate !",
 	"U4E_INDEX_HEADER2"=> "test Citizens for Climate <br />#United4Earth",
 
@@ -76,7 +77,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N4VHRC7\"
 height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->",
-);
+
 	
 );
 ?>
