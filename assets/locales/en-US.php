@@ -1,11 +1,11 @@
 <?php
 $locale = array( 
-	"META_TITLE" => "Citizens Rise for Climate - One map to find the event near your !",
+	"META_TITLE" => "Citizens Rise for Climate - One map to find the event near you !",
 	"META_DESC" => "All over the world citizens are rising to get their elected officials to act for the climate. Join the citizen lobby and find the event near you !",
 	"META_KEYWORD" => "map, climate, citizens for climate, cfc, climate alarm, climate friday",
 	"META_OGTITLE" => "Citizens Rise for Climate - One map to find the event near your !",
 	"META_OGDESC" => "All over the world citizens are rising to get their elected officials to act for the climate. Join the citizen lobby and find the event near you !",
-	"INDEX_TITLE"=> "Citizens Rise for Climate - One map to find the event near your !", 
+	"INDEX_TITLE"=> "Citizens Rise for Climate - One map to find the event near you !", 
 	"INDEX_HEADER1"=> "Map of events for the Climate", 
 	"INDEX_SUBTITLE1"=> "Find the event near you #Riseforclimate", 
 	"INDEX_PASTEVENT"=> "Past events",
@@ -46,16 +46,19 @@ $locale = array(
 	"MAPMANAGER_GROUPLINK"=> "Link to the group",
 	"MAPMANAGER_UNKOWNZIP"=> "Unkown Zipcode",
 
+	"LINK_UNITED4EARTH" => "https://united4earth.org"
+
 		/*need to add in index.php code */
 	"OG_IMAGE" => "https://united4earth.org/wp-content/uploads/carte-pour-le-climat.png",
 	"TAG_MANAGER_1" => "", /*Content before head tag*/
 	"TAG_MANAGER_2" => "", /*Content before after tag*/
+
 );
 ?>
 
 <?php
 $united4earth = array( 
-	"U4E_INDEX_TITLE"=> "TEST_Citizens Rise for Climate - One map to find the event near your !", 
+	"U4E_INDEX_TITLE"=> "TEST_Citizens Rise for Climate - One map to find the event near you !", 
 	"U4E_META_DESC" => "TEST All over the world citizens are rising to get their elected officials to act for the climate. Join the citizen lobby and find the event near you !",
 	"U4E_OG_IMAGE" => "https://united4earth.org/wp-content/uploads/carte-pour-le-climat.png",
 	"U4E_INDEX_HEADER1"=> "test Map of events for the Climate", 
@@ -78,6 +81,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->",
 
+	"U4E_LINK_COLLECTIF"=> "https://citizensforcliamte.org/",
 	
 );
 ?>

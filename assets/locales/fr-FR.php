@@ -46,6 +46,7 @@ $locale = array(
 	"MAPMANAGER_GROUPLINK"=> "Lien vers le groupe",
 	"MAPMANAGER_UNKOWNZIP"=> "Code postal inconnu",
 
+	"LINK_UNITED4EARTH" => "https://united4earth.org/fr/"
 	/*need to add in index.php code */
 	"OG_IMAGE" => "https://united4earth.org/wp-content/uploads/carte-pour-le-climat.png",
 	"TAG_MANAGER_1" => "", /*Content before head tag*/
@@ -81,5 +82,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N4VHRC7\"
 height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->",
+
+
+	"U4E_LINK_COLLECTIF"=> "https://citoyenspourleclimat.org/",
 );
 ?>
