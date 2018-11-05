@@ -33,8 +33,8 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 
 
 <head>
-  <link rel="icon" href="https://united4earth.org/wp-content/uploads/2018/09/cropped-logo-1-32x32.jpg" sizes="32x32" />
-<link rel="icon" href="https://united4earth.org/wp-content/uploads/2018/09/cropped-logo-1-192x192.jpg" sizes="192x192" />
+  <link rel="icon" href="./assets/img/logo.png" sizes="32x32" />
+<link rel="icon" href="./assets/img/logo.png" sizes="192x192" />
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <meta name="title" content="<?php echo $locale["META_TITLE"]; ?>">
