@@ -66,7 +66,7 @@ echo('<link rel="alternate" hreflang="en-US" href="'.$locale["INDEX_HREFLANG_EN"
               /*Add echo line here for new languages*/
         }
     else if (preg_match('/\/climate-map/', $url_path) == TRUE) {
-      echo('<link rel="alternate" hreflang="fr-FR" href=\"'.$locale["INDEX_HREFLANG_FR"].'">');
+      echo('<link rel="alternate" hreflang="fr-FR" href="'.$locale["INDEX_HREFLANG_FR"].'">');
              /*Add echo line here for new languages*/
              }
 

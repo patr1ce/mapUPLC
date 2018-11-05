@@ -41,7 +41,7 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 <meta name="description" content="Une carte pour trouver des intiatives pour agir sur les problèmes climatiques. Rejoignez des groupes et des évenements ctioyens prêt de chez vous en un clic !">
 <meta property="og:type" content="website" />
 <meta name="keywords" content="carte, climat, unis pour le climat, uplc, marches">
-<meta property="og:image" content="https://united4earth.org/wp-content/uploads/2018/09/logo-1.jpg" />
+<meta property="og:image" content="https://united4earth.org/wp-content/uploads/carte-pour-le-climat.png" />
 <meta property="og:url" content="https://united4earth.org/fr/marche-climat/" />
 <meta property="og:title" content="Carte interactive des initiatives pour le climat"/>
 <meta property="og:description" content="Une carte pour trouver des intiatives pour agir sur les problèmes climatiques. Des groupes et des évenements prêt de chez vous en un clic."/>
@@ -65,7 +65,7 @@ echo('<link rel="alternate" hreflang="en-US" href="'.$locale["PASSED_EVENT_HREFL
               /*Add echo line here for new languages*/
         }
     else if (preg_match('/\/climate-map/', $url_path) == TRUE) {
-      echo('<link rel="alternate" hreflang="fr-FR" href=\"'.$locale["PASSED_EVENT_HREFLANG"].'">');
+      echo('<link rel="alternate" hreflang="fr-FR" href="'.$locale["PASSED_EVENT_HREFLANG"].'">');
              /*Add echo line here for new languages*/
              }
 
