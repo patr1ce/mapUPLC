@@ -47,6 +47,7 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 <meta property="og:description" content="<?php echo $locale["META_OGDESC"]; ?>"/>
 <link href='//api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="robots" content="index,follow">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="">
