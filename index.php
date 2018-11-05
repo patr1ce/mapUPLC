@@ -42,7 +42,7 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 <meta property="og:type" content="website" />
 <meta name="keywords" content="<?php echo $locale["META_KEYWORD"]; ?>">
 <meta property="og:image" content="./assets/img/events-map.png" />
-<meta property="og:url" content="<?php echo $locale["INDEX_CANONICAL"]; ?>" />
+<meta property="og:url" content="/" />
 <meta property="og:title" content="<?php echo $locale["META_OGTITLE"]; ?>"/>
 <meta property="og:description" content="<?php echo $locale["META_OGDESC"]; ?>"/>
 <link href='//api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
