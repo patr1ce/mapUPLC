@@ -46,7 +46,7 @@ $locale = array(
 	"MAPMANAGER_GROUPLINK"=> "Link to the group",
 	"MAPMANAGER_UNKOWNZIP"=> "Unkown Zipcode",
 
-	"LINK_UNITED4EARTH" => "https://united4earth.org"
+	"LINK_UNITED4EARTH" => "https://united4earth.org",
 
 		/*need to add in index.php code */
 	"OG_IMAGE" => "https://united4earth.org/wp-content/uploads/carte-pour-le-climat.png",
