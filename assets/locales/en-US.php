@@ -52,6 +52,9 @@ $locale = array(
 	"OG_IMAGE" => "https://united4earth.org/wp-content/uploads/carte-pour-le-climat.png",
 	"TAG_MANAGER_1" => "", /*Content before head tag*/
 	"TAG_MANAGER_2" => "", /*Content before after tag*/
+	"PASSED_EVENT_CANONICAL" => "https://united4earth.org/climate-map/past-events",
+	"PASSED_EVENT_HREFLANG" => "https://united4earth.org/fr/marche-climat/evenements-passes",
+
 
 );
 ?>

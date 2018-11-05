@@ -54,8 +54,32 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 <meta name="twitter:title" content="">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="">
-<meta name="canonical" href="https://united4earth.org/fr/marche-climat/">
-<link rel="alternate" hreflang="FR_fr" href="https://united4earth.org/climate-map" />
+<?php
+echo("<meta name=\"canonical\" href=\"".$locale["PASSED_EVENT_CANONICAL"]."\">"); ?>
+
+<?php
+$url_path = $_SERVER['REQUEST_URI'];
+/*hreflang management*/
+if( preg_match("/fr\/marche-climat/", $url_path) == TRUE) {
+echo('<link rel="alternate" hreflang="en-US" href="'.$locale["PASSED_EVENT_HREFLANG"].'">');
+              /*Add echo line here for new languages*/
+        }
+    else if (preg_match('/\/climate-map/', $url_path) == TRUE) {
+      echo('<link rel="alternate" hreflang="fr-FR" href=\"'.$locale["PASSED_EVENT_HREFLANG"].'">');
+             /*Add echo line here for new languages*/
+             }
+
+    else  echo "<!-- none, something's wrong -->" ;
+  
+ echo "<!--".$_SERVER['REQUEST_URI']."-->" ;
+
+    ?>
+
+
+<!-- alternate
+<?php echo '<link rel="alternate" hreflang="FR_fr" href="'.$locale["PASSED_EVENT_HREFLANG"].'" />' ?> 
+-->
+
 
 <link rel="stylesheet" type="text/css" href="./assets/css/events-map.css">
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Merriweather:400,900,700' />
