@@ -41,7 +41,7 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 <meta name="description" content="Une carte pour trouver des intiatives pour agir sur les problèmes climatiques. Rejoignez des groupes et des évenements ctioyens prêt de chez vous en un clic !">
 <meta property="og:type" content="website" />
 <meta name="keywords" content="carte, climat, unis pour le climat, uplc, marches">
-<meta property="og:image" content="https://united4earth.org/wp-content/uploads/2018/09/logo-1.jpg" />
+<meta property="og:image" content="https://united4earth.org/wp-content/uploads/carte-pour-le-climat.png" />
 <meta property="og:url" content="https://united4earth.org/fr/marche-climat/" />
 <meta property="og:title" content="Carte interactive des initiatives pour le climat"/>
 <meta property="og:description" content="Une carte pour trouver des intiatives pour agir sur les problèmes climatiques. Des groupes et des évenements prêt de chez vous en un clic."/>
@@ -54,8 +54,32 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 <meta name="twitter:title" content="">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="">
-<meta name="canonical" href="https://united4earth.org/fr/marche-climat/">
-<link rel="alternate" hreflang="FR_fr" href="https://united4earth.org/climate-map.html" />
+<?php
+echo("<meta name=\"canonical\" href=\"".$locale["PASSED_EVENT_CANONICAL"]."\">"); ?>
+
+<?php
+$url_path = $_SERVER['REQUEST_URI'];
+/*hreflang management*/
+if( preg_match("/fr\/marche-climat/", $url_path) == TRUE) {
+echo('<link rel="alternate" hreflang="en-US" href="'.$locale["PASSED_EVENT_HREFLANG"].'">');
+              /*Add echo line here for new languages*/
+        }
+    else if (preg_match('/\/climate-map/', $url_path) == TRUE) {
+      echo('<link rel="alternate" hreflang="fr-FR" href="'.$locale["PASSED_EVENT_HREFLANG"].'">');
+             /*Add echo line here for new languages*/
+             }
+
+    else  echo "<!-- none, something's wrong -->" ;
+  
+ echo "<!--".$_SERVER['REQUEST_URI']."-->" ;
+
+    ?>
+
+
+<!-- alternate
+<?php echo '<link rel="alternate" hreflang="FR_fr" href="'.$locale["PASSED_EVENT_HREFLANG"].'" />' ?> 
+-->
+
 
 <link rel="stylesheet" type="text/css" href="./assets/css/events-map.css">
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Merriweather:400,900,700' />
@@ -93,8 +117,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <nav>
     <ul id="nav">
      <!-- <a style="color: white;" href="./climate-map.html"><li class="nav-contribute">EN</a></li>-->
-      <li class="nav-contribute"><a style="color: white;" href="./inde.php" id="linktopastevt"><?php echo $locale["INDEX_CURRENTEVENT"]; ?></a></li>
-      <script>if(lang=='en-US') document.getElementById('lnktofutur').setAttribute('href','./climate-map.html?locale=en-US');</script>
+      <li class="nav-contribute"><a style="color: white;" href="./"><?php echo $locale["INDEX_CURRENTEVENT"]; ?></a></li>
       <li><a href="../" class="contribute contribute-big"><?php echo $locale["INDEX_HOME"]; ?></a></li>
       <li>
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-text="" data-related="" data-count="none"><?php echo $locale["INDEX_TWEET"]; ?></a>&nbsp;&nbsp;<div class="fb-share-button" data-href="" data-layout="button">

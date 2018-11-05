@@ -39,11 +39,53 @@ $locale = array(
 	"INDEX_OTHER"=> "Autre",
 	"INDEX_HREFLANG_CODE_EN" => "en_US",
 	"INDEX_CANONICAL"=> "https://united4earth.org/fr/marche-climat/",
-	"INDEX_HREFLANG_EN" => "https://united4earth.org/climate-map",
+	"INDEX_HREFLANG_EN" => "https://united4earth.org/climate-map/",
 	"INDEX_HREFLANG_FR" => "https://united4earth.org/fr/marche-climat/",
 	"INDEX_CURRENTEVENT"=> "Evenements en cours",
 	"MAPMANAGER_PARTICIPATE"=> "Participer",
 	"MAPMANAGER_GROUPLINK"=> "Lien vers le groupe",
 	"MAPMANAGER_UNKOWNZIP"=> "Code postal inconnu",
+
+	"LINK_UNITED4EARTH" => "https://united4earth.org/fr/",
+	/*need to add in index.php code */
+	"OG_IMAGE" => "https://united4earth.org/wp-content/uploads/carte-pour-le-climat.png",
+	"TAG_MANAGER_1" => "", /*Content before head tag*/
+	"TAG_MANAGER_2" => "", /*Content before after tag*/
+	"PASSED_EVENT_CANONICAL" => "https://united4earth.org/fr/marche-climat/evenements-passes",
+	"PASSED_EVENT_HREFLANG" => "https://united4earth.org/climate-map/past-events",
+
 ); 
+?>
+
+<?php
+$united4earth = array( 
+	"U4E_INDEX_TITLE"=> "test Evénements pour le Climat en France - Une carte, toutes les actions", 
+	"U4E_META_DESC" => "test Une carte pour trouver des intiatives pour agir sur les problèmes climatiques. Rejoignez des groupes et des évenements ctioyens prêt de chez vous en un clic !",
+	"U4E_OG_IMAGE" => "https://united4earth.org/wp-content/uploads/carte-pour-le-climat.png",
+
+	"U4E_INDEX_HEADER1"=> "test Carte interactive des initiatives pour le climat", 
+	"U4E_INDEX_SUBTITLE1"=> "test Trouve l'initiative la plus proche de chez toi", 
+
+	"U4E_INDEX_PASTEVENT"=> "test Evénements Passés",
+	"U4E_INDEX_HOME"=> "test Accueil",
+	"U4E_INDEX_NEWEVENT"=> "TEST Demander a ajouter un groupe ou un événement",
+	"U4E_INDEX_MOBILE"=> "test Debout pour le Climat!",
+	"U4E_INDEX_HEADER2"=> "test Collectif citoyen pour le climat #ilestencoretemps",
+	
+
+	"U4E_TAG_MANAGER_1" => "<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N4VHRC7');</script>
+<!-- End Google Tag Manager -->",
+	"U4E_TAG_MANAGER_2" => " <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N4VHRC7\"
+height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->",
+
+
+	"U4E_LINK_COLLECTIF"=> "https://citoyenspourleclimat.org/",
+);
 ?>
