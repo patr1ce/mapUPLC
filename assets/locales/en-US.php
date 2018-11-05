@@ -45,5 +45,38 @@ $locale = array(
 	"MAPMANAGER_PARTICIPATE"=> "Participate",
 	"MAPMANAGER_GROUPLINK"=> "Link to the group",
 	"MAPMANAGER_UNKOWNZIP"=> "Unkown Zipcode",
+
+		/*need to add in index.php code */
+	"OG_IMAGE" => "https://united4earth.org/wp-content/uploads/carte-pour-le-climat.png",
+	"TAG_MANAGER_1" => "", /*Content before head tag*/
+	"TAG_MANAGER_2" => "", /*Content before after tag*/
+);
+?>
+
+<?php
+$united4earth = array( 
+	"U4E_INDEX_TITLE"=> "TEST_Citizens Rise for Climate - One map to find the event near your !", 
+	"U4E_META_DESC" => "TEST All over the world citizens are rising to get their elected officials to act for the climate. Join the citizen lobby and find the event near you !",
+	"U4E_OG_IMAGE" => "https://united4earth.org/wp-content/uploads/carte-pour-le-climat.png",
+	"U4E_INDEX_HEADER1"=> "test Map of events for the Climate", 
+	"U4E_INDEX_SUBTITLE1"=> "test Find the event near you #Riseforclimate", 
+	"U4E_INDEX_PASTEVENT"=> "test Past events",
+	"U4E_INDEX_HOME"=> "test Home Page",
+	"U4E_INDEX_MOBILE"=> "test Rise for climate !",
+	"U4E_INDEX_HEADER2"=> "test Citizens for Climate <br />#United4Earth",
+
+	"U4E_TAG_MANAGER_1" => "<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N4VHRC7');</script>
+<!-- End Google Tag Manager -->",
+	"U4E_TAG_MANAGER_2" => " <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N4VHRC7\"
+height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->",
+);
+	
 );
 ?>

@@ -1,0 +1,200 @@
+Updating d3b7343..0dfd90b
+Fast-forward
+ css/abroad.css                      |    59 -
+ css/abroad.css.map                  |     7 -
+ css/events-map.css                  |  1218 -
+ css/events-map.css.map              |     7 -
+ css/go-the-distance.css             |     3 -
+ css/go-the-distance.css.map         |     7 -
+ d/.~lock.postal_codes.csv#          |     1 -
+ d/campaign-offices-complete.ods     |   Bin 1344377 -> 0 bytes
+ d/campaign-offices.csv              |    38 -
+ d/countries.csv                     |    40 -
+ d/deploy.php                        |     0
+ d/event-data-1310.json              |  2904 --
+ d/event-data.json                   |   934 -
+ d/fr_postal_codes.csv               | 37302 -----------------
+ d/go-the-distance-offices.csv       |     1 -
+ d/go-the-distance.csv               |     1 -
+ d/gotv-sample.csv                   |    88 -
+ d/postal_codes.csv                  | 74119 ----------------------------------
+ d/postal_codes.ods                  |   Bin 1198612 -> 0 bytes
+ d/registration-data.csv             |     1 -
+ d/us_postal_codes.csv               | 43847 --------------------
+ d/us_postal_codes.gz                |   Bin 551692 -> 0 bytes
+ deploy.php.1                        |    28 -
+ deploy.php.2                        |     1 -
+ deploy.php.3                        |     7 -
+ evenements-passes.html              |   470 -
+ img/Amtrak.png                      |   Bin 370059 -> 0 bytes
+ img/July29_FBMapImage_600px.old.png |   Bin 266448 -> 0 bytes
+ img/July29_FBMapImage_600px.png     |   Bin 304977 -> 0 bytes
+ img/bernie-logo.png                 |   Bin 34524 -> 0 bytes
+ img/billionaires.svg                |    95 -
+ img/french-video-gif-1-repeat.gif   |   Bin 1419709 -> 0 bytes
+ img/french-video-gif-no-repeat.gif  |   Bin 1408910 -> 0 bytes
+ img/french-video-gif.gif            |   Bin 350981 -> 0 bytes
+ img/icon/ajax-loader-red.gif        |   Bin 673 -> 0 bytes
+ img/icon/ajax-loader.gif            |   Bin 2128 -> 0 bytes
+ img/icon/facebook.png               |   Bin 5262 -> 0 bytes
+ img/icon/fb.png                     |   Bin 1003 -> 0 bytes
+ img/icon/flag-gray.png              |   Bin 11899 -> 0 bytes
+ img/icon/flag.png                   |   Bin 11074 -> 0 bytes
+ img/icon/gotv-star.png              |   Bin 22554 -> 0 bytes
+ img/icon/mailchimp.png              |   Bin 6080 -> 0 bytes
+ img/icon/map-white.png              |   Bin 3915 -> 0 bytes
+ img/icon/map.png                    |   Bin 3959 -> 0 bytes
+ img/icon/phone.png                  |   Bin 3415 -> 0 bytes
+ img/icon/rss.png                    |   Bin 10954 -> 0 bytes
+ img/icon/sort.png                   |   Bin 14894 -> 0 bytes
+ img/icon/star-gray.png              |   Bin 23121 -> 0 bytes
+ img/icon/star.png                   |   Bin 14581 -> 0 bytes
+ img/icon/time.png                   |   Bin 3822 -> 0 bytes
+ img/icon/twitter.png                |   Bin 6288 -> 0 bytes
+ img/list-end.png                    |   Bin 12160 -> 0 bytes
+ img/logo.png                        |   Bin 13786 -> 0 bytes
+ img/map-v-2.png                     |   Bin 1186225 -> 0 bytes
+ img/offices/DC-01.png               |   Bin 686706 -> 0 bytes
+ img/offices/IO-1.png                |   Bin 536631 -> 0 bytes
+ img/offices/IO-10.png               |   Bin 660719 -> 0 bytes
+ img/offices/IO-11.png               |   Bin 491996 -> 0 bytes
+ img/offices/IO-12.png               |   Bin 634788 -> 0 bytes
+ img/offices/IO-13.png               |   Bin 1018163 -> 0 bytes
+ img/offices/IO-14.png               |   Bin 724971 -> 0 bytes
+ img/offices/IO-15.png               |   Bin 612183 -> 0 bytes
+ img/offices/IO-2.png                |   Bin 685196 -> 0 bytes
+ img/offices/IO-3.png                |   Bin 593451 -> 0 bytes
+ img/offices/IO-4.png                |   Bin 629070 -> 0 bytes
+ img/offices/IO-5.png                |   Bin 699496 -> 0 bytes
+ img/offices/IO-6.png                |   Bin 587489 -> 0 bytes
+ img/offices/IO-7.png                |   Bin 965783 -> 0 bytes
+ img/offices/IO-8.png                |   Bin 748480 -> 0 bytes
+ img/offices/IO-9.png                |   Bin 462072 -> 0 bytes
+ img/offices/NH-01.png               |   Bin 567142 -> 0 bytes
+ img/offices/NH-02.png               |   Bin 495870 -> 0 bytes
+ img/offices/NH-03.png               |   Bin 324803 -> 0 bytes
+ img/offices/NH-04.png               |   Bin 477578 -> 0 bytes
+ img/offices/NH-05.png               |   Bin 493719 -> 0 bytes
+ img/offices/NH-06.png               |   Bin 632417 -> 0 bytes
+ img/offices/NH-07.png               |   Bin 857768 -> 0 bytes
+ img/offices/NH-08.png               |   Bin 618487 -> 0 bytes
+ img/phonebank.png                   |   Bin 266807 -> 0 bytes
+ img/social-july29.jpg               |   Bin 267582 -> 0 bytes
+ img/volunteer-map.png               |   Bin 304977 -> 0 bytes
+ index.html                          |   480 -
+ index.php                           |     6 +-
+ js/MapManager.js                    |   775 -
+ js/d3                               |     5 -
+ js/deparam.min.gz                   |   Bin 532 -> 0 bytes
+ js/jquery.gz                        |   Bin 33318 -> 0 bytes
+ js/js-cookie.js                     |   145 -
+ js/js-cookie.js.gz                  |   Bin 1401 -> 0 bytes
+ js/mapbox                           |    66 -
+ js/moment.min.js                    |     7 -
+ locales/en-US.js                    |    38 -
+ locales/fr-FR.js                    |    38 -
+ scss/abroad.scss                    |    10 -
+ scss/events-map.scss                |  1284 -
+ scss/go-the-distance.scss           |     4 -
+ scss/partial/_mixins.scss           |    39 -
+ scss/partial/_reset.scss            |    48 -
+ scss/partial/_variables.scss        |     6 -
+ 99 files changed, 3 insertions(+), 164126 deletions(-)
+ delete mode 100644 css/abroad.css
+ delete mode 100644 css/abroad.css.map
+ delete mode 100644 css/events-map.css
+ delete mode 100644 css/events-map.css.map
+ delete mode 100644 css/go-the-distance.css
+ delete mode 100644 css/go-the-distance.css.map
+ delete mode 100644 d/.~lock.postal_codes.csv#
+ delete mode 100644 d/campaign-offices-complete.ods
+ delete mode 100644 d/campaign-offices.csv
+ delete mode 100644 d/countries.csv
+ delete mode 100644 d/deploy.php
+ delete mode 100644 d/event-data-1310.json
+ delete mode 100644 d/event-data.json
+ delete mode 100644 d/fr_postal_codes.csv
+ delete mode 100644 d/go-the-distance-offices.csv
+ delete mode 100644 d/go-the-distance.csv
+ delete mode 100644 d/gotv-sample.csv
+ delete mode 100644 d/postal_codes.csv
+ delete mode 100644 d/postal_codes.ods
+ delete mode 100644 d/registration-data.csv
+ delete mode 100755 d/us_postal_codes.csv
+ delete mode 100644 d/us_postal_codes.gz
+ delete mode 100644 deploy.php.1
+ delete mode 100644 deploy.php.2
+ delete mode 100644 deploy.php.3
+ delete mode 100644 evenements-passes.html
+ delete mode 100644 img/Amtrak.png
+ delete mode 100644 img/July29_FBMapImage_600px.old.png
+ delete mode 100644 img/July29_FBMapImage_600px.png
+ delete mode 100755 img/bernie-logo.png
+ delete mode 100644 img/billionaires.svg
+ delete mode 100644 img/french-video-gif-1-repeat.gif
+ delete mode 100644 img/french-video-gif-no-repeat.gif
+ delete mode 100644 img/french-video-gif.gif
+ delete mode 100755 img/icon/ajax-loader-red.gif
+ delete mode 100755 img/icon/ajax-loader.gif
+ delete mode 100755 img/icon/facebook.png
+ delete mode 100644 img/icon/fb.png
+ delete mode 100644 img/icon/flag-gray.png
+ delete mode 100644 img/icon/flag.png
+ delete mode 100755 img/icon/gotv-star.png
+ delete mode 100755 img/icon/mailchimp.png
+ delete mode 100755 img/icon/map-white.png
+ delete mode 100755 img/icon/map.png
+ delete mode 100755 img/icon/phone.png
+ delete mode 100755 img/icon/rss.png
+ delete mode 100755 img/icon/sort.png
+ delete mode 100755 img/icon/star-gray.png
+ delete mode 100755 img/icon/star.png
+ delete mode 100755 img/icon/time.png
+ delete mode 100755 img/icon/twitter.png
+ delete mode 100755 img/list-end.png
+ delete mode 100755 img/logo.png
+ delete mode 100644 img/map-v-2.png
+ delete mode 100755 img/offices/DC-01.png
+ delete mode 100755 img/offices/IO-1.png
+ delete mode 100755 img/offices/IO-10.png
+ delete mode 100755 img/offices/IO-11.png
+ delete mode 100755 img/offices/IO-12.png
+ delete mode 100755 img/offices/IO-13.png
+ delete mode 100755 img/offices/IO-14.png
+ delete mode 100755 img/offices/IO-15.png
+ delete mode 100755 img/offices/IO-2.png
+ delete mode 100755 img/offices/IO-3.png
+ delete mode 100755 img/offices/IO-4.png
+ delete mode 100755 img/offices/IO-5.png
+ delete mode 100755 img/offices/IO-6.png
+ delete mode 100755 img/offices/IO-7.png
+ delete mode 100755 img/offices/IO-8.png
+ delete mode 100755 img/offices/IO-9.png
+ delete mode 100755 img/offices/NH-01.png
+ delete mode 100755 img/offices/NH-02.png
+ delete mode 100755 img/offices/NH-03.png
+ delete mode 100755 img/offices/NH-04.png
+ delete mode 100755 img/offices/NH-05.png
+ delete mode 100755 img/offices/NH-06.png
+ delete mode 100755 img/offices/NH-07.png
+ delete mode 100755 img/offices/NH-08.png
+ delete mode 100644 img/phonebank.png
+ delete mode 100755 img/social-july29.jpg
+ delete mode 100644 img/volunteer-map.png
+ delete mode 100644 index.html
+ delete mode 100644 js/MapManager.js
+ delete mode 100644 js/d3
+ delete mode 100644 js/deparam.min.gz
+ delete mode 100644 js/jquery.gz
+ delete mode 100644 js/js-cookie.js
+ delete mode 100644 js/js-cookie.js.gz
+ delete mode 100644 js/mapbox
+ delete mode 100644 js/moment.min.js
+ delete mode 100644 locales/en-US.js
+ delete mode 100644 locales/fr-FR.js
+ delete mode 100644 scss/abroad.scss
+ delete mode 100644 scss/events-map.scss
+ delete mode 100644 scss/go-the-distance.scss
+ delete mode 100644 scss/partial/_mixins.scss
+ delete mode 100644 scss/partial/_reset.scss
+ delete mode 100644 scss/partial/_variables.scss

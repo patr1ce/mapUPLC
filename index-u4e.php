@@ -37,16 +37,17 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 <link rel="icon" href="https://united4earth.org/wp-content/uploads/2018/09/cropped-logo-1-192x192.jpg" sizes="192x192" />
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<meta name="title" content="<?php echo $locale["META_TITLE"]; ?>">
-<meta name="description" content="<?php echo $locale["META_DESC"]; ?>">
+<meta name="title" content="<?php echo $united4earth["U4E_INDEX_TITLE"]; ?>">
+<meta name="description" content="<?php echo $united4earth["U4E_META_DESC"]; ?>">
 <meta property="og:type" content="website" />
 <meta name="keywords" content="<?php echo $locale["META_KEYWORD"]; ?>">
-<meta property="og:image" content="https://united4earth.org/wp-content/uploads/carte-pour-le-climat.png" />
+<meta property="og:image" content="<?php echo $united4earth["U4E_OG_IMAGE"]; ?>" />
 <meta property="og:url" content="<?php echo $locale["INDEX_CANONICAL"]; ?>" />
-<meta property="og:title" content="<?php echo $locale["META_OGTITLE"]; ?>"/>
-<meta property="og:description" content="<?php echo $locale["META_OGDESC"]; ?>"/>
+<meta property="og:title" content="<?php echo $united4earth["U4E_INDEX_TITLE"]; ?>"/>
+<meta property="og:description" content="<?php echo $united4earth["U4E_META_DESC"]; ?>"/>
 <link href='//api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="robots" content="noindex,follow">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="">
@@ -79,29 +80,22 @@ echo('<link rel="alternate" hreflang="en-US" href="'.$locale["INDEX_HREFLANG_EN"
 <link rel="stylesheet" type="text/css" href="./assets/css/events-map.css">
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Merriweather:400,900,700' />
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Lato:100,900,700,400,300' />
-<?php echo "<title>".$locale["INDEX_TITLE"]."</title>";?>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-N4VHRC7');</script>
-<!-- End Google Tag Manager -->
+<?php echo "<title>".$united4earth["U4E_INDEX_TITLE"]."</title>";?>
+<?php echo $united4earth["U4E_TAG_MANAGER_1"];?>
+
 
 </head>
 <body class='list-view initial-view'>
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4VHRC7"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<?php echo $united4earth["U4E_TAG_MANAGER_2"];?>
+
 <section id='header'>
 <div id="header" class='lato'>
 
   <div class="main-title-area">
     <div style="margin-bottom: 4px;">
       <div id='spiel'>
-        <strong><?php echo $locale["INDEX_HEADER1"]; ?></strong><br>
-        <?php echo $locale["INDEX_SUBTITLE1"]; ?>
+        <strong><?php echo $united4earth["U4E_INDEX_HEADER1"]; ?></strong><br>
+        <?php echo $united4earth["U4E_INDEX_SUBTITLE1"]; ?>
 
       </div>
         <div id='spiel'>
@@ -112,9 +106,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <nav>
     <ul id="nav">
      <!-- <a style="color: white;" href="./climate-map.html"><li class="nav-contribute">EN</a></li>-->
-      <li class="nav-contribute"><a style="color: white;" href="<?php if($lang=='en-US') echo './past-events'; else echo './evenements-passes'; ?>"><?php echo $locale["INDEX_PASTEVENT"]; ?></a></li>
-      <li><a href="../" class="contribute contribute-big"><?php echo $locale["INDEX_HOME"]; ?></a></li>
-      <li><a href="https://united4earth.org/create-event/" class="contribute contribute-big" target="_blank"><?php echo $locale["INDEX_NEWEVENT"]; ?></a></li>
+      <li class="nav-contribute"><a style="color: white;" href="<?php if($lang=='en-US') echo './past-events'; else echo './evenements-passes'; ?>"><?php echo $united4earth["U4E_INDEX_PASTEVENT"]; ?></a></li>
+      <li><a href="../" class="contribute contribute-big"><?php echo $united4earth["U4E_INDEX_HOME"]; ?></a></li>
+      <li><a href="https://united4earth.org/create-event/" class="contribute contribute-big" target="_blank"><?php echo $united4earth["U4E_INDEX_NEWEVENT"]; ?></a></li>
       <li>
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-text="" data-related="" data-count="none"><?php echo $locale["INDEX_TWEET"]; ?></a>&nbsp;&nbsp;<div class="fb-share-button" data-href="" data-layout="button">
         <a href="javascript:fbShare('', 'Fb Share', 'Facebook share popup', 'h', 520, 350)"><img src='./assets/img/icon/fb.png' /><span><?php echo $locale["INDEX_SHARE"]; ?></span></a></div>
