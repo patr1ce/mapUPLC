@@ -1,3 +1,20 @@
 AddEncoding gzip .gz .csvgz
 AddType text/javascript .gz
 AddType text/plain  .csvgz
+
+DirectoryIndex controller.php index.php index.html
+
+Options +FollowSymLinks
+RewriteEngine on
+# RewriteBase /
+
+# request endings with .php or / ? go to controller
+RewriteRule [.]php$ controller.php [END,NC]
+RewriteRule /$ controller.php [END,NC]
+RewriteRule ^index.php controller.php [END,NC]
+
+# unexisting file with extension and subfolder ? go to controller
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^[^.]*$ controller.php [END,NC]
+

@@ -16,3 +16,4 @@ bernieevents
 d/events.json
 js/event-data.js
 js/event-data.gz
+deploy.php.*
