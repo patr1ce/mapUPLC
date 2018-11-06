@@ -1,7 +1,7 @@
 <?php 
 require_once('./autoconf.php');
 ?><!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" xmlns:og="http://ogp.me/ns#">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo substr($lang,0,2); ?>" lang="<?php echo substr($lang,0,2); ?>" dir="ltr" prefix="og: http://ogp.me/ns#">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -39,8 +39,7 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 <meta name="twitter:title" content="">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="">
-<?php
-echo("<meta name=\"canonical\" href=\"".$locale["PASSED_EVENT_CANONICAL"]."\">"); ?>
+<link rel="canonical" href="<?php echo $locale["PASSED_EVENT_CANONICAL"]; ?>">
 
 <?php
 $url_path = $_SERVER['REQUEST_URI'];
@@ -85,34 +84,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <section id='header'>
-<div id="header" class='lato'>
-
-  <div class="main-title-area">
-    <div style="margin-bottom: 4px;">
-      <div id='spiel'>
-        <strong><?php echo $locale["INDEX_HEADER1"]; ?></strong><br>
-        <?php echo $locale["INDEX_SUBTITLE1"]; ?>
-
-      </div>
+  <div class='lato'>
+    <div class="main-title-area">
+      <div style="margin-bottom: 4px;">
         <div id='spiel'>
-      
-    </div>
-  </div> 
-
-  <nav>
-    <ul id="nav">
-     <!-- <a style="color: white;" href="./climate-map.html"><li class="nav-contribute">EN</a></li>-->
-      <li class="nav-contribute"><a style="color: white;" href="./"><?php echo $locale["INDEX_CURRENTEVENT"]; ?></a></li>
-      <li><a href="../" class="contribute contribute-big"><?php echo $locale["INDEX_HOME"]; ?></a></li>
-      <li>
-        <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-text="" data-related="" data-count="none"><?php echo $locale["INDEX_TWEET"]; ?></a>&nbsp;&nbsp;<div class="fb-share-button" data-href="" data-layout="button">
-        <a href="javascript:fbShare('', 'Fb Share', 'Facebook share popup', 'h', 520, 350)"><img src='./assets/img/icon/fb.png' /><span><?php echo $locale["INDEX_SHARE"]; ?></span></a></div>
-
-      </li>
-    </ul>
-  </nav>
-  <div style="clear: both"></div>
-</div>
+          <strong><?php echo $locale["INDEX_HEADER1"]; ?></strong><br>
+          <?php echo $locale["INDEX_SUBTITLE1"]; ?>
+  
+        </div>
+      </div>
+    </div> 
+  
+    <nav>
+      <ul id="nav">
+       <!-- <a style="color: white;" href="./climate-map.html"><li class="nav-contribute">EN</a></li>-->
+        <li class="nav-contribute"><a style="color: white;" href="./"><?php echo $locale["INDEX_CURRENTEVENT"]; ?></a></li>
+        <li><a href="../" class="contribute contribute-big"><?php echo $locale["INDEX_HOME"]; ?></a></li>
+        <li>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-text="" data-related="" data-count="none"><?php echo $locale["INDEX_TWEET"]; ?></a>&nbsp;&nbsp;<div class="fb-share-button" data-href="" data-layout="button">
+          <a href="javascript:fbShare('', 'Fb Share', 'Facebook share popup', 'h', 520, 350)"><img src='./assets/img/icon/fb.png' alt="facebook" /><span><?php echo $locale["INDEX_SHARE"]; ?></span></a></div>
+  
+        </li>
+      </ul>
+    </nav>
+    <div style="clear: both"></div>
+  </div>
 </section>
 <section id='activity-area' class='clearfix'>
   <article id='events'>
@@ -131,7 +127,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <tr>
             <td>
               <h5 class='lato'><?php echo $locale["INDEX_ZIPCODE"]; ?></h5>
-              <?php echo "<input type='text' name='zipcode' maxlength='5' placeholder='".$locale["INDEX_ZIPCODE"]."'onclick=\"this.select();\" >";?>
+              <?php echo "<input type='text' name='zipcode' maxlength='5' placeholder='".$locale["INDEX_ZIPCODE"]."' onclick=\"this.select();\" >";?>
             </td>
             <td>
               <h5 class='lato'><?php echo $locale["INDEX_DISTANCE"]; ?></h5>
@@ -148,7 +144,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <option value='time'><?php echo $locale["INDEX_TIME"]; ?></option>
                 <option value='distance' selected='selected'><?php echo $locale["INDEX_DISTANCE"]; ?></option>
               </select>
-              <input type='button' style='position: absolute; z-index: -1; opacity: 0;' id='hidden-button'/>
+              <input type='button' style='position: absolute; z-index: -1; opacity: 0;' id='hidden-button' value=' '/>
             </td>
           </tr>
         </table>
@@ -169,7 +165,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                  onclick='$("#filter-list").find("input[type=checkbox]").prop("checked", false).trigger("change")'><?php echo $locale["INDEX_HIDEALL"]; ?></a>
               </div>
             </div>
-            <p align='right'>
+            <p>
               <a href='javascript: void(null)' class='filter-button'
                  onclick='$("#events").removeClass("show-type-filter");'>
                 <?php echo $locale["INDEX_HIDELEGEND"]; ?>
@@ -189,30 +185,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <span class='hide-offices'>&#8883; <?php echo $locale["INDEX_HIDEOFFICE"]; ?></span>
         </a>
       </div>
-      
 
       <footer>
         <div id='footer-area' >
           <h5><?php echo $locale["INDEX_HEADER2"]; ?></h5>
-          
         </div>
-<div></div>
+      </footer>
+    </div>
 
-
-  <div style="">
- <!-- <a id="click-ulule" href="https://fr.ulule.com/citizen-lobbying/" target="_blank" style="color: white;"><div style="margin: 10% auto 5% auto;width: 80%;background-color: #ea504e;padding: 2%;">
+<!--
+ <div style="">
+  <a id="click-ulule" href="https://fr.ulule.com/citizen-lobbying/" target="_blank" style="color: white;"><div style="margin: 10% auto 5% auto;width: 80%;background-color: #ea504e;padding: 2%;">
 <p style="vertical-align: bottom; text-align: center;font-weight: bolder;text-transform: uppercase;">J-2 FINANCEMENT LOBBY CITOYEN</a></p>
 </div>
   <p><img class="no-mobile" alt="Logo United4Earth" style="margin-left:10%;border: 0px solid black" src="https://united4earth.org/wp-content/uploads/2018/10/french-video-gif-no-repeat.gif"  width="80%" ></p>
-</div>-->
-      </footer>
-
+</div>
     </div>
+-->  
   </article>
   <article id='map'>
     <div id='map-container'></div>
   </article>
 </section>
+
+
 <section id='campaign-offices'>
   <div class='viewport'>
     <h3 class='title'>Nearby Campaign Offices</h3>
@@ -465,7 +461,6 @@ $("#filter-list").append(
 
 
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^https:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</body>
 <script>
     function fbShare(url, title, descr, image, winWidth, winHeight) {
         var winTop = (screen.height / 2) - (winHeight / 2);
@@ -473,3 +468,5 @@ $("#filter-list").append(
         window.open('http://www.facebook.com/sharer.php?s=100&p[title]=' + title + '&p[summary]=' + descr + '&p[url]=' + url + '&p[images][0]=' + image, 'sharer', 'top=' + winTop + ',left=' + winLeft + ',toolbar=0,status=0,width=' + winWidth + ',height=' + winHeight);
     }
 </script>
+</body>
+</html>
