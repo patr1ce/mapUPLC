@@ -1,41 +1,10 @@
-  <!doctype html>
-
-<script src="assets/js/jquery.min.js"></script>
-
 <?php 
-
-$lang='fr-FR';
-if(isset($_GET['locale']) && $_GET['locale']!='')
-  $lang = $_GET['locale'];
-$validValues = array('fr-FR','en-US');
-if (!in_array($lang, $validValues, true)) 
-    $lang='fr-FR';
-
-include('./assets/locales/'.$lang.'.php');
-?>
-<script>
-  function require(script) {
-    $.ajax({
-        url: script,
-        dataType: "script",
-        async: false,           // <-- This is the key
-        success: function () {
-            // all good...
-        },
-        error: function () {
-            throw new Error("Could not load script " + script);
-        }
-    });
-}
-
-require("./assets/locales/<?php echo $lang; ?>.js");
-</script>
-
-
+require_once('./autoconf.php');
+?><!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" xmlns:og="http://ogp.me/ns#">
 <head>
-  <link rel="icon" href="https://united4earth.org/wp-content/uploads/2018/09/cropped-logo-1-32x32.jpg" sizes="32x32" />
-<link rel="icon" href="https://united4earth.org/wp-content/uploads/2018/09/cropped-logo-1-192x192.jpg" sizes="192x192" />
-<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script src="assets/js/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <meta name="title" content="">
 <meta name="description" content="Une carte pour trouver des intiatives pour agir sur les problèmes climatiques. Rejoignez des groupes et des évenements ctioyens prêt de chez vous en un clic !">
@@ -46,8 +15,6 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 <meta property="og:title" content="Carte interactive des initiatives pour le climat"/>
 <meta property="og:description" content="Une carte pour trouver des intiatives pour agir sur les problèmes climatiques. Des groupes et des évenements prêt de chez vous en un clic."/>
 <link href='//api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="">
 <meta name="twitter:creator" content="">

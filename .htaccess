@@ -1,3 +1,14 @@
 AddEncoding gzip .gz .csvgz
 AddType text/javascript .gz
 AddType text/plain  .csvgz
+
+DirectoryIndex index.php index.html
+
+RewriteEngine on
+RewriteBase /
+
+# pas de .php dans les url
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]

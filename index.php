@@ -1,41 +1,10 @@
-  <!doctype html>
-
-<script src="assets/js/jquery.min.js"></script>
-
 <?php 
-
-$lang='fr-FR';
-if(isset($_GET['locale']) && $_GET['locale']!='')
-  $lang = $_GET['locale'];
-$validValues = array('fr-FR','en-US');
-if (!in_array($lang, $validValues, true)) 
-    $lang='fr-FR';
-
-include('./assets/locales/'.$lang.'.php');
-?>
-<script>
-function require(script) {
-    $.ajax({
-        url: script,
-        dataType: "script",
-        async: false,           // <-- This is the key
-        success: function () {
-            // all good...
-        },
-        error: function () {
-            throw new Error("Could not load script " + script);
-        }
-    });
-}
-
-require("./assets/locales/<?php echo $lang; ?>.js");
-</script>
-
-
+require_once('./autoconf.php');
+?><!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" xmlns:og="http://ogp.me/ns#">
 <head>
-  <link rel="icon" href="https://united4earth.org/wp-content/uploads/2018/09/cropped-logo-1-32x32.jpg" sizes="32x32" />
-<link rel="icon" href="https://united4earth.org/wp-content/uploads/2018/09/cropped-logo-1-192x192.jpg" sizes="192x192" />
-<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script src="assets/js/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <meta name="title" content="<?php echo $locale["META_TITLE"]; ?>">
 <meta name="description" content="<?php echo $locale["META_DESC"]; ?>">
@@ -46,7 +15,6 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 <meta property="og:title" content="<?php echo $locale["META_OGTITLE"]; ?>"/>
 <meta property="og:description" content="<?php echo $locale["META_OGDESC"]; ?>"/>
 <link href='//api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <meta name="robots" content="index,follow">
 
 <meta name="twitter:card" content="summary_large_image">
@@ -113,13 +81,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <nav>
     <ul id="nav">
      <!-- <a style="color: white;" href="./climate-map.html"><li class="nav-contribute">EN</a></li>-->
-      <a style="color: white;" href="<?php if($lang=='en-US') echo './past-events'; else echo './evenements-passes'; ?>"><li class="nav-contribute"><?php echo $locale["INDEX_PASTEVENT"]; ?></li></a>
-      <a href="../" class="contribute contribute-big"><li><?php echo $locale["INDEX_HOME"]; ?></li></a>
-      <a href="https://united4earth.org/create-event/" class="contribute contribute-big" target="_blank"><li><?php echo $locale["INDEX_NEWEVENT"]; ?></li></a>
+      <li class="nav-contribute">
+        <a style="color: white;" href="<?php if($lang=='en-US') echo './past-events'; else echo './evenements-passes'; ?>"><?php echo $locale["INDEX_PASTEVENT"]; ?></a>
+      </li>
+      <li>
+        <a href="<?php echo $locale['LINK_HOME']; ?>" class="contribute contribute-big"><?php echo $locale["INDEX_HOME"]; ?></a>
+      </li>
+      <li>
+        <a href="https://united4earth.org/create-event/" class="contribute contribute-big" target="_blank"><?php echo $locale["INDEX_NEWEVENT"]; ?></a>
+      </li>
       <li>
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-text="" data-related="" data-count="none"><?php echo $locale["INDEX_TWEET"]; ?></a>&nbsp;&nbsp;<div class="fb-share-button" data-href="" data-layout="button">
         <a href="javascript:fbShare('', 'Fb Share', 'Facebook share popup', 'h', 520, 350)"><img src='./assets/img/icon/fb.png' /><span><?php echo $locale["INDEX_SHARE"]; ?></span></a></div>
-
       </li>
     </ul>
   </nav>
@@ -489,3 +462,4 @@ $("#filter-list").append(
         window.open('http://www.facebook.com/sharer.php?s=100&p[title]=' + title + '&p[summary]=' + descr + '&p[url]=' + url + '&p[images][0]=' + image, 'sharer', 'top=' + winTop + ',left=' + winLeft + ',toolbar=0,status=0,width=' + winWidth + ',height=' + winHeight);
     }
 </script>
+</html>
