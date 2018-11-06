@@ -14,7 +14,6 @@ if($uri==='' || $uri==='/') {
   exit;
 }
 
-
 // uri terminant par .php
 if(preg_match('/[.]php$/i',$uri)) {
   $uri=substr($uri,0,-4);
