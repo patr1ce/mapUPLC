@@ -5,13 +5,15 @@ require_once('./autoconf.php');
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <script src="assets/js/jquery.min.js"></script>
+<link rel="icon" href="./assets/img/logo.png" sizes="32x32" />
+<link rel="icon" href="./assets/img/logo.png" sizes="192x192" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <meta name="title" content="<?php echo $locale["META_TITLE"]; ?>">
 <meta name="description" content="<?php echo $locale["META_DESC"]; ?>">
 <meta property="og:type" content="website" />
 <meta name="keywords" content="<?php echo $locale["META_KEYWORD"]; ?>">
-<meta property="og:image" content="https://united4earth.org/wp-content/uploads/carte-pour-le-climat.png" />
-<meta property="og:url" content="<?php echo $locale["INDEX_CANONICAL"]; ?>" />
+<meta property="og:image" content="./assets/img/events-map.png" />
+<meta property="og:url" content="/" />
 <meta property="og:title" content="<?php echo $locale["META_OGTITLE"]; ?>"/>
 <meta property="og:description" content="<?php echo $locale["META_OGDESC"]; ?>"/>
 <link href='//api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
