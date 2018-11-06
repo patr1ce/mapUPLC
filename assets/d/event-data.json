@@ -1314,6 +1314,25 @@ window.EVENT_DATA ={
          "id_obfuscated":"gpg5bt"
       }, 
 
+      /*  UK */
+
+        {
+         "longitude":"-0.1289",
+         "url":"https://www.facebook.com/events/1758991460816073/",
+         "event_type_name":"Actions",
+         "start_time":"15:00:00",
+         "start_dt":"2018-11-17 11:00:00",
+         "name":"Rebellion Day",
+         "location":"Parliament Square, London",
+         "capacity":"0",
+         "id":"130964",
+         "start_day":"2018-11-17",
+         "venue_zip":"",
+         "latitude":"51.5010",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
 
 	   
 
@@ -1566,12 +1585,12 @@ window.EVENT_DATA ={
       },
 
       /*Pétition pour les Sikuanis*/
-       
+
       
       {
          "longitude":"2.3488",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"11:00:00",
          "start_dt":"2018-12-08 11:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1587,7 +1606,7 @@ window.EVENT_DATA ={
       {
          "longitude":"5.4497",  
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1603,7 +1622,7 @@ window.EVENT_DATA ={
       {
          "longitude":"2.1486413",  
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1619,7 +1638,7 @@ window.EVENT_DATA ={
        {
          "longitude":"2.3",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"15:00:00",
          "start_dt":"2018-12-08 15:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1635,7 +1654,7 @@ window.EVENT_DATA ={
       {
          "longitude":"-0.55",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"15:00:00",
          "start_dt":"2018-12-08 15:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1651,7 +1670,7 @@ window.EVENT_DATA ={
      {
          "longitude":"0.15",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1667,7 +1686,7 @@ window.EVENT_DATA ={
      {
          "longitude":"2.25",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1683,7 +1702,7 @@ window.EVENT_DATA ={
       {
          "longitude":"4.627730",  
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"11:00:00",
          "start_dt":"2018-12-08 11:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1699,7 +1718,7 @@ window.EVENT_DATA ={
       {
          "longitude":"4.627730",  
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"11:00:00",
          "start_dt":"2018-12-08 11:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1715,7 +1734,7 @@ window.EVENT_DATA ={
        {
          "longitude":"4.3899",  
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"11:00:00",
          "start_dt":"2018-12-08 11:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1731,7 +1750,7 @@ window.EVENT_DATA ={
       {
          "longitude":"3.57448",  
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"11:00:00",
          "start_dt":"2018-12-08 11:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1747,7 +1766,7 @@ window.EVENT_DATA ={
        {
          "longitude":"-1.47457",  
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"11:00:00",
          "start_dt":"2018-12-08 11:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1763,7 +1782,7 @@ window.EVENT_DATA ={
       {
          "longitude":"1.61476",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"15:00:00",
          "start_dt":"2018-12-08 15:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1779,7 +1798,7 @@ window.EVENT_DATA ={
       {
          "longitude":"5.22552",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"15:00:00",
          "start_dt":"2018-12-08 15:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1795,7 +1814,7 @@ window.EVENT_DATA ={
 {
          "longitude":"1.33",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"15:00:00",
          "start_dt":"2018-12-08 15:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1811,7 +1830,7 @@ window.EVENT_DATA ={
       {
          "longitude":"-0.5805",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"11:00:00",
          "start_dt":"2018-12-08 11:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1827,7 +1846,7 @@ window.EVENT_DATA ={
       {
          "longitude":"-4.4863",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"11:00:00",
          "start_dt":"2018-12-08 11:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1843,7 +1862,7 @@ window.EVENT_DATA ={
       {
          "longitude":"2.35597",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"11:00:00",
          "start_dt":"2018-12-08 11:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1859,7 +1878,7 @@ window.EVENT_DATA ={
       {
          "longitude":"4.72069",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"11:00:00",
          "start_dt":"2018-12-08 11:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1875,7 +1894,7 @@ window.EVENT_DATA ={
       {
          "longitude":"2.82248",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"11:00:00",
          "start_dt":"2018-12-08 11:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1891,7 +1910,7 @@ window.EVENT_DATA ={
       {
          "longitude":"1.15094",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"11:00:00",
          "start_dt":"2018-12-08 11:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1907,7 +1926,7 @@ window.EVENT_DATA ={
       {
          "longitude":"5.7167",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"11:00:00",
          "start_dt":"2018-12-08 11:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1923,7 +1942,7 @@ window.EVENT_DATA ={
       {
          "longitude":"-1.15113",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"15:00:00",
          "start_dt":"2018-12-08 15:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1939,7 +1958,7 @@ window.EVENT_DATA ={
       {
          "longitude":"0.1065",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"15:00:00",
          "start_dt":"2018-12-08 15:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1955,7 +1974,7 @@ window.EVENT_DATA ={
       {
          "longitude":"1.2617",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"15:00:00",
          "start_dt":"2018-12-08 15:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1971,7 +1990,7 @@ window.EVENT_DATA ={
       {
          "longitude":"0.22927",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"15:00:00",
          "start_dt":"2018-12-08 15:00:00",
          "name":"Pétition Terres Aliwa",
@@ -1987,7 +2006,7 @@ window.EVENT_DATA ={
       {
          "longitude":"4.8345",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"15:00:00",
          "start_dt":"2018-12-08 15:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2003,7 +2022,7 @@ window.EVENT_DATA ={
       {
          "longitude":"5.3811",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"11:30:00",
          "start_dt":"2018-12-08 11:30:00",
          "name":"Pétition Terres Aliwa",
@@ -2019,7 +2038,7 @@ window.EVENT_DATA ={
       {
          "longitude":"6.1727",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"11:30:00",
          "start_dt":"2018-12-08 11:30:00",
          "name":"Pétition Terres Aliwa",
@@ -2035,7 +2054,7 @@ window.EVENT_DATA ={
       {
          "longitude":"4.7509",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"11:30:00",
          "start_dt":"2018-12-08 11:30:00",
          "name":"Pétition Terres Aliwa",
@@ -2051,7 +2070,7 @@ window.EVENT_DATA ={
       {
          "longitude":"3.8772",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"13:30:00",
          "start_dt":"2018-12-08 13:30:00",
          "name":"Pétition Terres Aliwa",
@@ -2067,7 +2086,7 @@ window.EVENT_DATA ={
       {
          "longitude":"3.335",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2083,7 +2102,7 @@ window.EVENT_DATA ={
 {
          "longitude":"7.3358",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2099,7 +2118,7 @@ window.EVENT_DATA ={
       {
          "longitude":"-1.5534",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2115,7 +2134,7 @@ window.EVENT_DATA ={
       {
          "longitude":"7.2661",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2131,7 +2150,7 @@ window.EVENT_DATA ={
       {
          "longitude":"3.2428",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2147,7 +2166,7 @@ window.EVENT_DATA ={
       {
          "longitude":"1.90392",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2163,7 +2182,7 @@ window.EVENT_DATA ={
       {
          "longitude":"-0.3667",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2179,7 +2198,7 @@ window.EVENT_DATA ={
    {
          "longitude":"-1.6743",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Cliamte Alarm - Rennes",
@@ -2195,7 +2214,7 @@ window.EVENT_DATA ={
       {
          "longitude":"4.03309",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Cliamte Alarm - Reims",
@@ -2211,7 +2230,7 @@ window.EVENT_DATA ={
       {
          "longitude":"4.07269",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2227,7 +2246,7 @@ window.EVENT_DATA ={
       {
          "longitude":"-2.7684",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"9:00:00",
          "start_dt":"2018-12-08 9:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2243,7 +2262,7 @@ window.EVENT_DATA ={
       {
          "longitude":"6.94884",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"9:00:00",
          "start_dt":"2018-12-08 9:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2259,7 +2278,7 @@ window.EVENT_DATA ={
       {
          "longitude":"4.38717",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"9:00:00",
          "start_dt":"2018-12-08 9:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2275,7 +2294,7 @@ window.EVENT_DATA ={
       {
          "longitude":"-2.0167",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2291,7 +2310,7 @@ window.EVENT_DATA ={
       {
          "longitude":"-0.629933",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2307,7 +2326,7 @@ window.EVENT_DATA ={
       {
          "longitude":"2.15035",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2323,7 +2342,7 @@ window.EVENT_DATA ={
       {
          "longitude":"2.21903",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2339,7 +2358,7 @@ window.EVENT_DATA ={
        {
          "longitude":"0.07395",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2355,7 +2374,7 @@ window.EVENT_DATA ={
       {
          "longitude":"5.928",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2371,7 +2390,7 @@ window.EVENT_DATA ={
    {
          "longitude":"1.4437",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"10:00:00",
          "start_dt":"2018-12-08 10:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2387,7 +2406,7 @@ window.EVENT_DATA ={
       {
          "longitude":"4.41898",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"10:00:00",
          "start_dt":"2018-12-08 10:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2403,7 +2422,7 @@ window.EVENT_DATA ={
       {
          "longitude":"4.88994",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2419,7 +2438,7 @@ window.EVENT_DATA ={
       {
          "longitude":"-2.7608",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2435,7 +2454,7 @@ window.EVENT_DATA ={
       {
          "longitude":"5.59153",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Marches",
+         "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
          "name":"Pétition Terres Aliwa",
@@ -2456,7 +2475,7 @@ window.EVENT_DATA ={
          {
          "longitude":"-74.005974",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"Climate Walk",
+         "event_type_name":"other",
          "start_time":"10:00:00",
          "start_dt":"2018-11-03 10:00:00",
          "name":"Petition Aliwa Lands",
@@ -2471,7 +2490,47 @@ window.EVENT_DATA ={
       }, 
 
 
-      
+
+      /*South America*/
+
+      {
+         "longitude":"-69.1249",
+         "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
+         "event_type_name":"other",
+         "start_time":"15:00:00",
+         "start_dt":"2018-11-25 15:00:00",
+         "name":"Petition Aliwa Lands",
+         "location":"Aliwa, Colombia",
+         "capacity":"0",
+         "id":"130964",
+         "start_day":"2018-11-25",
+         "venue_zip":"",
+         "latitude":"4.7164",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+
+   
+      /*  UK */
+
+        {
+         "longitude":"-0.1289",
+         "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
+         "event_type_name":"other",
+         "start_time":"15:00:00",
+         "start_dt":"2018-11-17 11:00:00",
+         "name":"Petition Aliwa Lands",
+         "location":"Parliament Square, London",
+         "capacity":"0",
+         "id":"130964",
+         "start_day":"2018-11-17",
+         "venue_zip":"",
+         "latitude":"51.5010",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
 
       /* Event != marche*/
             /*Plantons des arbres*/
@@ -2669,7 +2728,7 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
-	   
+      
    ],
    "settings":{
       "rsvp":6,
