@@ -4,8 +4,26 @@ require_once('./autoconf.php');
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" xmlns:og="http://ogp.me/ns#">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<script src="assets/js/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<script src="assets/js/jquery.min.js"></script>
+<script>
+  function require(script) {
+    $.ajax({
+        url: script,
+        dataType: "script",
+        async: false,           // <-- This is the key
+        success: function () {
+            // all good...
+        },
+        error: function () {
+            throw new Error("Could not load script " + script);
+        }
+    });
+}
+require("./assets/locales/<?php echo $lang; ?>.js");
+</script>
+<link rel="icon" href="./assets/img/logo.png" sizes="32x32" />
+<link rel="icon" href="./assets/img/logo.png" sizes="192x192" />
 <meta name="title" content="">
 <meta name="description" content="Une carte pour trouver des intiatives pour agir sur les problèmes climatiques. Rejoignez des groupes et des évenements ctioyens prêt de chez vous en un clic !">
 <meta property="og:type" content="website" />
