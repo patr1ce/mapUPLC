@@ -56,4 +56,7 @@ $locale = array(
 	"PASSED_EVENT_HREFLANG" => "https://united4earth.org/fr/marche-climat/evenements-passes",
 
   "LINK_HOME" => "../",
+  
+  "404_MESSAGE" => "Error 404 : file not found",
+  "404_BACKTOMAP" => "Back to map",
 );

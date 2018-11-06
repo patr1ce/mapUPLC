@@ -1,6 +1,4 @@
-<?php 
-require_once('./autoconf.php');
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo substr($lang,0,2); ?>" lang="<?php echo substr($lang,0,2); ?>" dir="ltr" prefix="og: http://ogp.me/ns#">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />

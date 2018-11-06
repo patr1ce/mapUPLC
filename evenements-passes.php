@@ -1,6 +1,4 @@
-<?php 
-require_once('./autoconf.php');
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo substr($lang,0,2); ?>" lang="<?php echo substr($lang,0,2); ?>" dir="ltr" prefix="og: http://ogp.me/ns#">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -33,6 +31,8 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 <meta property="og:title" content="Carte interactive des initiatives pour le climat"/>
 <meta property="og:description" content="Une carte pour trouver des intiatives pour agir sur les problèmes climatiques. Des groupes et des évenements prêt de chez vous en un clic."/>
 <link href='//api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
+<meta name="robots" content="index,follow">
+
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="">
 <meta name="twitter:creator" content="">
