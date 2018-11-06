@@ -1,6 +1,7 @@
 <?php
 include('autoconf.php');
 $uri=$_SERVER['REQUEST_URI'];
+$root_fs=empty($_SERVER['CONTEXT_DOCUMENT_ROOT'])?$_SERVER["DOCUMENT_ROOT"]:$_SERVER['CONTEXT_DOCUMENT_ROOT'];
 
 // index
 if(preg_match("/\/index[.](php|htm|html)(\/?)$/i",$uri)) {
@@ -25,7 +26,7 @@ if(preg_match('/.\/$/',$uri)) {
   // correspond à un fichier php existant ?
   $p=strrpos($uri,'/',-2);                                             
   $filename=rtrim(substr($uri,$p+1),'/');
-  $filepath=realpath($_SERVER["DOCUMENT_ROOT"].'/'.$filename.'.php');
+  $filepath=realpath($root_fs.'/'.$filename.'.php');
   if($filepath!==false) {  
     header("Location: ".substr($uri,0,-1),TRUE,301);
     exit;
@@ -39,7 +40,7 @@ if(preg_match('/.\/$/',$uri)) {
 // url avec .php masqué
 $p=strrpos($uri,'/',-1);
 $filename=rtrim(substr($uri,$p+1),'/');
-$filepath=realpath($_SERVER["DOCUMENT_ROOT"].'/'.$filename.'.php');
+$filepath=realpath($root_fs.'/'.$filename.'.php');
 if($filepath!==false) {
   include($filepath);
   exit;

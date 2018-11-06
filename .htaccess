@@ -2,11 +2,11 @@ AddEncoding gzip .gz .csvgz
 AddType text/javascript .gz
 AddType text/plain  .csvgz
 
-DirectoryIndex index.php index.html
+DirectoryIndex controller.php index.php index.html
 
 Options +FollowSymLinks
 RewriteEngine on
-RewriteBase /
+# RewriteBase /
 
 # request endings with .php or / ? go to controller
 RewriteRule [.]php$ controller.php [END,NC]
