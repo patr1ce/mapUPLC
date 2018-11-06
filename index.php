@@ -18,7 +18,7 @@ function require(script) {
         }
     });
 }
-require("./assets/locales/<?php echo $lang; ?>.js");
+require("./assets/locales/<?php echo $lang; ?>.php");
 </script>
 <link rel="icon" href="./assets/img/logo.png" sizes="32x32" />
 <link rel="icon" href="./assets/img/logo.png" sizes="192x192" />
