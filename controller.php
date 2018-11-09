@@ -1,6 +1,10 @@
 <?php
 include('autoconf.php');
 $uri=$_SERVER['REQUEST_URI'];
+$p=strpos($uri,'?');
+if($p!==false) $uri=substr($uri,0,$p);
+$p=strpos($uri,'#');
+if($p!==false) $uri=substr($uri,0,$p);
 $root_fs=empty($_SERVER['CONTEXT_DOCUMENT_ROOT'])?$_SERVER["DOCUMENT_ROOT"]:$_SERVER['CONTEXT_DOCUMENT_ROOT'];
 
 // index
