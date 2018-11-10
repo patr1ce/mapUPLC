@@ -89,7 +89,7 @@ echo('<link rel="alternate" hreflang="en-US" href="'.$locale["INDEX_HREFLANG_EN"
 
 <?php
 $domain_name = $_SERVER['SERVER_NAME'];
-if( preg_match("/localhost/", $domain_name) == TRUE) {
+if( preg_match("/united4earth/", $domain_name) == TRUE) {
 echo('<link rel="stylesheet" type="text/css" href="'.$looknfeel["U4E_MAP_CSS_SHEET"].'">');
         }
     else if (preg_match('/\/citoyenspourleclimat/', $domain_name) == TRUE) {
