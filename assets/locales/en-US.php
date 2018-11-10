@@ -57,9 +57,8 @@ $locale = array(
 
 
 );
-?>
 
-<?php
+
 $united4earth = array( 
 	"U4E_INDEX_TITLE"=> "TEST_Citizens Rise for Climate - One map to find the event near you !", 
 	"U4E_META_DESC" => "TEST All over the world citizens are rising to get their elected officials to act for the climate. Join the citizen lobby and find the event near you !",
@@ -84,7 +83,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->",
 
-	"U4E_LINK_COLLECTIF"=> "https://citizensforcliamte.org/",
+	"U4E_LINK_COLLECTIF"=> "https://citizensforclimate.org/",
 	
 );
+
 ?>

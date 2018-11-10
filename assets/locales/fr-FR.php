@@ -55,9 +55,7 @@ $locale = array(
 	"PASSED_EVENT_HREFLANG" => "https://united4earth.org/climate-map/past-events",
 
 ); 
-?>
 
-<?php
 $united4earth = array( 
 	"U4E_INDEX_TITLE"=> "test Evénements pour le Climat en France - Une carte, toutes les actions", 
 	"U4E_META_DESC" => "test Une carte pour trouver des intiatives pour agir sur les problèmes climatiques. Rejoignez des groupes et des évenements ctioyens prêt de chez vous en un clic !",
@@ -87,5 +85,14 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
 
 
 	"U4E_LINK_COLLECTIF"=> "https://citoyenspourleclimat.org/",
+);
+
+
+
+$looknfeel = array( 
+	"U4E_MAP_CSS_SHEET" => "./assets/css/citizens-for-climate.css",
+	"C4C_MAP_CSS_SHEET" => "./assets/css/united4earth.css",
+	
+	
 );
 ?>
