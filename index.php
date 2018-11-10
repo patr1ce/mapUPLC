@@ -90,38 +90,26 @@ echo('<link rel="alternate" hreflang="en-US" href="'.$locale["INDEX_HREFLANG_EN"
 <?php
 $domain_name = $_SERVER['SERVER_NAME'];
 
-
-switch ($domain_name) {
-  case $domain_name == preg_match("/united4earth\.org/", $domain_name):
-  echo('<link rel="stylesheet" type="text/css" href="'.$looknfeel["U4E_MAP_CSS_SHEET"].'">');
-    echo "<!--case 1".$domain_name."-->";
-
-    # code...
-    break;
-  
-  case $domain_name == preg_match("/\/citoyenspourleclimat\.org/", $domain_name):
-   echo('<link rel="stylesheet" type="text/css" href="'.$looknfeel["C4C_MAP_CSS_SHEET"].'">');
-   echo "<!--case 2".$domain_name."-->";
-  default:
-    echo "<!-- Neither ".$_SERVER['SERVER_NAME']."-->" ;
-    break;
-}
-
-
-/*
-    if( preg_match("/united4earth/", $domain_name) == TRUE) {
-echo('<link rel="stylesheet" type="text/css" href="'.$looknfeel["U4E_MAP_CSS_SHEET"].'">');
+    if( preg_match("/\bunited4earth\b/", $domain_name) == TRUE) {
+      
+        echo('<link rel="stylesheet" type="text/css" href="'.$looknfeel["U4E_MAP_CSS_SHEET"].'">');
         }
-    else if (preg_match('/\/citoyenspourleclimat/', $domain_name) == TRUE) {
-      echo('<link rel="stylesheet" type="text/css" href="'.$looknfeel["C4C_MAP_CSS_SHEET"].'">');
+
+
+
+    elseif (preg_match('/\b\/citoyenspourleclimat\b/', $domain_name) == TRUE) {
+         echo('<link rel="stylesheet" type="text/css" href="'.$looknfeel["C4C_MAP_CSS_SHEET"].'">');
              }
 
-    else  echo "<!-- none, you're not on either site -->" ;
+    else  {
+          echo "<!-- none, you're not on either site -->" ;
+
           echo('<link rel="stylesheet" type="text/css" href="'.$looknfeel["C4C_MAP_CSS_SHEET"].'">');
           echo('<link rel="stylesheet" type="text/css" href="'.$looknfeel["U4E_MAP_CSS_SHEET"].'">');
+
+
     echo "<!--".$_SERVER['SERVER_NAME']."-->" ;
-             
- */
+             }
     ?>
 
 
