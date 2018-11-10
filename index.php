@@ -19,7 +19,30 @@ function require(script) {
     });
 }
 require("./assets/locales/<?php echo $lang; ?>.js");
+
 </script>
+
+
+<?php 
+
+/*Domain specific changes*/
+
+$domain_name = $_SERVER['SERVER_NAME'];
+if( preg_match("/united4earth/", $domain_name) == TRUE) {
+  include './assets/host/united4earth.php';
+        }
+    else if (preg_match('/\/citoyenspourleclimat/', $domain_name) == TRUE) {
+     include './assets/host/citizensforclimate.php';
+             }
+
+    else  {
+      echo "<!-- none, you're not on either site, including canonical version -->" ;
+    include './assets/host/united4earth.php'; 
+    echo "<!--".$_SERVER['SERVER_NAME']."-->" ;
+}
+    ?>
+
+
 <link rel="icon" href="./assets/img/logo.png" sizes="32x32" />
 <link rel="icon" href="./assets/img/logo.png" sizes="192x192" />
 <meta name="title" content="<?php echo $locale["META_TITLE"]; ?>">
@@ -59,8 +82,28 @@ echo('<link rel="alternate" hreflang="en-US" href="'.$locale["INDEX_HREFLANG_EN"
 
     ?>
 
-
+<!-- shared css -->
 <link rel="stylesheet" type="text/css" href="./assets/css/events-map.css">
+
+<!-- site specific css -->
+
+<?php
+$domain_name = $_SERVER['SERVER_NAME'];
+if( preg_match("/localhost/", $domain_name) == TRUE) {
+echo('<link rel="stylesheet" type="text/css" href="'.$looknfeel["U4E_MAP_CSS_SHEET"].'">');
+        }
+    else if (preg_match('/\/citoyenspourleclimat/', $domain_name) == TRUE) {
+      echo('<link rel="stylesheet" type="text/css" href="'.$looknfeel["C4C_MAP_CSS_SHEET"].'">');
+             }
+
+    else  echo "<!-- none, you're not on either site -->" ;
+          echo('<link rel="stylesheet" type="text/css" href="'.$looknfeel["C4C_MAP_CSS_SHEET"].'">');
+          echo('<link rel="stylesheet" type="text/css" href="'.$looknfeel["U4E_MAP_CSS_SHEET"].'">');
+             
+ echo "<!--".$_SERVER['SERVER_NAME']."-->" ;
+    ?>
+
+
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Merriweather:400,900,700' />
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Lato:100,900,700,400,300' />
 <?php echo "<title>".$locale["INDEX_TITLE"]."</title>";?>
@@ -78,7 +121,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4VHRC7"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<section id='header'>
+<section id='header' >
   <div class='lato'>
   
     <div class="main-title-area">
@@ -92,7 +135,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div> 
   
     <nav>
-      <ul id="nav">
+      <ul id="nav" >
        <!-- <a style="color: white;" href="./climate-map.html"><li class="nav-contribute">EN</a></li>-->
         <li class="nav-contribute">
           <a style="color: white;" href="<?php if($lang=='en-US') echo './past-events'; else echo './evenements-passes'; ?>"><?php echo $locale["INDEX_PASTEVENT"]; ?></a>
