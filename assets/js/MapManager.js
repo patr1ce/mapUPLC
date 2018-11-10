@@ -187,7 +187,7 @@ var MapManager = (function($, d3, leaflet) {
           iconUrl: '',
           iconSize:     [13, 10], // size of the icon
       });
-      var defaultCoord = options&&options.defaultCoord ? options.defaultCoord : {center: [46, 2.35], zoom: 4};
+      var defaultCoord = options&&options.defaultCoord ? options.defaultCoord : {center: [46, 2.35], zoom: 3};
 
       var centralMap =  new leaflet
                             .Map("map-container", window.customMapCoord ? window.customMapCoord : defaultCoord)
