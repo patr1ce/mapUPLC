@@ -31,7 +31,7 @@ $domain_name = $_SERVER['SERVER_NAME'];
 if( preg_match("/united4earth/", $domain_name) == TRUE) {
   include './assets/host/united4earth.php';
         }
-    else if (preg_match('/\/citoyenspourleclimat/', $domain_name) == TRUE) {
+    elseif (preg_match('/\/citoyenspourleclimat/', $domain_name) == TRUE) {
      include './assets/host/citizensforclimate.php';
              }
 
@@ -71,7 +71,7 @@ if( preg_match("/fr\/marche-climat/", $url_path) == TRUE) {
 echo('<link rel="alternate" hreflang="en-US" href="'.$locale["INDEX_HREFLANG_EN"].'">');
               /*Add echo line here for new languages*/
         }
-    else if (preg_match('/\/climate-map/', $url_path) == TRUE) {
+    elseif (preg_match('/\/climate-map/', $url_path) == TRUE) {
       echo('<link rel="alternate" hreflang="fr-FR" href="'.$locale["INDEX_HREFLANG_FR"].'">');
              /*Add echo line here for new languages*/
              }
