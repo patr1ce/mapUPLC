@@ -1258,5 +1258,21 @@ color: white !important;
 
 .time-info{
   color: #86e96e !important;
+  font-weight: bolder !important;
+}
+
+/*title & count*/
+
+.sched-count{
+  background-color: white !important;
+  top : 0px !important;
+  color: #86e96e !important;
+  margin: 0 0 5px 0  !important;
+  clear: both;
+  display: inline-block !important;
+  position: relative !important;
+  font-size: 15px !important;
   font-weight: bold !important;
+  /*text-decoration: underline;*/
+  border-bottom: 1px solid #4469b0;
 }
