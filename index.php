@@ -25,7 +25,7 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 
 <?php 
 
-/*Domain specific changes*/
+/*identify & load domain specific file*/
 
 $domain_name = $_SERVER['SERVER_NAME'];
 if( preg_match("/united4earth/", $domain_name) == TRUE) {
