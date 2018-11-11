@@ -1237,16 +1237,26 @@ html, body {
             line-height: 1; }
 */
 
-/*clickout button on cards*/
+
+/*Event cards*/ 
+
+/*clickout*/
 .rsvp-link{
 border: 2px solid #4469b0 !important;
 background-color: white !important;
 font-weight: bold;
 font-size: 12px !important;
 color: #4469b0 !important;
-text-transform: uppercase;
+text-transform: none !important;
 }
 .rsvp-link:hover {
 background-color: #4469b0 !important;
 color: white !important;
+}
+
+/*date*/
+
+.time-info{
+  color: #86e96e !important;
+  font-weight: bold !important;
 }
