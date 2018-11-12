@@ -1267,7 +1267,7 @@ color: white !important;
   background-color: white !important;
   top : 0px !important;
   color: #86e96e !important;
-  margin: 0 0 5px 0  !important;
+  margin: 0 0 5px auto  !important;
   clear: both;
   display: inline-block !important;
   position: relative !important;

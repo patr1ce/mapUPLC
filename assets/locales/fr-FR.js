@@ -35,5 +35,5 @@ var locale = {
 	"MAPMANAGER_PARTICIPATE": "Participer",
 	"MAPMANAGER_GROUPLINK": "Lien vers le groupe",
 	"MAPMANAGER_UNKOWNZIP": "Code postal inconnu",
-
+	"MAPMANAGER_SCHEDULED_EVENTS" : " événements",
 }; 

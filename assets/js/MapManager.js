@@ -219,7 +219,7 @@ var MapManager = (function($, d3, leaflet) {
         }).sort(function(a, b) { return a.startTime - b.startTime; });
 
         var div = $("<div />")
-          .append(filtered.length > 1 ? "<h3 class='sched-count'>" + filtered.length + " Scheduled Events</h3>" : "")
+          .append(filtered.length > 1 ? "<h3 class='sched-count'>" + filtered.length + locale["MAPMANAGER_SCHEDULED_EVENTS"] + "</h3>" : "")
           .append(
           $("<div class='popup-list-container'/>")
             .append($("<ul class='popup-list'>")

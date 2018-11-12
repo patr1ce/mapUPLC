@@ -43,7 +43,7 @@ $locale = array(
 	"INDEX_HREFLANG_EN" => "https://united4earth.org/climate-map/",
 	"INDEX_CURRENTEVENT"=> "Current events",
 	"MAPMANAGER_PARTICIPATE"=> "Participate",
-	"MAPMANAGER_GROUPLINK"=> "Link to the group",
+	"MAPMANAGER_GROUPLINK"=> "Join the group",
 	"MAPMANAGER_UNKOWNZIP"=> "Unkown Zipcode",
 
 	"LINK_UNITED4EARTH" => "https://united4earth.org",
