@@ -22,27 +22,6 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 
 </script>
 
-
-<?php 
-
-/*identify & load domain specific file*/
-
-$domain_name = $_SERVER['SERVER_NAME'];
-if( preg_match("/united4earth/", $domain_name) == TRUE) {
-  include './assets/host/united4earth.php';
-        }
-    elseif (preg_match('/\/citoyenspourleclimat/', $domain_name) == TRUE) {
-     include './assets/host/citizensforclimate.php';
-             }
-
-    else  {
-      echo "<!-- none, you're not on either site, including canonical version -->" ;
-    include './assets/host/united4earth.php'; 
-    echo "<!--".$_SERVER['SERVER_NAME']."-->" ;
-}
-    ?>
-
-
 <link rel="icon" href="./assets/img/logo.png" sizes="32x32" />
 <link rel="icon" href="./assets/img/logo.png" sizes="192x192" />
 <meta name="title" content="<?php echo $locale["META_TITLE"]; ?>">
@@ -63,55 +42,22 @@ if( preg_match("/united4earth/", $domain_name) == TRUE) {
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="">
 <link rel="canonical" href="<?php echo $locale["INDEX_CANONICAL"]; ?>">
-
 <?php
-$url_path = $_SERVER['REQUEST_URI'];
-/*hreflang management*/
-if( preg_match("/fr\/marche-climat/", $url_path) == TRUE) {
-echo('<link rel="alternate" hreflang="en-US" href="'.$locale["INDEX_HREFLANG_EN"].'">');
-              /*Add echo line here for new languages*/
-        }
-    elseif (preg_match('/\/climate-map/', $url_path) == TRUE) {
-      echo('<link rel="alternate" hreflang="fr-FR" href="'.$locale["INDEX_HREFLANG_FR"].'">');
-             /*Add echo line here for new languages*/
-             }
-
-    else  echo "<!-- none, something's wrong -->" ;
-  
- echo "<!--".$_SERVER['REQUEST_URI']."-->" ;
-
-    ?>
+if($lang!='en') {
+  echo '<link rel="alternate" hreflang="en-US" href="'.$locale["INDEX_HREFLANG_EN"].'">';
+}
+if($lang!='fr') {
+  echo '<link rel="alternate" hreflang="fr-FR" href="'.$locale["INDEX_HREFLANG_FR"].'">';
+}
+?>
 
 <!-- shared css -->
 <link rel="stylesheet" type="text/css" href="./assets/css/events-map.css">
 
 <!-- site specific css -->
-
 <?php
-$domain_name = $_SERVER['SERVER_NAME'];
-
-    if( preg_match("/\bunited4earth\b/", $domain_name) == TRUE) {
-      
-        echo('<link rel="stylesheet" type="text/css" href="'.$looknfeel["U4E_MAP_CSS_SHEET"].'">');
-        }
-
-
-
-    elseif (preg_match('/\b\/citoyenspourleclimat\b/', $domain_name) == TRUE) {
-         echo('<link rel="stylesheet" type="text/css" href="'.$looknfeel["C4C_MAP_CSS_SHEET"].'">');
-             }
-
-    else  {
-          echo "<!-- none, you're not on either site -->" ;
-
-          echo('<link rel="stylesheet" type="text/css" href="'.$looknfeel["C4C_MAP_CSS_SHEET"].'">');
-          echo('<link rel="stylesheet" type="text/css" href="'.$looknfeel["U4E_MAP_CSS_SHEET"].'">');
-
-
-    echo "<!--".$_SERVER['SERVER_NAME']."-->" ;
-             }
-    ?>
-
+if(!empty($config['additional_css'])) echo '<link rel="stylesheet" type="text/css" href="'.$config['additional_css'].'">';
+?> 
 
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Merriweather:400,900,700' />
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Lato:100,900,700,400,300' />

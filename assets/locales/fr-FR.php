@@ -87,12 +87,3 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
 	"U4E_LINK_COLLECTIF"=> "https://citoyenspourleclimat.org/",
 );
 
-
-
-$looknfeel = array( 
-	"U4E_MAP_CSS_SHEET" => "./assets/css/citizens-for-climate.css",
-	"C4C_MAP_CSS_SHEET" => "./assets/css/united4earth.css",
-	
-	
-);
-?>
