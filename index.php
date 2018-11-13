@@ -251,9 +251,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div style="">
  <a id="click-ulule" href="https://fr.ulule.com/citizen-lobbying/" target="_blank" style="color: white;"><div style="margin: 10% auto 5% auto;width: 80%;background-color: #ea504e;padding: 2%;">
 <p style="vertical-align: bottom; text-align: center;font-weight: bolder;text-transform: uppercase;">J-2 FINANCEMENT LOBBY CITOYEN</a></p>
-</div>
-  <p><img class="no-mobile" alt="Logo United4Earth" style="margin-left:10%;border: 0px solid black" src="https://united4earth.org/wp-content/uploads/2018/10/french-video-gif-no-repeat.gif"  width="80%" ></p>
 </div>-->
+  <p><img class="no-mobile" alt="People of the world together for Earth" style="margin-left:10%;border: 0px solid black" src="https://united4earth.org/wp-content/uploads/yak-earth-citizens.jpg"  width="80%" ></p>
+</div>
 
   </article>
   <article id='map'>
