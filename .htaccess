@@ -13,7 +13,12 @@ RewriteRule [.]php$ controller.php [END,NC]
 RewriteRule /$ controller.php [END,NC]
 RewriteRule ^index.php controller.php [END,NC]
 
-# unexisting file with extension and subfolder ? go to controller
+# unexisting html file ? go to controller
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule [.](html|htm)$ controller.php [END,NC]
+
+# unexisting file with no extension ? go to controller
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^[^.]*$ controller.php [END,NC]
