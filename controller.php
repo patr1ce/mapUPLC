@@ -21,7 +21,7 @@ if($uri==='' || $uri==='/') {
 
 // uri terminant par .php, .htm ou .html
 if(preg_match('/[.](php|htm|html)$/i',$uri)) {
-  $p=strrpos('.',$uri);
+  $p=strrpos($uri,'.');
   $uri=substr($uri,0,$p);
   header("Location: ".$uri,TRUE,301);
   exit;
