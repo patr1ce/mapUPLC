@@ -243,6 +243,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <footer>
         <div id='footer-area' >
           <h5><?php echo $locale["INDEX_HEADER2"]; ?></h5>
+          <p><img class="no-mobile" alt="People of the world together for Earth" style="margin-left:10%;border: 0px solid black" src="https://united4earth.org/wp-content/uploads/yak-earth-citizens.jpg"  width="80%" ></p>
+
         </div>
       </footer>
     </div> 
@@ -251,10 +253,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div style="">
  <a id="click-ulule" href="https://fr.ulule.com/citizen-lobbying/" target="_blank" style="color: white;"><div style="margin: 10% auto 5% auto;width: 80%;background-color: #ea504e;padding: 2%;">
 <p style="vertical-align: bottom; text-align: center;font-weight: bolder;text-transform: uppercase;">J-2 FINANCEMENT LOBBY CITOYEN</a></p>
-</div>-->
-  <p><img class="no-mobile" alt="People of the world together for Earth" style="margin-left:10%;border: 0px solid black" src="https://united4earth.org/wp-content/uploads/yak-earth-citizens.jpg"  width="80%" ></p>
 </div>
 
+</div>
+-->
   </article>
   <article id='map'>
     <div id='map-container'></div>
