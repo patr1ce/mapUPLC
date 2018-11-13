@@ -65,7 +65,14 @@ echo('<link rel="alternate" hreflang="en-US" href="'.$locale["PASSED_EVENT_HREFL
 -->
 
 
+<!-- shared css -->
 <link rel="stylesheet" type="text/css" href="./assets/css/events-map.css">
+
+<!-- site specific css -->
+<?php
+if(!empty($config['additional_css'])) echo '<link rel="stylesheet" type="text/css" href="'.$config['additional_css'].'">';
+?>
+
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Merriweather:400,900,700' />
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Lato:100,900,700,400,300' />
 <?php echo "<title>".$locale["INDEX_TITLE"]."</title>";?>
