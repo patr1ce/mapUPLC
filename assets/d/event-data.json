@@ -326,7 +326,7 @@ window.EVENT_DATA ={
          "id_obfuscated":"gpg5bt"
       },
 	   {
-         "longitude":"6.354635",
+         "longitude":"6.35657",
          "url":"https://www.facebook.com/pg/ilestencoretempshautdoubs/events/?ref=page_internal",
          "event_type_name":"Actions",
          "start_time":"14:00:00",
@@ -337,7 +337,7 @@ window.EVENT_DATA ={
          "id":"231961",
          "start_day":"2018-12-08",
          "venue_zip":"",
-         "latitude":"46.904035",
+         "latitude":"46.9032",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
