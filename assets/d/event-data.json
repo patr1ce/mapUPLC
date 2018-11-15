@@ -309,6 +309,38 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+	   {
+         "longitude":"2.89412",
+         "url":"https://www.facebook.com/events/502751476901965/",
+         "event_type_name":"Actions",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Friday - Plastic Attack - Perpignan",
+         "location":"Perpignan, France",
+         "capacity":"0",
+         "id":"231941",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"42.7015",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+	   {
+         "longitude":"6.354635",
+         "url":"https://www.facebook.com/pg/ilestencoretempshautdoubs/events/?ref=page_internal",
+         "event_type_name":"Actions",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Friday - Pontarlier",
+         "location":"Pontarlier, France",
+         "capacity":"0",
+         "id":"231961",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"46.904035",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
       {
          "longitude":"-1.6743",
          "url":"https://www.facebook.com/events/255500161978722/",
@@ -1001,6 +1033,23 @@ window.EVENT_DATA ={
          "start_day":"2018-12-08",
          "venue_zip":"",
          "latitude":"43.3",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      
+	   {
+         "longitude":"2.89412",
+         "url":"https://www.facebook.com/events/272029806812074/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Perpignan",
+         "location":"Perpignan, France",
+         "capacity":"0",
+         "id":"231941",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"42.7015",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
@@ -2437,7 +2486,7 @@ window.EVENT_DATA ={
       },
       {
          "longitude":"-2.7608",
-         "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
+         "url":"https://www.facebook.com/events/272029806812074/",
          "event_type_name":"other",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
@@ -2479,7 +2528,7 @@ window.EVENT_DATA ={
          "start_time":"10:00:00",
          "start_dt":"2018-11-03 10:00:00",
          "name":"Petition Aliwa Lands",
-         "location":"New York, New York",
+         "location":"New York, New York",.
          "capacity":"0",
          "id":"230941",
          "start_day":"2018-11-03",
