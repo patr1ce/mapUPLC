@@ -139,11 +139,11 @@ html, body {
     display: inline-block;
     text-transform: uppercase; }
     html .contribute.contribute-big:hover, body .contribute.contribute-big:hover {
-      background-color: #ea504e; }
+      background-color: #86e96e; }
     .nav-contribute{
        font-weight: bold;
     font-size: 12px;
-    background-color: #008000;
+    background-color: #86e96e;
     letter-spacing: 0.15em;
     margin: 0.3em auto 0;
     border-radius: 3px;

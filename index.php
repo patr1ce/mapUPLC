@@ -84,6 +84,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div id='spiel'>
           <strong><?php echo $locale["INDEX_HEADER1"]; ?></strong><br>
           <?php echo $locale["INDEX_SUBTITLE1"]; ?>
+
   
         </div>
       </div>
@@ -102,8 +103,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <a href="https://united4earth.org/create-event/" class="contribute contribute-big" target="_blank"><?php echo $locale["INDEX_NEWEVENT"]; ?></a>
         </li>
         <li>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-text="" data-related="" data-count="none"><?php echo $locale["INDEX_TWEET"]; ?></a>&nbsp;&nbsp;<div class="fb-share-button" data-href="" data-layout="button">
-          <a href="javascript:fbShare('', 'Fb Share', 'Facebook share popup', 'h', 520, 350)"><img src='./assets/img/icon/fb.png' alt="facebook" /><span><?php echo $locale["INDEX_SHARE"]; ?></span></a></div>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-text="" data-related="" data-count="none"><img src="./assets/img/icon/twitter-new.png"> </a>&nbsp;&nbsp;<div class="fb-share-button" data-href="" data-layout="button">
+          <a href="javascript:fbShare('', 'Fb Share', 'Facebook share popup', 'h', 520, 350)"><img src='./assets/img/icon/facebook-new.png' alt="facebook" /><span><?php echo $locale["INDEX_SHARE"]; ?></span></a></div>
         </li>
       </ul>
     </nav>
