@@ -1276,3 +1276,9 @@ color: white !important;
   /*text-decoration: underline;*/
   border-bottom: 1px solid #4469b0;
 }
+
+
+.social-media {
+      display: inline-block;
+       }
+     
