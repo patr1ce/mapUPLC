@@ -242,6 +242,14 @@ window.eventTypeFilters = [
     name: '<?php echo $locale["INDEX_GROUPS"];?>',
     id: 'campaign-office'
   },
+    {
+    name: '<?php echo $locale["INDEX_EVENT3"];?>',
+    id: 'trees'
+  },
+    {
+    name: '<?php echo $locale["INDEX_EVENT4"];?>',
+    id: 'petition'
+  },
   {
     name: '<?php echo $locale["INDEX_OTHER"];?>',
     id: 'other'
@@ -271,6 +279,8 @@ $.ajax({
             switch(d.event_type_name) {
               case "Actions": d.filters.push("Actions"); break;
               case "Marches": d.filters.push("Marches"); break;
+              case "trees": d.filters.push("trees"); break;
+              case "petition": d.filters.push("petition"); break;
               case "office": d.filters.push("campaign-office"); break;
               default: d.filters.push('other'); break;
             }
