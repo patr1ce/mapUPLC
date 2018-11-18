@@ -638,7 +638,7 @@ window.EVENT_DATA ={
       },
       {
          "longitude":"5.22552",
-         "url":"https://www.facebook.com/events/2156001251077038/",
+         "url":"https://www.facebook.com/events/2088709351443185/",
          "event_type_name":"Marches",
          "start_time":"15:00:00",
          "start_dt":"2018-12-08 15:00:00",
@@ -1101,6 +1101,24 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+
+      {
+         "longitude":"4.07269",
+         "url":"https://www.facebook.com/marchepourleclimatroanne//",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Marche pour le climat (page facebook)",
+         "location":"Roanne, France",
+         "capacity":"0",
+         "id":"230926",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"46.0344",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
       {
          "longitude":"-2.7684",
          "url":"https://www.facebook.com/events/945137729013165/",
