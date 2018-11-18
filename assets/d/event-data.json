@@ -1631,6 +1631,39 @@ window.EVENT_DATA ={
          "id_obfuscated":"gpg5bt"
       },
 
+      {
+         "longitude":"2.46306",
+         "url":"https://www.facebook.com/groups/612493462486704/",
+        "event_type_name":"trees",
+         "start_time":"15:00:00",
+         "start_dt":"2018-11-24 15:00:00",
+         "name":"Plantons des arbres",
+         "location":"Coye la Forêt, France",
+         "capacity":"0",
+         "id":"130964",
+         "start_day":"2018-11-24",
+         "venue_zip":"",
+         "latitude":"49.147297",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      {
+         "longitude":"1.485533",
+         "url":"https://www.facebook.com/groups/612493462486704/",
+        "event_type_name":"trees",
+         "start_time":"15:00:00",
+         "start_dt":"2018-11-24 15:00:00",
+         "name":"Plantons des arbres",
+         "location":"Serville et plaine du Drouet, France",
+         "capacity":"0",
+         "id":"130964",
+         "start_day":"2018-11-24",
+         "venue_zip":"",
+         "latitude":"48.766936",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
       /*Pétition pour les Sikuanis*/
 
       
