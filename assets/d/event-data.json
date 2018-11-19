@@ -2166,7 +2166,7 @@ window.EVENT_DATA ={
          "id_obfuscated":"gpg5bt"
       },
       {
-         "longitude":"3.335",
+         "longitude":"3.33529",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
         "event_type_name":"petition",
          "start_time":"14:00:00",
@@ -2177,7 +2177,7 @@ window.EVENT_DATA ={
          "id":"230922",
          "start_day":"2018-12-08",
          "venue_zip":"",
-         "latitude":"46.5662",
+         "latitude":"46.56625",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
