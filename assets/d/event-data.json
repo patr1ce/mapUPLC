@@ -1343,6 +1343,41 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+
+      {
+         "longitude":"1.06534",
+         "url":"https://www.facebook.com/events/347652719330762/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Vendôme",
+         "location":"Vendôme, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"47.792551",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      {
+         "longitude":"46.9032",
+         "url":"https://www.facebook.com/events/361464404600262/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Pontarlier",
+         "location":"Pontarlier, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"6.35657",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+
 	      {
          "longitude":"4.41898",
          "url":"https://www.facebook.com/groups/311089936341722/",
