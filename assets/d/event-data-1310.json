@@ -15,7 +15,26 @@ window.EVENT_DATA ={
          "latitude":"43.5283",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
-      },/*
+      },
+           {
+         "longitude":"-0.1289",
+         "url":"https://www.facebook.com/events/1758991460816073/",
+         "event_type_name":"Actions",
+         "start_time":"15:00:00",
+         "start_dt":"2018-11-17 11:00:00",
+         "name":"Rebellion Day",
+         "location":"Parliament Square, London",
+         "capacity":"0",
+         "id":"130964",
+         "start_day":"2018-11-17",
+         "venue_zip":"",
+         "latitude":"51.5010",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+
+      /*
       {
          "longitude":"5.4497",
          "url":"https://fr.ulule.com/citizen-lobbying/",
