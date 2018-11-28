@@ -1006,7 +1006,7 @@ window.EVENT_DATA ={
       },
       {
          "longitude":"3.2428",
-         "url":"https://www.facebook.com/events/1838096812906264/",
+         "url":"https://www.facebook.com/events/571689599931780/",
          "event_type_name":"Marches",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
@@ -1022,7 +1022,7 @@ window.EVENT_DATA ={
       }, 
       {
          "longitude":"1.90392",
-         "url":"https://www.facebook.com/events/1144463382397383/",
+         "url":"https://www.facebook.com/events/741229456209923/",
          "event_type_name":"Marches",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
@@ -1157,8 +1157,8 @@ window.EVENT_DATA ={
          "event_type_name":"Marches",
          "start_time":"9:00:00",
          "start_dt":"2018-12-08 9:00:00",
-         "name":"Climate Alarm - Saint Die",
-         "location":"Saint Die, France",
+         "name":"Climate Alarm - Saint-Dié-des-Vosges",
+         "location":"Saint-Dié-des-Vosges, France",
          "capacity":"0",
          "id":"232927",
          "start_day":"2018-12-08",
@@ -1185,7 +1185,7 @@ window.EVENT_DATA ={
       },
 	   {
          "longitude":"-2.0167",
-         "url":"https://www.facebook.com/events/310182309799302/",
+         "url":"https://www.facebook.com/events/1144397912390210/",
          "event_type_name":"Marches",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
@@ -1376,6 +1376,8 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+
+      /*Added 28/11*/
       {
          "longitude":"0.6163629999999785",
          "url":"https://www.facebook.com/events/733245337050284/",
@@ -1763,9 +1765,89 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+            {
+         "longitude":"-1.42697",
+         "url":"https://www.facebook.com/events/1265852580221133/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - La Roche sur Yon",
+         "location":"La Roche sur Yon, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"46.67",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+            {
+         "longitude":"-3.4591440000000375",
+         "url":"https://www.facebook.com/events/315055162649025/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Lannion",
+         "location":"Lannion, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"48.732084",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+          {
+         "longitude":"-0.7646412000000282",
+         "url":"https://www.facebook.com/events/252647872084894/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Laval",
+         "location":"Laval, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"48.0678944",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+          {
+         "longitude":"0.19955",
+         "url":"https://www.facebook.com/events/740430956329041/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Le Mans",
+         "location":"Le Mans, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"48.006",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
 
 
-
+          {
+         "longitude":"3.0586",
+         "url":"https://www.facebook.com/events/760247310982356/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Lille ",
+         "location":"Lille, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"50.633",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
 
 
 
@@ -1786,26 +1868,424 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
-
-
-
-
-	      {
-         "longitude":"4.41898",
-         "url":"https://www.facebook.com/groups/311089936341722/",
-         "event_type_name":"other",
-         "start_time":"10:00:00",
-         "start_dt":"2018-11-03 10:00:00",
-         "name":"Plastic Attack - Uzès",
-         "location":"Uzès, France",
+            {
+         "longitude":"0.22784899999999197",
+         "url":"https://www.facebook.com/events/200540334173155/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Lisieux",
+         "location":"Lisieux, France",
          "capacity":"0",
-         "id":"230941",
-         "start_day":"2018-11-03",
+         "id":"230922",
+         "start_day":"2018-12-08",
          "venue_zip":"",
-         "latitude":"44.0107",
+         "latitude":"49.14592199999999",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
-      }, 
+      },
+            {
+         "longitude":"5.550795999999991",
+         "url":"https://www.facebook.com/events/1003087506537896/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Lons-le-Saunier",
+         "location":"Lons-le-Saunier, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"46.671361",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+            {
+         "longitude":"-3.3702448999999888",
+         "url":"https://www.facebook.com/events/546234285847794/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Lorient",
+         "location":"Lorient, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"47.7482524",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+            {
+         "longitude":"1.7149580000000242",
+         "url":"https://www.facebook.com/events/365059320730336/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Mantes la Jolie",
+         "location":"Mantes la Jolie, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"48.98932300000001",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+            {
+         "longitude":"3.0962670000000116",
+         "url":"https://www.facebook.com/events/255961785068570/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Marcq-en-Baroeul",
+         "location":"Marcq-en-Baroeul, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"50.670368",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      {
+         "longitude":"5.053727999999978",
+         "url":"https://www.facebook.com/events/575772726204837/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Martigues",
+         "location":"Martigues, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"43.404811",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      {
+         "longitude":"3.5018729999999323",
+         "url":"https://www.facebook.com/events/300627517455128/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Mende",
+         "location":"Mende, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"44.517611",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      {
+         "longitude":"4.362978999999996",
+         "url":"https://www.facebook.com/events/1877065459079217/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Montceau les mines",
+         "location":"Montceau les mines, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"46.67413",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"-3.82747",
+         "url":"https://www.facebook.com/events/264131387579614/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Morlaix",
+         "location":"Morlaix, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"48.57717",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      {
+         "longitude":"4.36",
+         "url":"https://www.facebook.com/events/688549261541097/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Nimes",
+         "location":"Nimes, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"43.8374",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      {
+         "longitude":"2.5526099999999587",
+         "url":"https://www.facebook.com/events/303279243878537/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Noisy le grand",
+         "location":"Noisy le grand, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"48.848579",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"2.4572494000000233",
+         "url":"https://www.facebook.com/events/715488058818934/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Noisy le sec",
+         "location":"Noisy le sec, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"48.8916544",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"-149.5584758",
+         "url":"https://www.facebook.com/events/889175418138754/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Papeete",
+         "location":"Papeete, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"-17.5516251",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"-149.5584758",
+         "url":"https://www.facebook.com/events/1906139522840160/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Poitier",
+         "location":"Poitier, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"46.5802",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"1.0993",
+         "url":"https://www.facebook.com/events/2163715240319073/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Rouen",
+         "location":"Rouen, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"49.4431",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"-1.238110000000006",
+         "url":"https://www.facebook.com/events/2567856656588376/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Saint Jean pied de port",
+         "location":"Saint Jean pied de port, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"43.163141",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+            {
+         "longitude":"-2.2138479999999845",
+         "url":"https://www.facebook.com/events/2299407633625930/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Saint-Nazaire",
+         "location":"Saint-Nazaire, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"47.2734979",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+            {
+         "longitude":"6.84582039999998",
+         "url":"https://www.facebook.com/events/1214684412019702/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Saint-Raphaël & Fréjus",
+         "location":"Saint-Raphaël & Fréjus, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"43.4615956",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+            {
+         "longitude":"0.21500600000001668",
+         "url":"https://www.facebook.com/events/254857052048121/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Sainte Foy la Grande",
+         "location":"Sainte Foy la Grande, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"44.84180500000001",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      {
+         "longitude":"7.7455",
+         "url":"https://www.facebook.com/events/290037545177817/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Strasbourg",
+         "location":"Strasbourg, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"48.5839",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+            {
+         "longitude":"3.1620699999999715",
+         "url":"https://www.facebook.com/events/176100096678432/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Tourcoing",
+         "location":"Tourcoing, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"50.724993",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+            {
+         "longitude":"0.6833",
+         "url":"https://www.facebook.com/events/715347002197947/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Tours",
+         "location":"Tours, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"47.3833",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      {
+         "longitude":"4.0744009000000005",
+         "url":"https://www.facebook.com/events/808293599511529/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Troyes",
+         "location":"Troyes, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"48.2973451",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"7.009186",
+         "url":"https://www.facebook.com/events/1162915953855399/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Valbonne",
+         "location":"Valbonne, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"43.64152000000001",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },     
+       {
+         "longitude":"2.1333",
+         "url":"https://www.facebook.com/events/318212925433097/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Versailles",
+         "location":"Versailles, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"48.8",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+
+
+
+
+
+
+
+
 
 
       /*walks in Europe*/
@@ -1823,6 +2303,23 @@ window.EVENT_DATA ={
          "start_day":"2018-12-08",
          "venue_zip":"",
          "latitude":"45.159555",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"3.6262371000000257",
+         "url":"https://www.facebook.com/events/329221164528250/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-02 14:00:00",
+         "name":"Climate Alarm - Leuze-en-Hainaut",
+         "location":"Leuze-en-Hainaut, Belgique",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"50.6000942",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
@@ -1893,6 +2390,25 @@ window.EVENT_DATA ={
          "id_obfuscated":"gpg5bt"
       },
 
+            {
+         "longitude":"-9.139336599999979",
+         "url":"https://www.facebook.com/events/260771704636366/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Lisbon",
+         "location":"Lisbon, Portugal",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"38.7222524",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+
+
       {
          "longitude":"7.447446799999966",
          "url":"https://www.facebook.com/events/253953871936791/",
@@ -1944,6 +2460,111 @@ window.EVENT_DATA ={
          "id_obfuscated":"gpg5bt"
       },
 
+       {
+         "longitude":"-0.12775829999998223",
+         "url":"https://www.facebook.com/events/2117459931903770/",
+         "event_type_name":"Actions",
+         "start_time":"15:00:00",
+         "start_dt":"2018-12-01 11:00:00",
+         "name":"Climate Alarm - London",
+         "location":"London, UK",
+         "capacity":"0",
+         "id":"130964",
+         "start_day":"2018-11-17",
+         "venue_zip":"",
+         "latitude":"51.5073509",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+
+       {
+         "longitude":"6.129583",
+         "url":"https://www.facebook.com/events/2338857486328334/",
+         "event_type_name":"Actions",
+         "start_time":"15:00:00",
+         "start_dt":"2018-12-01 11:00:00",
+         "name":"Climate Alarm - Luxembourg",
+         "location":"Luxembourg, Luxembourg",
+         "capacity":"0",
+         "id":"130964",
+         "start_day":"2018-11-17",
+         "venue_zip":"",
+         "latitude":"49.815273",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+
+       {
+         "longitude":"6.129583",
+         "url":"https://www.facebook.com/events/2338857486328334/",
+         "event_type_name":"Actions",
+         "start_time":"15:00:00",
+         "start_dt":"2018-12-01 11:00:00",
+         "name":"Climate Alarm - Stockholm",
+         "location":"Stockholm, Sweden",
+         "capacity":"0",
+         "id":"130964",
+         "start_day":"2018-11-17",
+         "venue_zip":"",
+         "latitude":"59.32932349999999",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      {
+         "longitude":"4.9362200000000485",
+         "url":"https://www.facebook.com/events/253470761999588/",
+         "event_type_name":"Actions",
+         "start_time":"15:00:00",
+         "start_dt":"2018-12-01 11:00:00",
+         "name":"Climate Alarm - Tirlemont",
+         "location":"Tirlemont, Belgique",
+         "capacity":"0",
+         "id":"130964",
+         "start_day":"2018-11-17",
+         "venue_zip":"",
+         "latitude":"50.81057",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+      {
+         "longitude":"11.876761100000067",
+         "url":"https://www.facebook.com/events/372818476789808/",
+         "event_type_name":"Marches",
+         "start_time":"10:00:00",
+         "start_dt":"2018-11-03 10:00:00",
+         "name":"Climate Alarm - Padova",
+         "location":"Padova, Italy",
+         "capacity":"0",
+         "id":"230941",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"45.4064349",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      }, 
+
+      {
+         "longitude":"-8.629105299999992",
+         "url":"https://www.facebook.com/events/326270354828889/",
+         "event_type_name":"Marches",
+         "start_time":"10:00:00",
+         "start_dt":"2018-11-03 10:00:00",
+         "name":"Climate Alarm - Porto",
+         "location":"Porto, Portugal",
+         "capacity":"0",
+         "id":"230941",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"41.1579438",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      }, 
+
+
+
 
 
 
@@ -1965,7 +2586,6 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
-      /*  UK */
 
    
 
@@ -1989,6 +2609,23 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       }, 
+      {
+         "longitude":"-120.48296770000002",
+         "url":"https://www.facebook.com/events/2228811593829955/",
+         "event_type_name":"Marches",
+         "start_time":"10:00:00",
+         "start_dt":"2018-11-03 10:00:00",
+         "name":"Climate Alarm - Merced",
+         "location":"Merced, USA",
+         "capacity":"0",
+         "id":"230941",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"37.3021632",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      }, 
+
          {
          "longitude":"-71.65277040000001",
          "url":"https://www.facebook.com/events/1923426861298599/",
@@ -2002,6 +2639,70 @@ window.EVENT_DATA ={
          "start_day":"2018-12-08",
          "venue_zip":"",
          "latitude":"48.5504607",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      }, 
+      {
+         "longitude":"-73.567253",
+         "url":"https://www.facebook.com/events/2132552647007811/",
+         "event_type_name":"Marches",
+         "start_time":"10:00:00",
+         "start_dt":"2018-11-03 10:00:00",
+         "name":"Climate Alarm - Montréal",
+         "location":"Montréal, Canada",
+         "capacity":"0",
+         "id":"230941",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"45.50169",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      }, 
+      {
+         "longitude":"-71.2079809",
+         "url":"https://www.facebook.com/events/1914303642211918/",
+         "event_type_name":"Marches",
+         "start_time":"10:00:00",
+         "start_dt":"2018-11-03 10:00:00",
+         "name":"Climate Alarm - Quebec",
+         "location":"Quebec, Canada",
+         "capacity":"0",
+         "id":"230941",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"46.8138783",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      }, 
+      {
+         "longitude":"-71.0684923",
+         "url":"https://www.facebook.com/events/317258568877467/",
+         "event_type_name":"Marches",
+         "start_time":"10:00:00",
+         "start_dt":"2018-11-03 10:00:00",
+         "name":"Climate Alarm - Saguenay",
+         "location":"Saguenay, Canada",
+         "capacity":"0",
+         "id":"230941",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"48.4280529",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      }, 
+      {
+         "longitude":"-71.89291070000002",
+         "url":"https://www.facebook.com/events/194748564778295/",
+         "event_type_name":"Marches",
+         "start_time":"10:00:00",
+         "start_dt":"2018-11-03 10:00:00",
+         "name":"Climate Alarm - Sherbrooke",
+         "location":"Sherbrooke, Canada",
+         "capacity":"0",
+         "id":"230941",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"45.4041718",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       }, 
@@ -2023,6 +2724,42 @@ window.EVENT_DATA ={
          "id_obfuscated":"gpg5bt"
       }, 
 
+         {
+         "longitude":"-43.17289649999998",
+         "url":"https://www.facebook.com/events/1195991023886007/",
+         "event_type_name":"Marches",
+         "start_time":"10:00:00",
+         "start_dt":"2018-11-03 10:00:00",
+         "name":"Climate Alarm - Rio de Janeiro",
+         "location":"Rio de Janeiro, Brazil",
+         "capacity":"0",
+         "id":"230941",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"-22.9068467",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      }, 
+
+         {
+         "longitude":"-56.164532",
+         "url":"https://www.facebook.com/events/257308248469837/",
+         "event_type_name":"Marches",
+         "start_time":"10:00:00",
+         "start_dt":"2018-11-03 10:00:00",
+         "name":"Climate Alarm - Montevideo",
+         "location":"Montevideo, Uruguay",
+         "capacity":"0",
+         "id":"230941",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"-34.901112",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      }, 
+
+
+
 
       /*Asia*/
 
@@ -2040,6 +2777,21 @@ window.EVENT_DATA ={
          "start_day":"2018-12-08",
          "venue_zip":"",
          "latitude":"10.8230989",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      }, {
+         "longitude":"139.69170639999993",
+         "url":"https://www.facebook.com/events/1061639200662163/",
+         "event_type_name":"Marches",
+         "start_time":"10:00:00",
+         "start_dt":"2018-11-03 10:00:00",
+         "name":"Climate Alarm - Tokyo",
+         "location":"Tokyo, Vietnam",
+         "capacity":"0",
+         "id":"230941",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"35.6894875",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       }, 

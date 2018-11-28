@@ -32,6 +32,23 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+               {
+         "longitude":"4.41898",
+         "url":"https://www.facebook.com/groups/311089936341722/",
+         "event_type_name":"other",
+         "start_time":"10:00:00",
+         "start_dt":"2018-11-03 10:00:00",
+         "name":"Plastic Attack - Uzès",
+         "location":"Uzès, France",
+         "capacity":"0",
+         "id":"230941",
+         "start_day":"2018-11-03",
+         "venue_zip":"",
+         "latitude":"44.0107",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      }, 
+
 
 
       /*
