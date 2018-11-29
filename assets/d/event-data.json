@@ -327,7 +327,7 @@ window.EVENT_DATA ={
       },
 	   {
          "longitude":"6.35657",
-         "url":"https://www.facebook.com/pg/ilestencoretempshautdoubs/events/?ref=page_internal",
+         "url":"https://www.facebook.com/pg/ilestencoretempshautdoubs/events/",
          "event_type_name":"Actions",
          "start_time":"14:00:00",
          "start_dt":"2018-12-08 14:00:00",
@@ -1853,7 +1853,7 @@ window.EVENT_DATA ={
 
 
       {
-         "longitude":"46.9032",
+         "longitude":"6.35657",
          "url":"https://www.facebook.com/events/361464404600262/",
          "event_type_name":"Marches",
          "start_time":"14:00:00",
@@ -1864,7 +1864,7 @@ window.EVENT_DATA ={
          "id":"230922",
          "start_day":"2018-12-08",
          "venue_zip":"",
-         "latitude":"6.35657",
+         "latitude":"46.9032",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
@@ -2082,7 +2082,7 @@ window.EVENT_DATA ={
       },
 
       {
-         "longitude":"-149.5584758",
+         "longitude":"0.34037",
          "url":"https://www.facebook.com/events/1906139522840160/",
          "event_type_name":"Marches",
          "start_time":"14:00:00",
@@ -2497,7 +2497,7 @@ window.EVENT_DATA ={
 
 
        {
-         "longitude":"6.129583",
+         "longitude":"18.068580800000063",
          "url":"https://www.facebook.com/events/2338857486328334/",
          "event_type_name":"Actions",
          "start_time":"15:00:00",
@@ -7979,7 +7979,7 @@ window.EVENT_DATA ={
 
 
       {
-         "longitude":"46.9032",
+         "longitude":"6.35657",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
          "event_type_name":"petition",
          "start_time":"14:00:00",
@@ -7990,7 +7990,7 @@ window.EVENT_DATA ={
          "id":"230922",
          "start_day":"2018-12-08",
          "venue_zip":"",
-         "latitude":"6.35657",
+         "latitude":"46.9032",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
@@ -8208,7 +8208,7 @@ window.EVENT_DATA ={
       },
 
       {
-         "longitude":"-149.5584758",
+         "longitude":"0.34037",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
          "event_type_name":"petition",
          "start_time":"14:00:00",
