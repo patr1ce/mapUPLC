@@ -250,6 +250,10 @@ window.eventTypeFilters = [
     name: '<?php echo $locale["INDEX_EVENT4"];?>',
     id: 'petition'
   },
+    {
+    name: '<?php echo $locale["INDEX_EVENT5"];?>',
+    id: 'FridayFuture'
+  },
   {
     name: '<?php echo $locale["INDEX_OTHER"];?>',
     id: 'other'
@@ -281,6 +285,7 @@ $.ajax({
               case "Marches": d.filters.push("Marches"); break;
               case "trees": d.filters.push("trees"); break;
               case "petition": d.filters.push("petition"); break;
+              case "FridayFuture": d.filters.push("campaign-office"); break;
               case "office": d.filters.push("campaign-office"); break;
               default: d.filters.push('other'); break;
             }

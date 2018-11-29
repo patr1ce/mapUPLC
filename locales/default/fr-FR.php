@@ -37,6 +37,7 @@ $locale = array(
 	"INDEX_EVENT2"=> "Climate Alarm",
 	"INDEX_EVENT3"=> "Planter des arbres",
 	"INDEX_EVENT4"=> "Pétition",
+	"INDEX_EVENT5"=> "Friday For Future",
 	"INDEX_GROUPS"=> "Groupe Facebook",
 	"INDEX_OTHER"=> "Autre",
 	"INDEX_HREFLANG_CODE_EN" => "en_US",
