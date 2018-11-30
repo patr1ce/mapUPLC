@@ -93,18 +93,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <nav>
       <ul id="nav" >
        <!-- <a style="color: white;" href="./climate-map.html"><li class="nav-contribute">EN</a></li>-->
-        <li>
-          <a href="<?php echo $locale['LINK_HOME']; ?>" class="contribute contribute-big"><?php echo $locale["INDEX_HOME"]; ?></a>
-        </li>
-        <li>
-          <a class="contribute contribute-big" href="<?php echo $locale["INDEX_CLP_LINK"]; ?>"><?php echo $locale["INDEX_CLP"]; ?></a>
-        </li>
-        <li>
-          <a href="https://united4earth.org/create-event/" class="contribute contribute-big" target="_blank"><?php echo $locale["INDEX_NEWEVENT"]; ?></a>
-        </li>
-        <li class="nav-contribute">
-          <a style="color: white;" href="<?php if($lang=='en-US') echo './past-events'; else echo './evenements-passes'; ?>"><?php echo $locale["INDEX_PASTEVENT"]; ?></a>
-        </li>
+        
+          <a href="<?php echo $locale['LINK_HOME']; ?>" class="contribute contribute-big"><li>
+            <?php echo $locale["INDEX_HOME"]; ?>
+        </li></a>
+
+          <a class="contribute contribute-big" href="<?php echo $locale["INDEX_CLP_LINK"]; ?>"><li><?php echo $locale["INDEX_CLP"]; ?>
+        </li></a>
+       
+          <a href="https://united4earth.org/create-event/" class="contribute contribute-big" target="_blank">
+            <li><?php echo $locale["INDEX_NEWEVENT"]; ?>
+        </li></a>
+        
+
+        <a class="contribute contribute-big"  href="<?php if($lang=='en-US') echo './past-events'; else echo './evenements-passes'; ?>">
+          <li><?php echo $locale["INDEX_PASTEVENT"]; ?>
+        </li></a>
+        <a style="color: white;" href="<?php echo $locale["INDEX_LANG_CHANGE_LINK"]; ?>"> <li class="nav-contribute">
+          <?php echo $locale["INDEX_LANG_CHANGE"]; ?>
+        </li></a>
+
         <li>
           <a href="https://twitter.com/share" class="social-media" data-url="" data-text="" data-related="" data-count="none"><img src="./assets/img/icon/twitter-new.png"> </a>&nbsp;&nbsp;<div class="fb-share-button" data-href="" data-layout="button">
           <a href="javascript:fbShare()"><img src='./assets/img/icon/facebook-new.png' alt="facebook" /><span><?php echo $locale["INDEX_SHARE"]; ?></span></a></div>
