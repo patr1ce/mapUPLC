@@ -96,11 +96,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li>
           <a href="<?php echo $locale['LINK_HOME']; ?>" class="contribute contribute-big"><?php echo $locale["INDEX_HOME"]; ?></a>
         </li>
-        <li class="nav-contribute">
-          <a style="color: white;" href="<?php if($lang=='en-US') echo './past-events'; else echo './evenements-passes'; ?>"><?php echo $locale["INDEX_PASTEVENT"]; ?></a>
+        <li>
+          <a class="contribute contribute-big" href="<?php echo $locale["INDEX_CLP_LINK"]; ?>"><?php echo $locale["INDEX_CLP"]; ?></a>
         </li>
         <li>
           <a href="https://united4earth.org/create-event/" class="contribute contribute-big" target="_blank"><?php echo $locale["INDEX_NEWEVENT"]; ?></a>
+        </li>
+        <li class="nav-contribute">
+          <a style="color: white;" href="<?php if($lang=='en-US') echo './past-events'; else echo './evenements-passes'; ?>"><?php echo $locale["INDEX_PASTEVENT"]; ?></a>
         </li>
         <li>
           <a href="https://twitter.com/share" class="social-media" data-url="" data-text="" data-related="" data-count="none"><img src="./assets/img/icon/twitter-new.png"> </a>&nbsp;&nbsp;<div class="fb-share-button" data-href="" data-layout="button">
