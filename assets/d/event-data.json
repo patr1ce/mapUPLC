@@ -2567,6 +2567,22 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+  {
+         "longitude":"18.068580800000063",
+         "url":"https://www.facebook.com/events/2338857486328334/",
+         "event_type_name":"FridayFuture",
+         "start_time":"15:00:00",
+         "start_dt":"2018-12-01 11:00:00",
+         "name":"Climate Alarm - Stockholm",
+         "location":"Stockholm, Sweden",
+         "capacity":"0",
+         "id":"130964",
+         "start_day":"2018-11-17",
+         "venue_zip":"",
+         "latitude":"59.32932349999999",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
 
 
        
