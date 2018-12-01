@@ -2123,7 +2123,38 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       }, 
-
+      {
+         "longitude":"-77.042",
+         "url":"https://www.facebook.com/events/392388931503630/",
+         "event_type_name":"Marches",
+         "start_time":"10:00:00",
+         "start_dt":"2018-12-06 10:00:00",
+         "name":"Climate Alarm - Lima",
+         "location":"Lima, Peru",
+         "capacity":"0",
+         "id":"231941",
+         "start_day":"2018-12-06",
+         "venue_zip":"",
+         "latitude":"-12.0463",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+	   {
+         "longitude":"-76.972",
+         "url":"https://www.facebook.com/events/515225668997333/",
+         "event_type_name":"Marches",
+         "start_time":"10:00:00",
+         "start_dt":"2018-12-06 10:00:00",
+         "name":"Climate Alarm - Moyobamba",
+         "location":"Moyobamba, Peru",
+         "capacity":"0",
+         "id":"231941",
+         "start_day":"2018-12-06",
+         "venue_zip":"",
+         "latitude":"-6.0325",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
 
 
             /*Sweden*/
