@@ -60,11 +60,13 @@ var Event = (function($) { return function(properties) {
           .addClass('event-item ' + that.className)
           .append($("<div />").addClass('event-item lato ' + that.className+'').attr("lat",lat).attr("lon",lon) //appended lat-lon attributes to this class for marker highlighting
             .append(that.properties.is_campaign_office ? $("<a class='office-image' href='" + (that.properties.opening_event ? that.properties.opening_event : that.properties.url) + "' />").append($("<img src='" + that.properties.image + "'>")) : "")
-            .append($("<h3/>").html("<a target='_blank' href='" +  (that.properties.opening_event ? that.properties.opening_event : that.properties.url) + "'>" + that.properties.name + "</a>"))
-            .append($("<h5 class='time-info'/>").html((distance ? ("<span class='time-info-dist'>" + distance + "mi &nbsp;&nbsp;</span>") : "") + datetime + (endtime ? " - " + endtime : "" )))
+            .append($("<h3/>").html("<a target='_blank' href='" +  (that.properties.opening_event ? that.properties.opening_event : that.properties.url) + "'>" + that.properties.name + "</a>"));
+        if(!that.properties.is_campaign_office) {
+            rendered.append($("<h5 class='time-info'/>").html((distance ? ("<span class='time-info-dist'>" + distance + "mi &nbsp;&nbsp;</span>") : "") + datetime + (endtime ? " - " + endtime : "" )));
+        }
             
-            //.append(that.properties.is_official ? $("<h5 class='official-tag'/>").text("yoyoyo Official Event") : "")
-            .append($("<span/>").addClass("label-icon"))
+            //rendered.append(that.properties.is_official ? $("<h5 class='official-tag'/>").text("yoyoyo Official Event") : "")
+        rendered.append($("<span/>").addClass("label-icon"))
             //.append($("<h5 class='event-type'/>").text(that.properties.event_type_name))
             .append($("<p/>").html(that.properties.location))
             .append(that.properties.phone && that.properties.phone != "-" ? $("<p/>").text("Phone: " + that.properties.phone) : "")
