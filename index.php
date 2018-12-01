@@ -241,10 +241,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src='./assets/js/MapManager.js'></script>
 <script type='text/javascript'>
 window.eventTypeFilters = [
-  {
+  /*{
     name: '<?php echo $locale["INDEX_EVENT1"];?>',
     id: 'Actions'
-  },
+  },*/
   {
     name: '<?php echo $locale["INDEX_EVENT2"];?>',
     id: 'Marches'
@@ -292,7 +292,7 @@ $.ajax({
             d.filters = [];
             //Set filter info
             switch(d.event_type_name) {
-              case "Actions": d.filters.push("Actions"); break;
+              //case "Actions": d.filters.push("Actions"); break;
               case "Marches": d.filters.push("Marches"); break;
               case "trees": d.filters.push("trees"); break;
               case "petition": d.filters.push("petition"); break;

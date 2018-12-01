@@ -238,13 +238,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script type='text/javascript'>
 window.eventTypeFilters = [
   {
-    name: '<?php echo $locale["INDEX_PASTEVENT"];?>',
+    name: '<?php echo $locale["INDEX_EVENT1"];?>',
+    id: 'Actions'
+  },
+  {
+    name: '<?php echo $locale["INDEX_EVENT2"];?>',
     id: 'Marches'
   },
   {
     name: '<?php echo $locale["INDEX_GROUPS"];?>',
     id: 'campaign-office'
   },
+    {
+    name: '<?php echo $locale["INDEX_EVENT3"];?>',
+    id: 'trees'
+  },
+    {
+    name: '<?php echo $locale["INDEX_EVENT4"];?>',
+    id: 'petition'
+  },
+    /*{
+    name: '<?php echo $locale["INDEX_EVENT5"];?>',
+    id: 'fridayfuture'
+  },*/
   {
     name: '<?php echo $locale["INDEX_OTHER"];?>',
     id: 'other'
@@ -256,7 +272,7 @@ window.eventTypeFilters = [
 var date = new Date();
 $("#loading-icon").show();
 $.ajax({
-  url: 'assets/d/event-data-1310.json',
+  url: 'assets/d/event-data.json',
   dataType: 'script',
   cache: true, // otherwise will get fresh copy every page load
   success: function(data) {
@@ -274,6 +290,9 @@ $.ajax({
             switch(d.event_type_name) {
               case "Actions": d.filters.push("Actions"); break;
               case "Marches": d.filters.push("Marches"); break;
+              case "trees": d.filters.push("trees"); break;
+              case "petition": d.filters.push("petition"); break;
+              //case "fridayfuture": d.filters.push("fridayfuture"); break;
               case "office": d.filters.push("campaign-office"); break;
               default: d.filters.push('other'); break;
             }
