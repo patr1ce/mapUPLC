@@ -28,7 +28,7 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 <meta name="description" content="<?php echo $locale["META_DESC"]; ?>">
 <meta property="og:type" content="website" />
 <meta name="keywords" content="<?php echo $locale["META_KEYWORD"]; ?>">
-<meta property="og:image" content="https://united4earth.org/wp-content/uploads/climate-event-map.png" />
+<meta property="og:image" content="https://united4earth.org/wp-content/uploads/carte-pour-le-climat-1.png" />
 <meta property="og:url" content="/" />
 <meta property="og:title" content="<?php echo $locale["META_OGTITLE"]; ?>"/>
 <meta property="og:description" content="<?php echo $locale["META_OGDESC"]; ?>"/>
