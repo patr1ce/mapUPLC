@@ -2478,6 +2478,23 @@ window.EVENT_DATA ={
    "is_official": "",
    "id_obfuscated": ""
  },
+
+ {
+   "longitude": "0.9976639999999861",
+   "url": "https://www.facebook.com/events/264329444256104/",
+   "event_type_name": "Marches",
+   "start_time": "",
+   "start_dt": "2018-12-08 14:00:00",
+   "name": "Climate Alarm - Loches",
+   "location": "Loches",
+   "capacity": "",
+   "id": "230922",
+   "start_day": "2018-12-08",
+   "venue_zip": "",
+   "latitude": "47.128158",
+   "is_official": "",
+   "id_obfuscated": ""
+ },
  {
    "longitude": "2.435048",
    "url": "https://www.facebook.com/events/319729002195782/",
