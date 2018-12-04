@@ -1870,6 +1870,22 @@ window.EVENT_DATA ={
       /*walks in Europe*/
 
       {
+         "longitude":"11.581980499999986",
+         "url":"https://www.facebook.com/events/212760466317193/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-02 14:00:00",
+         "name":"Climate Alarm - München",
+         "location":"Munich, Germany",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"48.1351253",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+      {
          "longitude":"1.5339370000000372",
          "url":"https://www.facebook.com/events/1169152256556461/",
          "event_type_name":"Marches",
