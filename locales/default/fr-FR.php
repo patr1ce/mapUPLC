@@ -11,6 +11,7 @@ $locale = array(
 	"INDEX_PASTEVENT"=> "Actions Passées",
 	"INDEX_HOME"=> "Accueil",
 	"INDEX_NEWEVENT"=> "Ajouter un événement",
+	"INDEX_NEWEVENT_LINK"=> "https://united4earth.org/fr/create-event/",
 	"INDEX_CLP"=> "Outil Lobbying Citoyen",
 	"INDEX_CLP_LINK"=> "https://united4earth.org/fr/outil-lobbying-citoyen/",
 	"INDEX_TWEET"=> "Tweet",

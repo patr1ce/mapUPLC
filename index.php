@@ -101,7 +101,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <a class="contribute contribute-big" href="<?php echo $locale["INDEX_CLP_LINK"]; ?>"><li><?php echo $locale["INDEX_CLP"]; ?>
         </li></a>
        
-          <a href="https://united4earth.org/create-event/" class="contribute contribute-big" target="_blank">
+          <a href="<?php echo $locale["INDEX_NEWEVENT_LINK"]; ?>" class="contribute contribute-big" target="_blank">
             <li><?php echo $locale["INDEX_NEWEVENT"]; ?>
         </li></a>
         

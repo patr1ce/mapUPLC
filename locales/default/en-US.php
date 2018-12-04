@@ -13,6 +13,7 @@ $locale = array(
 	"INDEX_CLP_LINK"=> "https://united4earth.org/citizen-lobbying-tool/",
 	"INDEX_HOME"=> "Home Page",
 	"INDEX_NEWEVENT"=> "Add your event to the map",
+	"INDEX_NEWEVENT_LINK"=> "https://united4earth.org/add-your-action/",
 	"INDEX_TWEET"=> "Tweet",
 	"INDEX_SHARE"=> "Share",
 	"INDEX_LANG_CHANGE" => "FR",
