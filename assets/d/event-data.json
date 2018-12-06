@@ -2188,6 +2188,22 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+	   {
+         "longitude":"-98.40327",
+         "url":"https://www.facebook.com/events/482703462253021/",
+         "event_type_name":"Marches",
+         "start_time":"10:00:00",
+         "start_dt":"2018-12-06 10:00:00",
+         "name":"Climate Alarm - Plazuela 'Elías Aguirre'",
+         "location":"Plazuela 'Elías Aguirre', Peru",
+         "capacity":"0",
+         "id":"231945",
+         "start_day":"2018-12-06",
+         "venue_zip":"",
+         "latitude":"16.5225",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
  {
          "longitude":"18.068",
          "url":"https://www.facebook.com/events/188687648709410/",
