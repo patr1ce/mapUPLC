@@ -3054,22 +3054,7 @@ window.EVENT_DATA ={
       /* Event != marche*/
             /*Plantons des arbres*/
 
-      {
-         "longitude":"2.3488",
-         "url":"https://www.facebook.com/events/571418399956786/",
-         "event_type_name":"trees",
-         "start_time":"11:00:00",
-         "start_dt":"2018-11-24 11:00:00",
-         "name":"Plantons des arbres",
-         "location":"Près de chez vous",
-         "capacity":"0",
-         "id":"230901",
-         "start_day":"2018-11-25",
-         "venue_zip":"",
-         "latitude":"48.8534",
-         "is_official":"1",
-         "id_obfuscated":"gpg5bt"
-      },
+    
         {
          "longitude":"2.3488",
          "url":"https://www.facebook.com/groups/612493462486704/",
