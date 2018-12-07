@@ -23,6 +23,22 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+         {
+         "longitude":"2.3488",
+         "url":"https://www.facebook.com/events/544469292631876/",
+         "event_type_name":"Marches",
+         "start_time":"11:00:00",
+         "start_dt":"2018-12-08 11:00:00",
+         "name":"Poussette&Doudous Pour le climat - Paris",
+         "location":"Non déterminé",
+         "capacity":"0",
+         "id":"230901",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"48.8534",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
 	   {
          "longitude":"5.4497",  
          "url":"https://www.facebook.com/events/571890319920171/",
