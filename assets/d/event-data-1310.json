@@ -33,6 +33,25 @@ window.EVENT_DATA ={
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
       },
+
+           {
+         "longitude":"-0.1289",
+         "url":"https://www.facebook.com/events/269820670361866/",
+         "event_type_name":"Marches",
+         "start_time":"15:00:00",
+         "start_dt":"2018-12-07 11:00:00",
+         "name":"School Strike for the Climate",
+         "location":"London, United Kingdom",
+         "capacity":"0",
+         "id":"130964",
+         "start_day":"2018-11-17",
+         "venue_zip":"",
+         "latitude":"51.5010",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+
                {
          "longitude":"4.41898",
          "url":"https://www.facebook.com/groups/311089936341722/",

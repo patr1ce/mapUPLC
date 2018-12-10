@@ -1871,6 +1871,39 @@ window.EVENT_DATA ={
          "latitude":"48.8",
          "is_official":"1",
          "id_obfuscated":"gpg5bt"
+      },     
+       {
+         "longitude":"2.287181",
+         "url":"https://www.facebook.com/events/912728665596957/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Fontenay aux Roses",
+         "location":"Fontenay aux Roses, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"48.789776",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
+      },
+
+       {
+         "longitude":"2.5817929",
+         "url":"https://www.facebook.com/events/317401262430024/",
+         "event_type_name":"Marches",
+         "start_time":"14:00:00",
+         "start_dt":"2018-12-08 14:00:00",
+         "name":"Climate Alarm - Viane",
+         "location":"Viane, France",
+         "capacity":"0",
+         "id":"230922",
+         "start_day":"2018-12-08",
+         "venue_zip":"",
+         "latitude":"43.737386",
+         "is_official":"1",
+         "id_obfuscated":"gpg5bt"
       },
 
 
@@ -2398,6 +2431,24 @@ window.EVENT_DATA ={
    "is_official": "",
    "id_obfuscated": ""
  },
+
+ {
+   "longitude": "-79.3831843",
+   "url": "https://www.climatefast.ca",
+   "event_type_name": "Marches",
+   "start_time": "",
+   "start_dt": "2018-12-08 14:00:00",
+   "name": "Climate Emergency! Time for a Bold Climate Action Plan",
+   "location": "Toronto, Canada",
+   "capacity": "",
+   "id": "230922",
+   "start_day": "2018-12-08",
+   "venue_zip": "",
+   "latitude": "43.653226",
+   "is_official": "",
+   "id_obfuscated": ""
+ },
+
  {
    "longitude": "9.9936819",
    "url": "https://www.facebook.com/events/959984780860733/",
