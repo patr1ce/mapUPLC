@@ -287,8 +287,8 @@ $.ajax({
           window.EVENT_DATA.results.forEach(function(d) {
             d.filters = [];
             //Set filter info
-            switch(d.event_type_name) {
-              case "Actions": d.filters.push("Actions"); break;
+          switch(d.event_type_name) {
+              case "FridaysForFuture": d.filters.push("FridaysForFuture"); break;
               case "Marches": d.filters.push("Marches"); break;
               case "trees": d.filters.push("trees"); break;
               case "petition": d.filters.push("petition"); break;
