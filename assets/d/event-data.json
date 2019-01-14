@@ -1,7 +1,6 @@
 window.EVENT_DATA ={
    "results":[
 
-   
 	   /*Marche 27 Janviers*/
  {
    "name": "Fridays For Future by Post plastic generation",
@@ -27,7 +26,7 @@ window.EVENT_DATA ={
    "longitude": "9.9533548",
    "event_type_name": "FridaysForFuture",
    "start_time": "",
-   "start_dt": "2019-01-18",
+   "start_dt": "2019-01-18",  
    "capacity": "",
    "id": "",
    "start_day": "",
