@@ -6874,23 +6874,6 @@ window.EVENT_DATA ={
       /*walks in Europe*/
 
       {
-         "longitude":"1.5339370000000372",
-         "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
-         "event_type_name":"petition",
-         "start_time":"14:00:00",
-         "start_dt":"2018-12-02 14:00:00",
-         "name":"Pétition Terres Aliwa",
-         "location":"Bruxelles, Belgique",
-         "capacity":"0",
-         "id":"230922",
-         "start_day":"",
-         "venue_zip":"",
-         "latitude":"45.159555",
-         "is_official":"1",
-         "id_obfuscated":"gpg5bt"
-      },
-
-      {
          "longitude":"3.6262371000000257",
          "url":"http://bit.ly/ProtectAncestralLandsofAliwa",
          "event_type_name":"petition",
