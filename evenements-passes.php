@@ -237,9 +237,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src='./assets/js/MapManager.js'></script>
 <script type='text/javascript'>
 window.eventTypeFilters = [
-  {
+    {
     name: '<?php echo $locale["INDEX_EVENT1"];?>',
-    id: 'Actions'
+    id: 'FridaysForFuture'
   },
   {
     name: '<?php echo $locale["INDEX_EVENT2"];?>',
@@ -272,7 +272,7 @@ window.eventTypeFilters = [
 var date = new Date();
 $("#loading-icon").show();
 $.ajax({
-  url: 'assets/d/event-data.json',
+  url: 'assets/d/event-data-1310.json',
   dataType: 'script',
   cache: true, // otherwise will get fresh copy every page load
   success: function(data) {
