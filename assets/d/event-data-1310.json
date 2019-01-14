@@ -1640,7 +1640,7 @@ window.EVENT_DATA ={
    "longitude": "-0.1276248",
    "event_type_name": "FridaysForFuture",
    "start_time": "",
-   "start_dt": "",
+   "start_dt": "2019-11-01",
    "capacity": "",
    "id": "",
    "start-day": "2018-12-14",
