@@ -236,7 +236,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src='//dcxc7a0ls04u1.cloudfront.net/js/deparam.min.gz'></script>
 <script src='assets/js/mapbox'></script>
 <!-- <script src='/assets/js/leaflet-bouncer.js'></script> -->
-<script src='//dcxc7a0ls04u1.cloudfront.net/js/moment.min.js'></script>
+<script src='./assets/js/moment.min.js'></script>
 <script src='./assets/js/js-cookie.js'></script>
 <script src='./assets/js/MapManager.js'></script>
 <script type='text/javascript'>
