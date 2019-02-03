@@ -245,10 +245,10 @@ window.eventTypeFilters = [
     name: '<?php echo $locale["INDEX_EVENT1"];?>',
     id: 'FridaysForFuture'
   },
-  /*{
+  {
     name: '<?php echo $locale["INDEX_EVENT2"];?>',
     id: 'Marches'
-  },*/
+  },
   {
     name: '<?php echo $locale["INDEX_GROUPS"];?>',
     id: 'campaign-office'
