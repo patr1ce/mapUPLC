@@ -177,7 +177,7 @@ var MapManager = (function($, d3, leaflet) {
       var mapboxTiles = leaflet.tileLayer('http://{s}.tiles.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=' + leaflet.mapbox.accessToken, { attribution: '<a href="http://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'});
 
       var CAMPAIGN_OFFICE_ICON = L.icon({
-          iconUrl: 'assets/img/icon/star.png',
+          iconUrl: './assets/img/icon/star.png',
           iconSize:     [17, 14], // size of the icon
           // shadowSize:   [50, 64], // size of the shadow
           // iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location

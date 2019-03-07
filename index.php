@@ -23,6 +23,7 @@ require("./assets/locales/<?php echo $lang; ?>.js");
 </script>
 
 <link rel="icon" href="./assets/img/logo.png" sizes="32x32" />
+<link rel="icon" href="./assets/img/logo.png" sizes="32x32" />
 <link rel="icon" href="./assets/img/logo.png" sizes="192x192" />
 <meta name="title" content="<?php echo $locale["META_TITLE"]; ?>">
 <meta name="description" content="<?php echo $locale["META_DESC"]; ?>">
@@ -245,10 +246,10 @@ window.eventTypeFilters = [
     name: '<?php echo $locale["INDEX_EVENT1"];?>',
     id: 'FridaysForFuture'
   },
-  {
+  /*{
     name: '<?php echo $locale["INDEX_EVENT2"];?>',
     id: 'Marches'
-  },
+  },*/
   {
     name: '<?php echo $locale["INDEX_GROUPS"];?>',
     id: 'campaign-office'
@@ -297,7 +298,7 @@ $.ajax({
               case "trees": d.filters.push("trees"); break;
               case "petition": d.filters.push("petition"); break;
               //case "fridayfuture": d.filters.push("fridayfuture"); break;
-              case "office": d.filters.push("campaign-office"); break;
+             case "office": d.filters.push("campaign-office"); break;
               default: d.filters.push('other'); break;
             }
 
