@@ -2,11 +2,11 @@
 include('autoconf.php');
 $uri=$_SERVER['REQUEST_URI'];
 
-if ($uri == "/deplastification.php") {
+/*if ($uri == "/deplastification.php") {
   include('/max-work/deplastification.php');
   exit;
 }
-
+*/
 
 $p=strpos($uri,'?');
 if($p!==false) $uri=substr($uri,0,$p);

@@ -1,0 +1,42 @@
+window.EVENT_DATA ={
+   "results":[
+
+
+
+ {
+   "name": "Marche pour le climat Saintes",
+   "location": "Saintes, France",
+   "url": "https://www.facebook.com/events/350484542398392/",
+   "latitude": "45.742",
+   "longitude": "-0.629933",
+   "event_type_name": "FridaysForFuture",
+   "start_time": "",
+   "start_dt": "2019-16-03",
+   "capacity": "",
+   "id": "",
+   "start_day": "",
+   "venue_zip": "",
+   "is_official": "1",
+   "id_obfuscated": "gpg5bt"
+ },
+
+
+
+
+
+
+
+
+
+      
+   ],
+   "settings":{
+      "rsvp":6,
+      "count":3520,
+      "orderby":null,
+      "zip":null,
+      "search_radius":null,
+      "location":", ",
+      "radius_unit":"miles"
+   }
+}

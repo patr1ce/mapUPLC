@@ -277,11 +277,11 @@ window.eventTypeFilters = [
 var date = new Date();
 $("#loading-icon").show();
 $.ajax({
-  url: 'assets/d/event-data.json',
+  url: 'assets/d/deplastification.json',
   dataType: 'script',
   cache: true, // otherwise will get fresh copy every page load
   success: function(data) {
-    d3.csv('assets/d/campaign-offices.csv',
+    d3.csv('assets/d/deplastification-global.csv',
       function(campaignOffices) {
         //Load zipcodes
         //dcxc7a0ls04u1.cloudfront.net
