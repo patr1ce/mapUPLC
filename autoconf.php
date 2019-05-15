@@ -26,14 +26,6 @@ if(file_exists('./confs/'.$askeddomain.'/config.php'))
 
 // detecte la longue et charge les libelles localises
 $lang=$config['default_locale'];
-
-
-if (strpos($_SERVER["REQUEST_URI"]), "deplastification") {
-	//include('./locales/default/'."fr-FR-plastic".'.php');
-	include('./locales/default/'.$lang.'.php');
-	else {
-		
-
 if(isset($_GET['locale']) && $_GET['locale']!='')
   $lang = $_GET['locale'];
 
@@ -42,13 +34,19 @@ $validValues = array('fr-FR','en-US');
 if (!in_array($lang, $validValues, true)) 
   $lang=$config['default_locale'];
 
-
 include('./locales/default/'.$lang.'.php');
 
+/*
+if (strpos($_SERVER["REQUEST_URI"]), "deplastification") {
+	//include('./locales/default/'."fr-FR-plastic".'.php');
+	include('./locales/default/'.$lang.'.php');
+	
+	else {
+		
 	}
 }
+*/
 
-	
 // surcharges les libelles par la variante personnalisee
 if(file_exists('./locales/'.$askeddomain.'/'.$lang.'.php'))
   include_once('./locales/'.$askeddomain.'/'.$lang.'.php');
