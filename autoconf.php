@@ -43,11 +43,11 @@ if (!in_array($lang, $validValues, true))
 if ($_SERVER["REQUEST_URI"]=="fr/marche-climat/deplastification") {
 	//include('./locales/default/'."fr-FR-plastic".'.php');
 	include('./locales/default/'."fr-FR-plastic".'.php');
-	
+	}
 	else {
 	include('./locales/default/'.$lang.'.php');	
 	}
-}
+
 
 
 // surcharges les libelles par la variante personnalisee
