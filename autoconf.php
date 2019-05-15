@@ -41,8 +41,10 @@ include('./locales/default/'."fr-FR-plastic".'.php');
 
 
 $uri = $_SERVER["REQUEST_URI"];
-if ($strpos($uri,"deplastification") ==true {
-	include('./locales/default/'."fr-FR-plastic".'.php');
+$key = "deplastification";
+
+if ($strpos($uri,$key) == true {
+	include('./locales/default/fr-FR-plastic.php');
 }
 else {
 	include('./locales/default/'.$lang.'.php');	
