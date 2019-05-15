@@ -32,7 +32,13 @@ $validValues = array('fr-FR','en-US');
 if (!in_array($lang, $validValues, true)) 
   $lang=$config['default_locale'];
 
-include('./locales/default/'.$lang.'.php');
+if (strpos($_SERVER["HTTP_URI"]), "deplastification") {
+	include('./locales/default/'."fr-FR-plastic".'.php');
+
+	else{
+		include('./locales/default/'.$lang.'.php');
+	}
+}
 
 // surcharges les libelles par la variante personnalisee
 if(file_exists('./locales/'.$askeddomain.'/'.$lang.'.php'))
