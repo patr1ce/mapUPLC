@@ -83,9 +83,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   if (strpos($_SERVER["HTTP_URI"]), "deplastification") {
   //include('./locales/default/'."fr-FR-plastic".'.php');
       echo $_SERVER["HTTP_URI"];
-  else{
+  //else{
     //include('./locales/default/'.$lang.'.php');
-  }
+  //}
 } 
   ?>
 
