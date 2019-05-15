@@ -80,9 +80,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
  <?php 
-  if (strpos($_SERVER["HTTP_URI"]), "deplastification") {
+  echo $_SERVER["REQUEST_URI"];
+  //if (strpos($_SERVER["HTTP_URI"]), "deplastification") {
   //include('./locales/default/'."fr-FR-plastic".'.php');
-      echo $_SERVER["HTTP_URI"];
+    //  echo $_SERVER["HTTP_URI"];
   //else{
     //include('./locales/default/'.$lang.'.php');
   //}
