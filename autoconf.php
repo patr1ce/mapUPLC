@@ -43,7 +43,7 @@ include('./locales/default/'."fr-FR-plastic".'.php');
 $uri = $_SERVER["REQUEST_URI"];
 $key = "deplastification";
 
-if ($strpos($uri,$key) == true {
+if (strpos($uri,$key) == true {
 	include('./locales/default/fr-FR-plastic.php');
 }
 else {
