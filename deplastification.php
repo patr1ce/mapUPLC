@@ -277,7 +277,7 @@ window.eventTypeFilters = [
 var date = new Date();
 $("#loading-icon").show();
 $.ajax({
-  url: 'assets/d/deplastification.json',
+  url: 'assets/d/deplastification-event.json',
   dataType: 'script',
   cache: true, // otherwise will get fresh copy every page load
   success: function(data) {
