@@ -40,14 +40,23 @@ if (!in_array($lang, $validValues, true))
 include('./locales/default/'."fr-FR-plastic".'.php');
 
 
-if ($_SERVER["REQUEST_URI"] == "fr/marche-climat/deplastification") {
+$uri = $_SERVER["REQUEST_URI"];
+if ($strpos($uri,"deplastification") ==true {
+	include('./locales/default/'."fr-FR-plastic".'.php');
+}
+else {
+	include('./locales/default/'.$lang.'.php');	
+	}
+
+/*
+if ($_SERVER["REQUEST_URI"] == "/fr/marche-climat/deplastification") {
 	include('./locales/default/'."fr-FR-plastic".'.php');
 	
 }	
 	else {
 	include('./locales/default/'.$lang.'.php');	
 	}
-
+*/
 
 // surcharges les libelles par la variante personnalisee
 if(file_exists('./locales/'.$askeddomain.'/'.$lang.'.php'))
