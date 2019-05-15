@@ -45,7 +45,7 @@ if (strpos($_SERVER["REQUEST_URI"]), "deplastification") {
 	include('./locales/default/'.$lang.'.php');
 }	
 	else {
-		
+	include('./locales/default/'.$lang.'.php');	
 	}
 
 
