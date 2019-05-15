@@ -37,18 +37,18 @@ if (!in_array($lang, $validValues, true))
   $lang=$config['default_locale'];
 
 //include('./locales/default/'.$lang.'.php');
-include('./locales/default/'."fr-FR-plastic".'.php');
 
-/*
-if (strpos($_SERVER["REQUEST_URI"]), "deplastification") {
+
+
+if ($_SERVER["REQUEST_URI"]=="fr/marche-climat/deplastification") {
 	//include('./locales/default/'."fr-FR-plastic".'.php');
-	include('./locales/default/'.$lang.'.php');
+	include('./locales/default/'."fr-FR-plastic".'.php');
 	
 	else {
-		
+	include('./locales/default/'.$lang.'.php');	
 	}
 }
-*/
+
 
 // surcharges les libelles par la variante personnalisee
 if(file_exists('./locales/'.$askeddomain.'/'.$lang.'.php'))
