@@ -73,10 +73,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </head>
 <body class='list-view initial-view'>
+
+
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4VHRC7"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+ <?php 
+  if (strpos($_SERVER["HTTP_URI"]), "deplastification") {
+  //include('./locales/default/'."fr-FR-plastic".'.php');
+      echo $_SERVER["HTTP_URI"];
+  else{
+    //include('./locales/default/'.$lang.'.php');
+  }
+} 
+  ?>
+
 <section id='header' >
   <div class='lato'>
   
