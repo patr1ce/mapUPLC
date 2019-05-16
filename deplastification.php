@@ -247,28 +247,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 window.eventTypeFilters = [
   {
     name: '<?php echo $locale["INDEX_EVENT1"];?>',
-    id: 'FridaysForFuture'
+    id: 'Plastic attacks'
   },
   {
     name: '<?php echo $locale["INDEX_EVENT2"];?>',
-    id: 'Marches'
+    id: 'Boycott citoyen'
   },
   {
-    name: '<?php echo $locale["INDEX_GROUPS"];?>',
-    id: 'campaign-office'
+    name: '<?php echo $locale["INDEX_EVENT3"];?>',
+    id: 'Communication'
   },
     {
-    name: '<?php echo $locale["INDEX_EVENT3"];?>',
-    id: 'trees'
-  },
-   /* {
     name: '<?php echo $locale["INDEX_EVENT4"];?>',
-    id: 'petition'
-  },*/
-    /*{
+    id: 'Climate Challenge'
+  },
+    {
     name: '<?php echo $locale["INDEX_EVENT5"];?>',
-    id: 'fridayfuture'
-  },*/
+    id: 'Lobbying Citoyen'
+  },
+    {
+    name: '<?php echo $locale["INDEX_EVENT6"];?>',
+    id: 'Déplot de plastique'
+  },
+    {
+    name: '<?php echo $locale["INDEX_EVENT7"];?>',
+    id: 'Sensibilisation de commerçants'
+  },
+
+    {
+    name: '<?php echo $locale["INDEX_EVENT8"];?>',
+    id: 'Sensibilisation d\'entreprise'
+  },
   {
     name: '<?php echo $locale["INDEX_OTHER"];?>',
     id: 'other'
@@ -296,10 +305,19 @@ $.ajax({
             d.filters = [];
             //Set filter info
             switch(d.event_type_name) {
-              case "FridaysForFuture": d.filters.push("FridaysForFuture"); break;
-              case "Marches": d.filters.push("Marches"); break;
-              case "trees": d.filters.push("trees"); break;
-              case "petition": d.filters.push("petition"); break;
+              case "Plastic attacks": d.filters.push("Plastic attacks"); break;
+              case "Boycott citoyen": d.filters.push("Boycott citoyen"); break;
+              case "Communication": d.filters.push("Communication"); break;
+              case "Climate Challenge": d.filters.push("Climate Challenge"); 
+              break;
+              case "Lobbying Citoyen": d.filters.push("Lobbying Citoyen"); 
+              break;
+              case "Déplot de plastique": d.filters.push("Déplot de plastique"); 
+              break;
+              case "Sensibilisation de commerçants": d.filters.push("Sensibilisation de commerçants"); 
+              break;
+              case "Sensibilisation d'entreprise": d.filters.push("Sensibilisation d'entreprise"); 
+              break;
               //case "fridayfuture": d.filters.push("fridayfuture"); break;
              case "office": d.filters.push("campaign-office"); break;
               default: d.filters.push('other'); break;
