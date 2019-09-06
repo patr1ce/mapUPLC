@@ -1,3 +1,7 @@
+<?php 
+header('Location: https://agir.united4earth.org/la-carte');
+die();
+?>
 <!DOCTYPE html>
 <html xmlns="https://www.w3.org/1999/xhtml" xml:lang="<?php echo substr($lang,0,2); ?>" lang="<?php echo substr($lang,0,2); ?>" dir="ltr" prefix="og: https://ogp.me/ns#">
 <head>
